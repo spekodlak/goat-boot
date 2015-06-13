@@ -5,6 +5,3 @@ iso image generator
 cd/dvd burner
 bootable usb stick maker
 lynx image disk (text-based web-browser)
-3d benchmark (own testing linux distribution)
-other stand alone tool
-automatic pc testing system (bash of tests with outputs to log)
