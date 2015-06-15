@@ -1,0 +1,221 @@
+
+
+
+Miray Stand-Alone-Tool-Series
+P
+P
+C
+C
+I
+I
+S
+S
+n
+n
+i
+i
+f
+f
+f
+f
+e
+e
+r
+r
+Version 1.5
+Userâs manual
+Copyright Â© 2006 by miray Software
+2
+1. Introduction
+1.1. Fields of application
+PCISniffer is a diagnosis program for the PCI bus. It scans the PCI bus and
+detects con-
+nected devices. It reads the PCI configuration data of the devices and displays
+it in read-
+able form. You get detailed information about all PCI devices installed in your
+computer.
+Even device manufacturer and device names are displayed in plain text. The
+PCISniffer
+can be used as hardware diagnosis tools and to detect errors or conflicts of
+PCI devices,
+as well as to inventory the PCI hardware.
+1.2. Compatibility
+The PCISniffer runs on PCs starting from 386SX-16 with a minimum of 2 MB RAM,
+key-
+board and a VGA adapter. A 3,5"/1,44 MB floppy disk drive or, alternatively, a
+bootable CD
+drive is also required. To use the remote data transmission capabilities a
+nullmodem cable
+and a RS232 port is also required. A PC with PCI bus is optional ;-)
+The PCISniffer supports the complete PCI specification, i.e. it detects up to
+256 PCI bus-
+ses with each 32 devices connected. 64-bit PCI devices are also detected and
+displayed.
+1.3. Creation of a Bootdisk
+If you have received PCISniffer on a bootable floppy disk or a bootable CD,
+there is no
+further bootdisk creation required. In this case skip this chapter and continue
+reading at
+â1.4. Startâ.
+If you have received the compressed software package, extract it into a
+directory of your
+choice. Proceed with the steps for bootdisk creation as described in the next
+paragraph
+but one.
+If you have a uncompressed software package, you can usually start the creation
+proc-
+ess directly from the directory the installation package lies in. If this is
+not possible, copy
+the installation package in a directory of your choice.
+3
+Now start the installation program included in the software package. Insert a
+formatted
+3,5"/1,44 MB floppy disk into drive A:. Any data contained on this floppy disk
+will be
+erased. So please make sure you donât use a floppy disk with files you will
+still need on it.
+In the installation program start the creation process. After finishing the
+process the floppy
+disk you inserted is now bootable and ready.
+If you have an ISO-image in your software package, you can create a CD-R with
+most of
+the available CD-recording applications. After creating the CD-R you have a
+bootable CD.
+1.4. Start
+To start PCISniffer, you must have PCISniffer installed on a bootable floppy
+disk or on a
+bootable CD. If you havenât received any of the above, you can create these
+from an
+installation package, as described in â1.3. Creation of a Bootdiskâ.
+Insert now the bootable floppy disk or CD in the corresponding drive and make
+sure that
+the BIOS of your computer boots from the corresponding CD or floppy drive. Turn
+on the
+computer or restart it. PCISniffer will be started automatically from floppy
+disk or CD.
+4
+2. Interface
+After startup PCISniffer first of all searches for installed PCI devices. If
+PCISniffer has fin-
+ished detecting all the devices, the main screen appears, where the first
+detected PCI de-
+vice on the first PCI bus in the system is shown.
+2.1. Device selection
+On the left border of the screen there are three windows vertically aligned.
+They contain
+the detected PCI busses, devices and functions that are displayed according to
+their PCI
+address. In the window âBusâ the first detected PCI bus is selected at
+program startup. In
+this window you can choose the desired PCI bus. The devices connected to this
+PCI bus
+are listed in the window âdeviceâ where the first detected device is also
+selected. In the
+âdeviceâ window you can select the desired device. The available functions
+of this device
+are listed in the âfunctionâ window, where again the first function is
+selected.
+Using the <Tab> key you can change between the device se-
+lection windows in the following order: Bus Â¨ Device Â¨ Func-
+tion ( Â¨ Bus
+). The current selected window will be highlighted
+with a double border.
+Using the key combination <Shift>+<Tab> you can change be-
+tween the windows in reverse order.
+Using the arrow keys you can select the desired bus, device or
+function in the currently active window. If another bus is se-
+lected, the device list is automatically updated. If anothe
+r device
+is selected similarly, the function list will be updated automati-
+cally and the selection will be set on the first available item in
+each case.
+Any change in a window of the device selection automatically
+updates the PCI data window (see also â2.2. Data Windowâ).
+5
+2.2. Data window
+The data window is located on the right of the device selection windows. This
+window
+shows the PCI configuration data of the currently selected PCI function. Please
+note that
+the value of the window refers to the currently selected function and not on
+the device, al-
+though some PCI devices offer more PCI function with all the same PCI
+configuration data.
+The right column of the data window lists address and data spaces for ROM, RAM
+or IO-
+address-spaces eventually reserved by the PCI function. PCISniffer lists them
+only if they
+are really valid. This means that the right column can be empty, if a PCI
+function does not
+reserve any address spaces.
+The left column of the data window contains all other PCI configuration data.
+These are
+valid at any time and therefore are shown at any time.
+6
+3. Functions
+3.1. Quick Help
+Using the <F1> key you can get a short overview of the differ-
+ent functions and key combinations of PCISniffer to re
+member
+them if they have been forgotten.
+3.2. Storing to Floppy Disk
+PCISniffer offers the possibility to store the PCI configuration data to a file
+on floppy disk.
+Currently, only internal floppy drives are supported. The data is stored on the
+floppy in a
+file named âPCIxxx.TXTâ where the âxxxâ represents a three-digit number
+that is increased
+automatically.
+Using the <F> key the PCI configuration data of the cur
+rently
+selected PCI function can be stored to an internal floppy disk.
+Using the key combination <Ctrl>+<F>, a  complete  report
+of
+all PCI data detected by PCISniffer can be stored to floppy disk.
+7
+3.2. Remote Transmission
+PCISniffer offers the possibility to transmit the PCI configuration data via a
+serial null-
+modem cable over a RS232-interface to another computer, where it can be
+received with a
+terminal program and be saved for inventory reasons.
+The following connection settings must be set on the opposite terminal:
+Speed: 9600 bps / Databits: 8 / Parity: none / Stopbits: 1
+With the keys <1> to 4> the PCI configuration data of the cur-
+rently selected PCI function can be sent via the correspond
+ing
+serial interface (COM1 - COM4) to another computer.
+Using the key com
+binations <Ctrl>+<1> to <Ctrl>+<4> you can
+send a complete report of all PCI data detected by PCIS
+niffer
+via the corresponding serial interface (COM1 -  COM4) to an-
+other computer.
+When pressing addition
+ally the key <Shift> the sending speed
+for both single and complete report can be set to 115200 bps.
+8
+4. Disclaimer
+Although PCISniffer was programmed with the largest possible caution and was
+tested on
+a large scale of different systems, we hope you understand that we cannot give
+a warranty
+for the proper functionality of the program and that we are not responsible for
+damages
+resulting of its usage, subject to gross negligence and intention.
+5. Feedback
+We are deeply interested on your feedback. If you encounter any program errors
+or if you
+have any improvement ideas, we always try to fix the first named and implement
+or inte-
+grate the latter. If you only want to tell us your opinions about this
+software, we are also
+very interested in such information.
+internet  http://www.miray.de/
+e-mail  feedback@miray.de
+ support@miray.de
+fax ++49 - 89 - 76 72 91 - 68
+postal address miray Software
+P.O. Box 15 15 01
+80049 MÃ¼nchen
+Germany

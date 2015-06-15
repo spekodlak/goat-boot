@@ -1,0 +1,1228 @@
+
+
+
+Miray Stand-Alone-Tool-Series
+D
+D
+i
+i
+s
+s
+k
+k
+S
+S
+p
+p
+y
+y
+Version 2.0
+Userâs Manual
+Copyright Â© 2003-04 by miray Software
+2
+CONTENT
+1. Introduction 4
+1.1. Preface 4
+1.2. Fields of Use 4
+1.3. Edition Overview 5
+1.4. Compatibility 5
+1.4.1. Hardware Requirements 5
+1.4.2. IDE Controller 6
+1.5. Program Start 6
+2. Installation 7
+2.1. Introduction 7
+2.1.1. Bootable Disk 7
+2.1.2. Software Package 7
+2.1.3. Short Guide 7
+2.2. Installation Package 8
+2.2.1. Compressed Installation Package (.zip) 8
+2.2.2. Self-Extracting Installation Package (.exe) 8
+2.2.3. Plain Installation Package 8
+2.2.4. Disk-/ISO-Image & other Operating Systems 8
+2.3. Installation Program 9
+2.3.1. Using the Installation Program 9
+2.3.1.1. Main Window 9
+2.3.1.2. Security Check 9
+2.3.1.3. Error Message 10
+2.3.1.4. Finishing the Installation 10
+2.3.2. Building from a Floppy Disk Image 10
+2.3.3. Building a Bootable CD 11
+2.3.4. Building a CD from an ISO-Image 11
+3. User Interface 12
+3.1. Startup 12
+3.2. Address Display 12
+3.3. Hex-Display 12
+3.4. ASCII-Display 14
+3.5. Short-Info 14
+3.6. Position-Info 15
+3.7. Status-Bar 15
+4. Functions 17
+4.1. Quick-Help 17
+4.2. Navigation 17
+3
+4.3. Drive Selection 19
+4.4. Harddisk Info 19
+4.5. Goto 20
+4.6. Standard Search (Hex-Search in Pro Edition only) 21
+4.7. Not-Search 22
+4.8. Edit (Pro Edition only) 23
+5. SCSI 25
+5.1. Usage 25
+5.2. Compatibility 25
+5.2.1. Manufacturer Information 25
+5.2.2. Driver Information 26
+6. Trouble-Shooting 27
+6.1. Error #5002 while Loading 27
+6.2. DiskSpy Gets Stuck at Startup 27
+6.3. Problems with IDE 28
+6.3.1. Harddisk not Detected 28
+6.3.2. IDE Controller not Found 28
+6.3.3. BIOS Adjustments 28
+6.3.3.1. Deactivating IO-Caching 29
+6.3.3.2. Setting the BIOS to Defaults 29
+6.4. Problems with SCSI 29
+6.4.1. Restart 30
+6.4.2. Deactivating Unused Controllers 30
+6.4.3. Deactivating Unused Harddisks 30
+6.4.4. Minimal Configuration of the Controller 30
+6.4.5. Minimal Configuration of the System 31
+7. Miscellaneous 32
+7.1. Disclaimer 32
+7.2. Feedback 32
+4
+1. INTRODUCTION
+1.1. Preface
+DiskSpy does not need an installation in the usual sense. However, these
+contain an
+installation program to create a bootable floppy disk in the first instance.
+Chapter
+â
+2. Installation shows in a few simple steps how you create a bootable disk by
+means
+of the installation package that you have downloaded or been sent. Once having
+cre-
+ated this disk you can start (
+â
+1.5. Program Start) and use (
+â
+3. User Inter-
+face,
+â
+4. Functions ) DiskSpy on every PC without any further installation.
+This manual explains to you in chapter
+â
+3. User Interface step by step and detailed
+the user interface of DiskSpy and how to operate it. Chapter
+â
+4. Functions focuses on
+the various functions available in the program. Functioning and effects of the
+different
+modes are described there in detail. For users of the Professional SCSI Edition
+there
+are some remarks in chapter
+â
+5. SCSI.
+Nevertheless, in case of encountering any problems using the program, you find
+useful
+information in chapter
+â
+6. Trouble-Shooting. If this also does not help solving the
+problem you are welcome to contact out support (support@miray.de). We also
+appre-
+ciate obtaining your suggestions of improvement under feedback@miray.de.
+1.2. Fields of Use
+DiskSpy is a sector-based hard disk drive viewer and editor. You can access and
+edit
+every single sector of your hard disk, even those sectors which are usually
+invisible or
+inaccessible in normal operating systems. Furthermore it is possible to search
+the en-
+tire hard disk drive for values or character sequences. DiskSpy also shows
+detailed
+information about the capabilities of an installed hard disk drive.
+5
+1.3. Edition Overview
+Edition Differences  PIO
+SCSI
+Search
+Editing  Commercial Use
+Free Edition
+Ã¼  Ã»
+limited
+Ã»  Ã»
+Professional Edition
+Ã¼  Ã»
+full
+Ã¼  Ã¼
+Professional SCSI Edition
+Ã¼  Ã¼
+full
+Ã¼  Ã¼
+Depending on the Edition you are using some of the features described in this
+manual
+may not be available to you. In most cases this will be also specially
+indicated in the
+concerning chapters.
+1.4. Compatibility
+DiskSpy runs on 486 or higher PCs with at least 4 MB RAM, keyboard and VGA.
+Addi-
+tionally an internal 3.5"/1.44 MB floppy disk drive or a bootable CD-ROM drive
+is
+needed. Furthermore, for a useful deployment the used system should contain a
+PCI-
+IDE or standard IDE controller and one or more harddisks.
+DiskSpy currently supports ATA/IDE harddisks with a capacity of up to 2048 GB
+(= 2
+Terabytes), i.e. also harddisks above the âmagicalâ limit of 128 GB. The
+Professional
+SCSI Edition additionally supports SCSI harddisks (
+â
+5. SCSI).
+1.4.1. Hardware Requirements
+Â·  PC 486 or higher, 4 MB RAM, VGA, keyboard
+Â·  bootable internal floppy disk or CD-ROM drive
+Â·  PCI-IDE- or standard IDE controller
+optionally:
+Â·  SCSI controller (Professional SCSI Edition only)
+6
+1.4.2. IDE Controller
+DiskSpy supports standard IDE controller (ISA) and PCI-IDE controller. These
+can be
+internal (onboard) controllers as well as external controllers (PCI or ISA
+adapter card).
+In case of an ISA/standard IDE controller, the first two channels are searched
+for hard-
+disks. DiskSpy automatically recognizes all available PCI-IDE controllers and
+searches
+them for connected harddisks
+Remark: If there are one or more PCI-IDE controllers present in the system,
+possibly
+existing ISA controllers are not taken into account.
+Regarding the âPCI-IDE controllersâ supported by DiskSpy, this refers to a
+standard-
+ized programming interface that is supported by the majority of IDE
+controllers. But
+there are also some, especially along the external PCI controllers, that
+incorporate a
+different, usually proprietary interface. These mostly also call themselves
+âIDE control-
+lersâ, as they allow IDE harddisks to be connected. Since âIDEâ stands
+for a program-
+ming interface (program1 controller) as well as for a hardware interface
+(control-
+ler1 harddisk), this double meaning arises. If your PCI controller is complying
+the PCI-
+IDE standard can be determined, if necessary, by means of the program
+PCISniffer,
+that can be downloaded for free under www.miray.de/de/download/
+sat.pcisniffer.html.
+For the PCI controller in question, the field âClasscodeâ displayed by
+PCISniffer has to
+show the value â0101xxâ (xx = arbitrary).
+1.5. Program Start
+Insert the bootable floppy disk or CD-ROM into the appropriate drive. Switch on
+or re-
+start the PC. If necessary, ensure in the BIOS setup that the particular floppy
+or CD
+drive will be booted. DiskSpy then will be started from floppy disk or CD-ROM
+auto-
+matically. You will be displayed program screen directly. For further steps in
+operating
+the program continue in chapter
+â
+3. User Interface.
+7
+2. INSTALLATION
+2.1. Introduction
+2.1.1. Bootable Disk
+If you received the program already on a bootable floppy disk or on a bootable
+CD,
+no further disk creation is needed. In this case, please proceed with step
+â
+1.5. Program Start.
+2.1.2. Software Package
+If you received the program as an installation package (= software package),
+you will
+need a 3.5â floppy disk. Proceed with step
+â
+2.2. Installation Package in the associated
+subsection, depending on whether you received the installation package as
+.zip,
+.exe or unpacked file.
+2.1.3. Short Guide
+The following short guide is sufficient in most cases. If you encounter any
+problems or
+prefer a more detailed installation guide, please continue with reading in the
+following
+chapters.
+Insert a formatted 3.5"/1.44 MB floppy disk into floppy drive A:. Any data on
+this floppy
+disk will be deleted, so please make sure not to use a floppy disk with data
+you might
+need later on. Please start the installation program that comes with the
+installation
+package. Initiate the creation of the floppy disk within the installation
+program. After
+completion of this process you have a bootable floppy disk. You can boot the
+in-
+stalled program from this floppy disk on any PC (from 386/486, consult the
+hardware
+specifications) you want to â see also
+â
+1.5. Program Start.
+8
+2.2. Installation Package
+2.2.1. Compressed Installation Package (.zip)
+If you received the installation package in form of a packed file (.zip), you
+have to
+unpack it into a directory of your choice. Then you can start the associated
+installation
+program contained in this package. Proceed in chapter
+â
+2.3. Installation Program.
+2.2.2. Self-Extracting Installation Package (.exe)
+If you received a self-extracting installation package (.exe), you only have to
+execute
+the file. The installation process will be extracted and started automatically.
+Please
+proceed in chapter
+â
+2.3. Installation Program.
+2.2.3. Plain Installation Package
+If you have an installation package that is not compressed, you can usually
+start the
+installation process directly from the directory the installation files are
+located in. If this
+does not work, copy all files into a directory of your choice. Execute the
+installation
+program right from this directory and proceed in chapter
+â
+2.3. Installation Program.
+2.2.4. Disk-/ISO-Image & other Operating Systems
+If you have a disk image of the program or if you are unable to use the
+installation pro-
+gram for Windows, please create the bootable disk as described in
+â
+2.3.2. Building
+from a Floppy Disk Image,
+â
+2.3.3. Building a Bootable CD or
+â
+2.3.4. Building a CD
+from an ISO-Image.
+9
+2.3. Installation Program
+2.3.1. Using the Installation Program
+2.3.1.1. Main Window
+When starting the installation program
+the main window appears (
+â
+fig. 1). It
+contains 4 elements to control and dis-
+play the current installation state:
+Â·  The  progress bar (1) indicates the
+current completion state of the boot-
+able floppy disk.
+Â·  The status bar (2) displays the cur-
+rent installation state and possibly
+occurring errors.
+Â·  The start button (3) starts building a
+bootable floppy disk.
+Â·  To Exit the installation program press the finishing button (4).
+For starting the installation of the program, insert an empty floppy disk into
+drive A:.
+Then click on âStart Installationâ.
+2.3.1.2. Security Check
+Before starting the installation, a security prompt
+(
+â
+fig. 2) will appear. Please ensure that there is a
+floppy disk in drive A: and that it does not contain
+any important data you possibly need later on. All
+data on the floppy disk will be deleted during the
+installation. If you are ready to proceed with the
+installation, click âOKâ. The installation process will
+start immediately. By clicking âCancelâ you return to the main window
+without installing.
+Fig. 1: main window of the installation program
+Fig. 2: security check
+10
+2.3.1.3. Error Message
+In case of getting an error message (
+â
+fig. 3), one
+of the following reasons may be responsible:
+Â·  there is no floppy disk in the disk drive,
+Â·  the floppy disk is write protected or
+Â·  the floppy disk used is defective.
+Therefore replace the floppy disk if necessary respectively remove the write
+protection
+and confirm the error message with  âOKâ. Thereafter you will get back to
+the main
+window again and have to start over with the installation process as described
+in
+â
+2.3.1.1. Main Window.
+2.3.1.4. Finishing the Installation
+After successfully having built a floppy disk, you
+get a notification in form of a dialog window
+(
+â
+fig. 4). Confirm this window with  âOKâ. After-
+wards click on âExitâ in the main window (
+â
+fig. 1)
+to close the installation program. Continue reading
+in chapter
+â
+1.5. Program Start.
+2.3.2. Building from a Floppy Disk Image
+You can also use a floppy disk image for simply building a bootable medium.
+Since the
+installation program of miray Software currently runs on Windows only, this is
+espe-
+cially recommended if you are using a different operating system. You can use
+the
+floppy disk image with a disk-imaging program of your choice. It is stored as a
+1.44 MB
+image for 3.5'' floppy disks (.img).
+Under UNIX/Linux it is recommended that you use the available tool dd (syntax:
+dd
+if=filename.img of=/dev/fd0), just replacing filename.img with the name of the
+according
+image file.
+Remark: Note that a floppy disk image always contains the program itself only.
+Even
+if you are not using Windows as an operating system, the complete installation
+pack-
+age often contains other useful files like a manual for example.
+Fig. 3: error message
+Fig. 4: installation complete
+11
+After having built a bootable floppy disk you can start DiskSpy on any PC as
+described
+in chapter
+â
+1.5. Program Start.
+2.3.3. Building a Bootable CD
+The image file described in
+â
+2.2.4. Disk-/ISO-Image & other Operating Systems can
+also be used for building bootable CDs. Simply specify this image file as
+bootable im-
+age in your CD recording program. You will possibly have to select the type
+bootable
+CD for the recorded CD before. After having built a bootable CD you can start
+DiskSpy
+on any PC as described in chapter
+â
+1.5. Program Start.
+2.3.4. Building a CD from an ISO-Image
+If your installation package contains an ISO image (.iso), you can use it to
+create a
+CD with most CD recording programs. After having finished the recording you
+have a
+bootable CD with the corresponding program on it. From this bootable CD you can
+start
+DiskSpy on any PC as described in chapter
+â
+1.5. Program Start.
+12
+3. USER INTERFACE
+3.1. Startup
+After starting, DiskSpy searches for installed hard disk drives. If only one
+hard disk
+drive is installed, DiskSpy immediately changes to the main window and displays
+the
+first sector of this hard disk.
+If more hard disks are found by DiskSpy, a selection window will appear, where
+you
+can select the disk you want to work on. After selection the main window
+appears and
+the first sector of the selected hard disk will be shown.
+The main window shows exactly one sector, i.e. exactly 512 bytes. Since the
+scrolling
+is not bound to sector boundaries, the end of one sector and the beginning of
+the fol-
+lowing sector can be shown simultaneously. Nonetheless there are always 512
+bytes
+shown at a time.
+3.2. Address Display
+The left row in the main window bears the address display. Prior to the colon
+it shows
+the number of the sector whose data is displayed in the main window. The sector
+num-
+ber is counted continuously, starting from 0 (Zero). Sector numbers are shown
+in hexa-
+decimal notation. After the colon the byte offset within a sector is shown. The
+sector
+number is only shown at the beginning of a new sector.
+3.3. Hex-Display
+The middle row of the main window bears the hex display. Here the data
+contained on
+the hard disk drive is shown in hexadecimal notation.
+With the <1> key you change to  8-bit-display-mode
+(1-
+byte). This is the default display you find when starting
+DiskSpy. Every byte is shown separately in hexadecimal no-
+tation.
+13
+tation.
+The current display mode is also visible in the status bar (see
+also  â2.6. Status Barâ). At startup the 8-bit-display-
+mode is
+activated.
+With the <2> key you can change to the  16-bit-display-
+mode (2-
+byte). In this display mode 2 bytes are combined to
+a word and shown in hexadecimal notation. The display is
+also depending on the endia
+nness, which can be set with the
+<E> key (see below). Please note that in the 16-bit-display-
+mode the cursor also moves byte-
+wise. So two cursor steps
+are needed to change from word to word.
+The actual display mode is visible in the block [124]
+in the
+status bar (see also  â2.6. Status Barâ). At startup the 8-bit-
+display-mode is activated.
+With the <4> key you can change to the  32-bit-display-
+mode (4-
+byte). In this display mode four bytes are combined
+to a doubleword and are shown in hexadecimal notatio
+n. The
+dis
+play is also depending on the endianness which can be
+set with the <E> key (see below). Please note that in the 32-
+bit display mode the cursor also moves byte-
+wise. So four
+cursor steps are needed to change from doubleword to dou-
+bleword.
+The actual display mode is visible in the block [124]
+in the
+status bar (see also  â2.6. Status Barâ). At startup the 8-bit-
+display-mode is activated.
+With the <E> key you can change the  endianness
+of the
+display. You can change between big-endian (Intel-notat
+ion)
+and little-
+endian. This changes are only effective in the
+Hexadecimal display when the display mode is either 16-
+bit
+or 32-
+bit (see above). It always affects the values shown in
+the display window described in â2.5. Value Displayâ.
+14
+The actual display mode is visible in the block [BL]
+in the
+status bar (see also â2.6. Status Barâ). At startup the big-
+endian-display-mode is activated.
+3.4. ASCII-Display
+In the right row of the main window the ASCII display can be found. The data of
+the
+hard disk drive is displayed with ASCII characters.
+Using the <B> key you can change the  bit width
+of the
+ASCII display between 7-bit and 8-bit. In the 7-bit-
+mode only
+those bytes are displayed with their ASCII value, whose val-
+ues are between 32 and 127 (inclusive). Every
+other values
+are repre
+sented by a dot. This eases the reading of character
+strings. In the 8-bit-
+mode every byteâs value is represented
+with the corresponding ASCII character.
+The actual display mode is visible in the status bar (see also
+â2.6. Status Barâ). The 7-bit display mode is active at pro-
+gram startup.
+3.5. Short-Info
+In the lower left corner of the monitor the short info window with the title
+âSelected Diskâ
+is located. In this window the key data of the selected hard disk drive are
+shown. Abun-
+dant information can be obtained by pressing the <I> key (see also â3.4. Hard
+Disk
+Infoâ).
+15
+3.6. Position-Info
+In the lower right corner a window with the title âCurrent Position Infoâ
+is located. The
+data in this window is related to the current cursor position in the main
+window. The
+byte on the cursor position is shown binary, hexadecimal and decimal. It is
+also com-
+bined with the following bytes to a word and a doubleword, according to the
+current
+endianness settings (see also â2.2. Hex Displayâ). These word and
+doubleword values
+are displayed in both hexadecimal and decimal notation. The current cursor
+position,
+consisting of sector number and offset (see also â2.1. Address Displayâ) is
+shown in
+decimal form.
+3.7. Status-Bar
+The status bar is located at the left bottom line of the screen and shows the
+current
+status of certain settings. The display is divided into six blocks. Each of
+these blocks
+shows a certain program status. The yellow emphased character in each of these
+blocks shows the currently active setting. The following table lists the
+different blocks.
+The default setting after program startup is emphased here with the color
+orange (light
+gray when printed).
+qpÃ­
+This block refers to the search function (see also
+â3.6. Searchâ). The arrows show whether the search direc-
+tion
+is forward or backward. The asterisk shows, if there is
+already data in the search mask. In this case the search can
+be continued by pressing the <C> key. If no data has been
+entered into the search mask, a dot appears instead of the
+asterisk.
+78
+This block shows the current bit width
+for the ASCII display
+(see also  â2.3. ASCII Displayâ
+), accordingly whether the
+ASCII display occurs in 7-bit- or 8-bit-display-mode.
+16
+BL
+This block shows the  endianness referring to the hex dis-
+play (see also â2.2. Hex Displayâ
+) and the position info (see
+also  â2.6. Position Infoâ
+), accordingly whether the display
+occurs in big-endian- or little-endian-notation.
+124
+This block shows the display width referring to the hex dis-
+play (see also  â2.2. Hex Displayâ)
+, accordingly whether the
+data is shown as 8-bit-values (1), 16-bit-values (2) or 32-bit-
+values (4).
+RW
+This block shows the current working mode of the Disk
+Spy
+(see also â3.7. Editâ), accordingly whether the read- or write-
+mode is activated.
+HA
+This block only refers to the write-mode. It shows which edit
+window
+is currently active and where data can be edited,
+these being the  hex- or the  ASCII-display
+(see also
+â3.7. Editâ). If the write-
+mode is inactive, the hex display is
+always shown as being act
+ive, because the current active
+display is only relevant in the write-mode.
+17
+4. FUNCTIONS
+4.1. Quick-Help
+Using the <F1> key you can get a short overview about the
+different functions and key combinations of DiskSpy to re-
+member them if they have been forgotten.
+4.2. Navigation
+The cursor is moved with the arrow keys in the main window. It always moves in
+both
+the hexadecimal and the ASCII display.
+When a vertical motion occurs the cursor jumps to the pre-
+ceding or succeeding line whilst retaining its horizo
+ntal
+position within the line. If the preceding or succeeding line
+is not visible, the entire view will scroll by one line up-
+or
+down
+ward. If you try to jump from the first line of the first
+sector (number 0) in the pre
+ceding line (which does not
+exist), the cursor remains in the first line, but changes hori-
+zontally to the first position at the lineâs beginning. Analo-
+gous the cursor changes horizontally to the last position if
+you are located in the last line of the last sec
+tor of the hard
+disk drive and you try to jump beyond to the (also non-
+existing) next line.
+In a horizontal motion the cursor moves byte-wise to the
+left or right. This is also the case when the 16-bit- or 32-bit-
+display-
+mode is activated, i.e. in this case you have to
+press the corre
+sponding arrow key twice or four times to
+change to the corresponding 16-bit or 32-
+bit value. Since
+the ASCII display is not affected by the selected bit width in
+the hex display, cursor movements occur always in byte
+steps. If the cursor is located at the beginning or the end of
+a line, it changes to the end or the beginning of the preced-
+ing or succeeding line. If the preceding or succeeding line
+is not visible, the entire view will scroll by one line up- or
+downward.
+18
+the ASCII dis
+play is not affected by the selected bit width in
+the hex display, cursor movements occur al
+ways in byte
+steps. If the cursor is located at the begin
+ning or the end of
+a line, it changes to the end or the beginning of the preced-
+ing or succeeding line. If the preced
+ing or succeeding line
+is not visible, the entire view will scroll by one line up-
+or
+downward.
+A vertical motion with the Page-Up or Page-
+Down keys
+scrolls the view in the main window exactly by one sec
+tor,
+i.e. 32 lines or 512 bytes up- or downward. The cursor re-
+tains his position on the screen. If you are located in the
+first or last sector and you try to scroll one sector up-
+or
+downward (to a non-existing sec
+tor), the view will scroll to
+the begin of the first or the end of the last sector and the
+cursor jumps to the first or last byte.
+Using the <Shift> keys in combination with the vertical ar-
+row keys you can scroll the entire view up- or down
+ward by
+one line. The cursor retains its position on the screen,
+while the content of the main window is scrolled up-
+or
+downward according to the cursor keys.
+Using the <Shift> keys in combination with the horizontal
+arrow keys you can scroll the view in the main win
+dow to
+the left or to the right. The cursor remains at his former
+position within the win
+dow, only the content of scrolls to the
+left or to the right. This horizontal shift has the additional
+effect that the line start does not have to be 16-byte-
+aligned but can be shifted arbitrarily.
+Using the <Home> key you can reposition the cursor at the
+upper left corner of the main view. The main win
+dowâs view
+will not be shifted, only the cursor will be positioned
+at the
+beginning of the first visible line of the main window.
+19
+Combining the <Home> key with the <Shift> key you can
+repo
+sition also the cursor in the upper left corner, but the
+main win
+dowâs view will also shift so that the sector the
+cursor actuall
+y is positioned will start in the first line of the
+main view. So this displays a sector completely.
+4.3. Drive Selection
+By pressing the <D> key you can select another hard disk
+drive (Drive Select
+). If DiskSpy has found more than one
+hard disk drive inst
+alled, a window similar to the selection
+wind
+ow at the program start pops up which lists all installed
+hard disk drives. You can choose the desired hard disk drive
+and change to it by pressing the <Enter> key.
+If you change to a hard disk drive you have al
+ready selected
+before, DiskSpy remembers the cursor position for this hard
+disk drive and sets it to exactly the same view as when left.
+You can therefore change between hard disk drives and after
+changing back you will find yourself on exactly the same po-
+sition you were when leaving this drive.
+4.4. Harddisk Info
+By pressing the <I> key you can activate the
+hard disk info
+window, which shows much more detailed information about
+the selected hard disk drive than the short info (see also
+â2.4. Short Infoâ). T
+his information is divided into several
+groups. By using the following keys you can display the de-
+sired group of information.
+20
+[General]  General Information  about the harddisk â espe-
+cially vendor, serial number, cache size, sector lay
+out and
+size.
+[Version] Version Information
+about the ATA/ATAPI version
+implemented by the harddisk.
+[Modes] Transfer Modes
+that are supported by the harddisk,
+especially about multiple sector, DMA, UltraDMA and PIO
+modes and their respective timings.
+[Hardware] Hardware Test Results as far as these are pro-
+vided by the harddisk.
+[Commands] Supported Command Sets
+of the harddisk. As
+there are two alternative indication possibilities for some of
+the command sets, both alternatives are displayed in two
+separate c
+olumns. A certain command set is available if it is
+displayed as supported in one of the two columns.
+This information screen consists of two pages. You can dis-
+play the second page by pressing any key.
+[Raw]  Raw Data of the harddisk information block,
+that is
+displayed in clear text in the other information groups.
+[eXtended]  Extended Information
+about diverse harddisk
+fea
+tures like streaming, acoustic management and security
+abilities.
+4.5. Goto
+With the <G> key a dialog pops up which offers the possibil-
+ity to jump to a desired sector of your hard disk drive (Goto
+).
+You can choose whether you want to jump to an absolute
+position or to a current-sector-
+relative position by pressing
+the <+> and <-
+> key. These keys can be pressed at any time
+during the input of the target address. The target address
+(absolute or relative) has to be entered in decimal notation.
+You can change between insert- and overwrite mode by
+pressing the <Ins> key. The resulting target address (abso-
+lute) will be shown below the input line in hexadecimal for-
+mat.
+21
+during the
+input of the target address. The target address
+(absolute or relative) has to be entered in decimal notation.
+You can change between insert-
+and overwrite mode by
+pressing the <Ins> key. The resulting target address (abso-
+lute) will be shown below the input line in hexadecimal for-
+mat.
+4.6. Standard Search (Hex-Search in Pro Edition only)
+Pressing the <S> key a search dialog
+pops up. You can
+enter either an ASCII string or the pattern to search in
+hexadecimal form. Up to 512 charac
+ters can be entered
+into the
+search mask. You can start the search process by
+pressing the <Enter> key starting at the current cursor po-
+sition.
+With the <Tab> key you can change between ASCII and
+hex in
+put line. This can also be done during the input, so
+you can mix both ASCII and hexadecimal input.
+Pressing the key combinations <Ctrl>+<B> (Backward
+) or
+<Ctrl>+<F> (Forward) you can change the search direc-
+tion. Forward search starts from the current cursor position
+up
+ward, backward search starts from the same position
+downward toward lower addresses.
+Pressing the key combination <Ctrl>+<C> within the
+search dialog you can load the complete  current sec
+tor
+into the search mask.
+22
+With the key combination <Ctrl>+<O> you can re
+call the
+prior used search pattern (Old) as new search pat
+tern in
+the search mask.
+With the <C> key you can  continue
+the search for the
+same pat
+tern. It is necessary that a previous search has
+already been accomplished. This search will then start
+from the current cursor position with the same
+parameters.
+You can see whether a continu
+ing search is possible by
+checking if the asterisk in the status bar is there (see also
+â2.6. Status Barâ).
+4.7. Not-Search
+With the <N> key you open a  not-search dialog
+. There
+you can enter a 8, 16 or 32 bit value
+in hexadecimal form.
+When opening the dialog, the value at the current cursor
+position is taken over by default. The not-
+search searches
+for the first oc
+currence of a value different from the one
+entered. This helps finding the end of blocks of repeating
+values. The not-search can be started by pressing <En-
+ter>. It starts directly behind the current cursor position.
+By pressing the <Tab> key you can change between the
+different input fields.
+Pressing the key combinations <Ctrl>+<B> (Backward) or
+<Ctrl>+<F> (Forward) you can change the search direc-
+tion. Forward search starts from the current cursor position
+up
+ward, backward search starts from the same position
+downward toward lower addresses.
+23
+With the <A> key you can continue (again) the not-
+search
+for the same pattern. It is necessary that a previous search
+has already been accomplished. This not-
+search will then
+start from the current cursor position with the same pa-
+rameters.
+4.8. Edit (Pro Edition only)
+With the <W> key you activate the write-mode
+. The
+cursor in both hex- and ASCII-
+view changes its color
+to red. When in write mode, the cursor navigation is
+restricted to the currently visible data area. If you wish
+to change the current visi
+ble area, you have to leave
+the write-mode first.
+You
+can determine whether you are in write or not mode by
+looking at the block  [RW] in the status bar
+(see also
+â2.6. Status Barâ).
+By pressing the <Tab> key within the write-
+mode you
+can change between the hex-view and the ASCII-
+view. When in hex-view,
+you can change the values in
+hexadecimal notation. If you are in ASCII-
+view, you
+can enter the characters directly with your keyboard.
+To determine which view is cur
+rently active, you have to
+see either on the blink
+ing cursor or you can see it in the
+block [HA] in the status bar (see also â2.6. Status Barâ).
+By pressing the <Esc> key you leave the write-mode with-
+out saving any changes you made since entering the write-
+mode. These changes are displayed in red.
+24
+When pressing the key combination <Ctr
+l>+<S> you
+accept the changes you made and save these to the
+hard disk drive.
+Attention: The so made changes on your hard disk drive
+are final and can not be undone. Save changes only if you
+know exactly what you are doing!
+25
+5. SCSI
+This chapter exclusively refers to the Professional SCSI Edition as only this
+edition
+supports SCSI harddisks.
+5.1. Usage
+You can use DiskSpy with SCSI harddisks in the same way as with IDE harddisks
+without any significant differences in the user interface. DiskSpy recognizes
+supported
+SCSI controllers and connected SCSI harddisks â in addition to IDE harddisks
+â auto-
+matically at program start. Each SCSI harddisk detected is displayed with a
+continuous
+controller number, the identifier âSCSIâ and its SCSI-ID. Type, vendor and
+size of a
+harddisk are itemized in the same way as with IDE harddisks.
+5.2. Compatibility
+DiskSpy generally supports all SCSI harddisk drives. Prerequisite is that this
+harddisk
+is connected to a SCSI controller that is supported by DiskSpy. Currently
+DiskSpy sup-
+ports the popular Narrow, Wide, Ultra und Ultra-Wide SCSI controllers of
+Adaptec.
+Remark: Since DiskSpy contains the original drivers of the hardware
+manufacturer,
+miray Software does not have any influence on the actual grade of
+compatibility. All
+statements of miray Software about compatibility have only informational
+character,
+are based on specifications of the hardware manufacturer and therefore can not
+be
+legally binding (
+â
+7.1. Disclaimer). To practically help determining the compatibility,
+miray Software offers the program DiskCheck, which can be downloaded for free
+at
+http://www.miray.de/de/download/sat.diskcheck.html. It is based on the same
+SCSI
+drivers and displays the SCSI harddisks detected by these.
+5.2.1. Manufacturer Information
+According to information of the hardware manufacturer, the drivers utilized in
+DiskSpy
+currently support the following SCSI controllers:
+26
+Â·  Adaptec AHA-2930U
+Â·  Adaptec AHA-2940 Ultra
+Â·  Adaptec AHA-2940UW
+Â·  Adaptec AHA-2940AU
+Â·  Adaptec AHA-2944UW
+Â·  Adaptec ASC-19160
+Â·  Adaptec ASC-29160
+Â·  Adaptec ASC-29160LP
+Â·  Adaptec ASC-29160N
+Â·  Adaptec ASC-39160
+5.2.2. Driver Information
+According to information from the drivers themselves, they also support a
+number of
+further SCSI controllers, partly designed as onboard chipset (AIC), partly as
+adapters
+(AHA, ASC). They can be identified clearly by PCI-Vendor-ID and PCI-Device-ID,
+listed
+in the following table.
+Vendor
+Model  Device
+ Vendor
+Model  Device
+ Vendor
+Model  Device
+9004h AHA-2930U 3860h  9004h AIC-7860 7860h  9005h AHA-3940/3950U2x 0050h
+" AHA-2930CVAR
+3868h  " AIC-7895 7895h  " AHA-3950 U2x 0051h
+"  " 3869h  " AIC-7880 8078h  " AIC-7896/7 U2 005Fh
+" AHA-4944(U)W 3B78h  " AHA-2940U(W) 8178h  " AIC-789x 006xh
+" AIC-755x 5x75h  " AHA-3940U(W)(D) 8278h  "  " 007xh
+" AIC-785x 5x78h  " AHA-2944UW 8478h  " AIC-7892(A/B) U160
+008xh
+" AIC-7560 6075h  " AHA-3944U(WD) 8578h  " AIC-789x 009xh
+" AIC-786x 6x78h  " AHA-4944UW 8678h  "  " 00Axh
+" AIC-7870 7078h  " AIC-7887 8778h  "  " 00Bxh
+" AHA-2940(W) 7178h  " AIC-7888 8878h  " AIC-7899(A) U160 00Cxh
+" AHA-3940(W) 7278h  " AHA-4944(U)W EC78h  " AIC-789x 00Dxh
+" AHA-2944 7478h  9005h AHA-2940/2950U2W
+0010h  "  " 00Exh
+" AHA-3944(W) 7578h  " AIC-789x 001xh  "  " 00Fxh
+" AHA-4944(U)W 7678h  "  " 002xh  " AHA-2930U2 0180h
+" AIC-7877 7778h  "  " 003xh
+If necessary, the IDs of your controller can be determined by means of the
+program
+PCISniffer. Under  www.miray.de/download/sat.pcisniffer.html it is available
+for free
+download from the miray homepage. For the PCI SCSI controller in question the
+fields
+âVendor IDâ and âDevice IDâ in PCISniffer have to match the values
+given above for
+your SCSI controller.
+27
+6. TROUBLE-SHOOTING
+6.1. Error #5002 while Loading
+If Error #5002 appears when starting the program, start it over again. If this
+is not suc-
+cessful, build the floppy disk again. If the problem is still there, try
+another floppy disk or
+another floppy disk drive, if available. Users of the Professional Edition or
+Profes-
+sional SCSI Edition please contact our support (support@miray.de).
+6.2. DiskSpy Gets Stuck at Startup
+If DiskSpy starts normally but freezes when scanning for harddisks, this is
+mostly result
+of an incorrect DMA configuration by the BIOS. Try to adjust the DMA and IDE
+settings
+in the BIOS step by step towards lower values in this case (
+â
+6.3.3. BIOS Adjust-
+ments).
+If you use the Professional SCSI Edition and the regarding system is equipped
+with a
+SCSI controller, this controller can also be the reason. To determine the
+source of er-
+ror, deactivate all SCSI controllers. In case of the problem does not occur
+afterwards it
+is probable that a respectively the SCSI controller is the reason. In this case
+you find
+further hints in chapter
+â
+6.4. Problems with SCSI.
+Remark: The harddisk recognition of DiskSpy at program start can take up to a
+min-
+ute or longer under certain circumstances. After more than five minutes it can
+be as-
+sumed that the program has got stuck. The time required for the recognition of
+hard-
+disks, beside other things, strongly depends on the number of IDE and SCSI
+control-
+lers installed in the system.
+28
+6.3. Problems with IDE
+6.3.1. Harddisk not Detected
+If DiskSpy does not detect a specific harddisk this may have several reasons.
+It is pos-
+sible that the controller it is connected to has not been detected (
+â
+6.3.2. IDE Control-
+ler not Found). Another common reason for this problem is that the way your
+harddisk
+is connected does not comply with standard. This may be the case for example if
+a
+harddisk is configured as slave and the master drive on the same channel is a
+CD/DVD
+drive or is not present. But under normal circumstances DiskSpy even copes with
+that.
+6.3.2. IDE Controller not Found
+There are two conditions on that IDE controllers are not detected automatically
+by
+DiskSpy:
+Â·  Standard IDE controllers (ISA) are not taken into account if there are PCI
+IDE con-
+trollers existing. In this case connect the appropriate harddisks to a PCI IDE
+control-
+ler or deactivate the PCI IDE controller(s).
+Â·  The used controller does not comply with the PCI IDE standard. Although
+most con-
+trollers support this standardized programming interface, there are some
+controllers
+that feature only a proprietary programming interface. You also find
+particulars about
+this in
+â
+1.4.2. IDE Controller. Connect the according harddisk drives to another
+controller (PCI IDE controller).
+6.3.3. BIOS Adjustments
+The following hints refer to Adjustments you probably can and should make in
+the
+BIOS setup of your PC in case of encountering problems when using DMA. However,
+since the adjustments provided by your BIOS are vendor and model specific,
+these
+hints can only be given in a generic form. For a detailed description how to
+change a
+particular adjustment and which adjustments are possible, consult your BIOS
+manual if
+necessary. The DMA adjustments are often to be found under âIntegrated
+Peripheralsâ
+or âChipset Setupâ.
+29
+Remark: Execute the automatic harddisk detection in the BIOS after each
+alteration
+of the harddisk and DMA settings to ensure the changes made become effective
+for
+the according harddisks. Also remember to save the changes made with âSave
+and
+Exitâ when leaving the BIOS setup.
+6.3.3.1. Deactivating IO-Caching
+If there are problems even in the PIO mode you should deactivate IO caches or
+buff-
+ers. Especially the option  âDataport Postwriteâ should be set to
+âDisableâ in case of
+problems, if it is available.
+6.3.3.2. Setting the BIOS to Defaults
+If DiskSpy does not work as desired, despite the hints mentioned above, you can
+try to
+set the default values by means of the âLoad BIOS/Setup Defaultsâ option.
+This ad-
+justment tries to avoid all other possible hardware conflicts.
+6.4. Problems with SCSI
+When using SCSI devices, please pay attention to them being configured and con-
+nected to the SCSI controller correctly. In particular SCSI controllers with
+SCSI BIOS
+must announce a harddisk at system startup to ensure this disk is available to
+DiskSpy
+subsequently. Furthermore, DiskSpy must support your controller. A list of
+supported
+SCSI controllers is to be found in chapter
+â
+5.2. Compatibility.
+Remark: Even if a SCSI controller displays the desired harddisks at system
+startup,
+this is no warranty that these devices are configured and connected correctly.
+The
+BIOS of the SCSI controller naturally works on a lower level than the SCSI
+drivers util-
+ized by DiskSpy and therefore possibly recognizes harddisks that are not
+detected by
+DiskSpy.
+DiskSpy has been tested on numerous SCSI controllers. The software as far as
+possi-
+ble bypasses problems that thereby have been encountered sporadically. For
+further
+random or sporadic problems the following chapters contain some useful hints
+for find-
+ing a remedy in most cases. These hints are described in the order they should
+be util-
+ized in to minimize the necessary efforts as far as possible. The following
+problems
+30
+have been encountered during the tests and could be bypassed by the hints
+described
+afterwards.
+Â·  DiskSpy gets stuck at startup (during initialization of the SCSI
+controllers)
+Â·  No SCSI harddisks are found
+Â·  Not all harddisks are found
+6.4.1. Restart
+If DiskSpy gets stuck at startup or does not display the desired SCSI
+harddisks, try to
+restart the computer. Try a simple reset at first (reset switch). Only if this
+does not pro-
+duce relief you should try to switch off the computer and leave it switched off
+for about
+30 seconds. Both kinds of restart can counteract signal and state problems of
+SCSI
+controllers.
+6.4.2. Deactivating Unused Controllers
+In case a restart does not result in the desired result you should deactivate
+unused
+SCSI controllers, as far as your system is equipped with more than one SCSI
+control-
+ler. This may be also advisable if a SCSI controller is generally used but the
+harddisks
+connected to it will not be used with DiskSpy.
+6.4.3. Deactivating Unused Harddisks
+In some cases it is possible that SCSI harddisks that are connected to the same
+SCSI
+controller interfere with each other or the controller itself. For this reason
+you should
+deactivate several harddisks temporarily or connect them to the controller one
+after
+another and step by step to determine from which harddisk the interference
+probably
+originates. Always keep in mind to ensure that the last SCSI device is must
+always be
+terminated during these attempts.
+6.4.4. Minimal Configuration of the Controller
+Remedy in case of problems can also be found by configuring the SCSI controller
+via
+its BIOS setup or, in case of an onboard controller, via the main BIOS setup of
+the PC.
+31
+Try to adjust the lowest and most secure values for the SCSI bus (e.g. Narrow
+transfer
+mode with a Wide controller).
+6.4.5. Minimal Configuration of the System
+Try also different ways to connect the SCSI harddisks used in the system,
+especially if
+using two or more SCSI controllers. As far as possible proceed the following
+way: De-
+activate all SCSI controllers except one, which should, if possible,
+incorporate only one
+SCSI channel and be one of the types listed in
+â
+5.2.1. Manufacturer Information.
+Then connect only the harddisk or harddisks required. Apart from defective
+harddisks
+this proceeding revealed a running configuration in most cases allowing execute
+the
+projected task.
+32
+7. MISCELLANEOUS
+7.1. Disclaimer
+Although DiskSpy was programmed with high diligence and was tested on a large
+scale of different systems, we hope you understand that we cannot give any
+warranty
+for the proper functioning of the program and that we are not liable for
+damages result-
+ing from its usage, subject to gross negligence and intention.
+7.2. Feedback
+We are deeply interested in your feedback. If you encounter any program errors
+or if
+you have any suggestions for improvement, we always try to fix the former and
+to im-
+plement respectively to integrate the latter. If you simply want to tell us
+your opinion
+about this software, we are looking forward to it.
+Internet http://www.miray.de/
+e-mail feedback@miray.de
+support@miray.de
+Fax ++49 89 767291-68
+Postal address miray Software
+Postfach 15 15 01
+D-80049 MÃ¼nchen
+Germany

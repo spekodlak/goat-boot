@@ -1,0 +1,999 @@
+
+
+
+SeaTools for DOS
+User Guide
+Copyright Â© 2010 by Seagate Technology, LLC. All rights reserved.
+Rev. 31-Dec-2010
+**IMPORTANT**
+This is a special DOS bootable CD-ROM. SeaTools is designed to run from DOS
+only and is NOT a
+Windows application.
+SeaTools will not run in Windows in a DOS dialog box. Please see the section
+"Using SeaTools" for more
+information about booting to this CD.
+_____________________________________________________________________
+Seagate Technology LLC
+SeaTools for DOS v2.23
+Copyright (c) 2010 by Seagate Technology LLC. All rights reserved.
+_____________________________________________________________________
+Welcome to Seagate's SeaTools for DOS Software!
+This User Guide file contains important information about SeaTools. Please read
+this entire file before
+using this software.
+SeaTools for DOS is a comprehensive, easy-to-use diagnostic tool that helps you
+quickly determine what
+is preventing you from accessing data on your desktop or notebook computer. It
+includes several tests
+that will examine the physical media on your Seagate or Maxtor disk drive and
+any non-Seagate disk
+drive.
+Table of Contents
+1. Why Use SeaTools?
+2. Using SeaTools
+3. Error Codes
+4. Help Topic: "Bad Sector Found"
+5. Troubleshooting
+6. Known Limitations
+7. System Requirements
+8. Seagate Technology Support Services
+9. Product Return Procedure
+10. Revision History
+11. FreeDOS and the GNU Public License
+12. END USER LICENSE AGREEMENT (EULA)
+1. Why Use SeaTools?
+After testing, a large percentage of the drives returned to Seagate for
+warranty replacement are perfectly
+good drives with "No Problem Found" (NPF). Returning a drive for warranty
+service means system
+downtime and inconvenience for you in packing and returning your drive product.
+Before you send in a
+drive, it is in your best interest to determine if a replacement drive is
+really necessary. This hard disk
+diagnostic utility will help you make that determination and possibly save you
+time and money and
+preserve your data.
+Some typical reasons for No Problem Found are:
+* File System Corruption
+* Driver Corruption
+* Broken Master Boot Record
+* Virus and Trojan Attack
+* Spyware, Adware and Keystroke loggers
+* Hardware Conflicts
+The Seagate SeaTools software is easy to load and simple to use. The following
+instructions will help you
+get the most out of this new software tool. If you have questions about this or
+any other Seagate software
+or service products, please contact your system supplier.
+2. Using SeaTools
+Do not remove the SeaTools CD while the tests are running.
+Run Seagate SeaTools
+====================
+A. Reboot your system
+Insert the SeaTools CD and reboot or power on your computer. The system will
+boot to the FreeDOS
+operating system. If your system fails to boot, see the Troubleshooting section
+#5 later in this file.
+B. Select Drives to Test
+After SeaTools loads, the Drive List will show the different storage devices in
+your system. The first drive
+detected will be described as Device 0.
+Select the drive you would like to test. Make sure to choose the correct drive!
+A check mark in the Model
+ID column will indicate which drive is selected.
+This screen also displays information about the drives such as the Model Number
+and Serial Number.
+Seagate model numbers begin with the letters "ST".  Seagate serial numbers are
+alpha numeric and eight
+characters long.
+Language selection is available:
+C. Select the Tests to Run
+A menu of the possible diagnostic tests is shown.  Select the tests that you
+would like to perform.
+Basic Tests  Advanced Features  Help
+Short Test   Set Capacity   Contents
+Long Test   Erase Drive   License
+Acoustic Test     About
+When you launch the "SHORT Test" most drives will run Drive Self Test. Drive
+Self Test (DST) is a
+thorough diagnostic routine that is built in to the hard drive's firmware.
+Firmware is the machine language
+programming the controls the disk drive. DST is completely data safe.
+Older drives that do not support the DST will run a Legacy test which emulates
+the DST.
+Note: You can force SeaTools to run the legacy test by adding the command line
+switch /L after
+seatools.exe.
+The "SHORT Test" is adequate for most situations. Consider running the "LONG
+Test" which reads each
+sector on the drive if you need to run a more comprehensive test.
+The "LONG Test" test will take a long time to complete. Because the "LONG Test"
+reads every sector on
+the drive, the amount of time required will depend on the speed and capacity of
+the disk drive. The
+highest capacity drives often take 2 to 3 hours to complete. At any time, feel
+free to Cancel the test
+without harming the drive. The "LONG Test" will collect information about
+possible defects. If any defect
+are found, a list will be offered at the end or after aborting the scan. You
+will have the opportunity to
+attempt to repair the problem sectors.
+D. Running of the Diagnostics
+The SeaTools performs a data-safe test of the selected hard disk drive or
+device for possible
+malfunctions. Long tests may be aborted at any time.  Press the ESC (escape
+key) from the keyboard.
+During the "LONG Test" only, bad sectors (LBAs) may be detected. They could be
+part of a data file or
+even part of the operating system directory structure. Sometimes, problem
+sectors are empty or not in
+use. It is important to know that when the sector is bad and unreadable then
+any data in it is already lost.
+See section 4 "Help Topic: Bad Sector Found" for more information on this
+topic.
+E. Test Information and Results
+Upon completion of running the diagnostics, the test results will be given. A
+log for each drive is saved to
+the RAM drive.
+The following conditions may apply:
+- Passed
+- Passed after Repair (Seagate and Maxtor only)
+- Failed
+- User Skipped Repairs
+- Aborted
+"Passed after Repair" is a special condition where bad sectors were detected as
+unreadable and the user
+gave permission to SeaTools to attempt to reallocate blank replacement sectors
+which was successful.
+The drive is now considered a good drive. A few defects are usually not a cause
+for concern. For
+example, there are nearly four hundred million sectors on a 200GB drive.
+Nonetheless, you should run
+the LONG Test more often to see if there is a trend of growing defects.
+"SeaTools Test Code" - When SeaTools for DOS determines that a drive has failed
+a valid warranty test,
+it will display a SeaTools Test Code. Please save this code if you are planning
+a warranty exchange.
+Seagate product warranty status depends on how the product is sold. If your
+hard drive is a component
+in an OEM system, then the OEM covers the drive warranty.
+SeaTools Test Codes are based on the type of test that failed and the product
+serial number. No two
+codes are the same. The online RMA submission system will use the SeaTools Test
+Code number to help
+process the exchange of your product. The code tells Seagate that the drive is,
+in fact, bad and that there
+is virtually no chance that a good drive is being returned.
+When you submit a drive for return to Seagate through the online Warranty and
+Returns process, the
+form will ask for your Serial Number, Model Number and SeaTools Test Code.
+F. Set Capacity
+Occasionally, a disk drive may be too large and its size needs to be reduced to
+a lower capacity. Similarly,
+a drive with a reduced capacity may need to be reset to its native maximum
+capacity. Three choices are
+available under this section: Set 32GB Capacity. A common setting for older
+systems. Set Capacity to
+MAX Native. Full capacity is restored. Set Capacity Manually. Allows you to set
+a specific size.
+G. Erase Drive
+ZERO FILL DATA PATTERN WRITING IS A DATA DESTRUCTIVE OPERATION EQUIVALENT TO
+ERASING THE DATA OFF THE DRIVE.
+Seagate is not responsible for lost user data. Erase Drive is available for
+Seagate or Maxtor drives only.
+Four choices are available under this section:
+â¢  Erase Track 0. Use this to clear out an old operating system installation.
+Very quick.
+â¢  Zero ALL. This command writes zeros to every sector on the hard drive.
+This test may take
+several hours to complete.
+â¢  Timed Fill. Using the time value set under the T selection, the drive will
+erase sectors for that
+time duration. Set the number of seconds to run. Press T to raise the number.
+â¢  FDE Crypto Erase. If the drive is a Full Disk Encryption model disk drive,
+then this option will be
+available. You must be able to supply the appropriate password or SID (printed
+on the drive's top
+label) to begin the cryptographic erase.
+You must type YES to confirm erasing the drive.
+A "Defective drive" can often be revived with a data-destructive zero fill data
+pattern or a low level format.
+This is because today's modern disk drives contain thousands of spare sectors
+which are automatically
+reallocated if the drive senses difficulty reading or writing. Since SeaTools
+is read- only (data safe)
+occasionally a drive with many problem sectors that have not reallocated to a
+spare sectors can be forced
+to do so by writing to the sectors. Spare sector reallocation is a normal
+intelligent drive operation.
+See section 4 "Help Topic: Bad Sector Found" for more information on this
+topic.
+Seagate is not responsible for lost user data.
+H. Acoustic Test
+Sometimes a defective hard drive makes unusual noise. However, often the power
+supply or CPU fans
+are mistaken for the hard drive. This test will spin down the drive just like a
+power management idle
+condition. If the drive was the source of the noise then the sound will stop.
+If the noise continues, you
+can eliminate the hard drive as the source.
+I. View Log
+Test results are saved in a log file with a file name based on the drive serial
+number. This report can be
+saved to a floppy disk or printed.
+**** NOTE ****
+After exiting SeaTools, if not saved to a floppy, this report will be on the
+RAM drive until the system is
+rebooted. If you booted from a CD then the floppy drive is usually B:\. Some
+systems do not have any
+floppy diskette drive. Unfortunately, in this case it may be difficult saving
+the test log files. Some
+suggestions on using a USB storage device for log files are given in the
+Troubleshooting section #5 below
+(topic: CANNOT SAVE or PRINT LOG FILES).
+**** NOTE ****
+If your printer attaches to the computer through the USB port then you will not
+be able to print in DOS
+applications. Printing from SeaTools is supported when the printer is attached
+to the parallel printer port
+(LPT1).
+I. Quit
+To exit the program, select "Exit" from the main menu. Press [CTRL]-[ALT]-[DEL]
+to reboot, or power off
+your system.
+3. Error Codes
+SeaTools for DOS may display a variety of error codes depending on the
+interface and which test module
+was running when the error or status occurred. In some situations when the
+drive is offline running a
+Drive Self Test, the drive gives its own DST result code.
+Drive Self Test (DST) is a thorough diagnostic routine that is built in to the
+hard drive's firmware.
+Firmware is the machine language programming the controls the disk drive. DST
+is completely data safe.
+SMART (Self Monitoring, Analysis and Reporting Technology) is also built in to
+the firmware and these
+errors provide advanced warning about developing problems - such as excessive
+retries while reading
+data. A SMART error is a prediction of possible drive failure in the future. Be
+sure to back up your data
+regularly.
+When a drive is completely non-functional, no make, model or error codes are
+available.
+Beginning with the most common error codes (these codes may display briefly on
+the screen during the
+test):
+ATA Drive Self Test (DST)
+Self-test execution status values:
+0h The previous self-test routine completed without error or no self-test has
+ever been run
+1h The self-test routine was aborted by the host
+2h The self-test routine was interrupted by the host with a hardware or
+software reset
+3h A fatal error or unknown test error occurred while the device was executing
+its self-test routine and
+the device was unable to complete the self-test routine.
+4h The previous self-test completed having a test element that failed and the
+test element that failed is
+not known.
+5h The previous self-test completed having the electrical element of the test
+failed.
+6h The previous self-test completed having the servo (and/or seek) test element
+of the test failed.
+7h The previous self-test completed having the read element of the test failed.
+Log file says: DST -
+Errors - Status: 07
+Off-line data collection status byte values:
+01h Reserved
+02h or 82h Off-line data collection activity was completed without error.
+03h Reserved
+04h or 84h Off-line data collection activity was suspended by an interrupting
+command from host.
+05h or 85h Off-line data collection activity was aborted by an interrupting
+command from host.
+06h or 86h Off-line data collection activity was aborted by the device with a
+fatal error.
+4. Help Topic: "Bad Sector Found"
+IMPORTANT:
+Please read and carefully consider all of the following information about your
+"Bad Sector Found" options.
+A bad sector is a small area on the disk drive that is reporting errors and
+cannot be accessed properly.
+New bad sectors, sometimes called grown defects, are often caused by some kind
+of physical damage. If
+a file or folder uses this sector, then the file is already incomplete or
+corrupt because the bytes are not
+readable.
+**** NOTE ****
+The following information applies only to Seagate Technology or Maxtor brand
+disk drives:
+When SeaTools discovers a bad sector through reading, at the end of the scan it
+displays a list of the bad
+sectors.
+If a sector is in use, then that file is incomplete or corrupt. When a bad
+sector happens to align with a
+folder or directory listing structure, then the links to files and sub-folders
+it manages may be broken.
+Sectors are often not in use.
+You should carefully consider the importance of your data. While the sector is
+currently unreadable, if the
+file or folder is important to you then you may need professional recovery
+services to possibly reclaim the
+data. In this case, select NO to exit without trying to reallocate blank
+replacement sectors on the drive.
+If you have decided that the file or folder is replaceable, already backed up
+or just not important to you,
+then you can tell SeaTools to attempt to overwrite the sector.
+By design, modern disk drives maintain spare sectors for reallocation purposes.
+Usually, sectors become
+difficult to read long before they become impossible to read. In this situation
+the actual data bytes in the
+sector are preserved and transferred to the new spare during a sector
+reallocation. Similarly, when a disk
+drive writes data and encounters a problem, the drive firmware retires the
+problem sector and activates a
+replacement before giving successful write status.
+If you give permission to overwrite a bad sector SeaTools will attempt to write
+a pattern of zeros to that
+sector. Usually, this action will assist the disk drive firmware in managing
+the problem by retiring the
+problem LBA and activating a spare in its place.
+Note: Seagate Technology is not responsible for lost user data.
+5. Troubleshooting
+DRIVE NOT DETECTED
+- Understandably, a dead drive cannot communicate with the system or software
+and will not be detected.
+A drive with damaged electronics may have the appearance of running but be
+broken in the ability to
+communicate with the system. Either of these cases is a failed drive.
+- One of the most common reasons for a new drive to not be detected is with the
+setup of the cables and
+jumpers, if any. Another common area is with the system BIOS setup. The drive
+needs to be set to ON
+in the BIOS, this is especially true when adding a second drive. Be sure to
+double check if these items
+are correct.
+- Occasionally, a working drive will not be detected by the software. Disk
+drives attach to the computer
+through a section of circuitry on the motherboard called a controller. The
+software is designed to be as
+up-to-date as possible with known controllers. The drive is not by detectable
+in this case because of an
+unknown controller.
+SeaTools WILL NOT LOAD
+- If when you insert the SeaTools CD and power on the computer, it does not
+load SeaTools, the "boot
+sequence" may be set to boot to the hard disk drive first.
+To change the boot sequence to boot from the CD drive first, you must enter the
+"Setup" or "CMOS
+Setup" of your computer. Methods for entering the Setup or CMOS Setup vary
+depending on your
+computer's make and model, but most methods consist of pressing a key or key
+sequence during the
+initial power on boot sequence.
+Watch the screen closely during boot up for a message like "Press F2 to enter
+Setup" or something
+similar to determine which key or key sequence to press for your computer.
+Nearly all systems will
+continue on automatically after a brief period of time if the key is not
+pressed, so act quickly. You may
+have only a few seconds to find and press the appropriate key or key sequence.
+The most common keys or key sequences to enter setup are:
+- [F2]
+- [DELETE]
+- [F1]
+- [CTRL]-[ALT]-[S]
+- [CTRL]-[ALT]-[ESC]
+- [CTRL]-[ALT]-[ENTER]
+NOTE: Some computers that use the "[CTRL]-[ALT]-[___]" sequences must be at a
+prompt before
+pressing the keys. If you are unsure about how to enter the setup, see the
+owner's manual for your
+computer or seek assistance from your computer manufacturer or the store where
+you purchased the
+computer.
+CD ROM WILL NOT BOOT
+- Booting to a CD requires that the system BIOS is compatible with the
+operating system on the CD. In
+rare cases that seem tied to older system.This indicates an incompatibility
+with the boot CD. In this
+situation, the solution is to use the SeaTools v2.18 boot floppy diskettes
+instead of the boot CD. Contact
+Seagate Technical Support for a copy of this earlier version.
+CANNOT SAVE or PRINT LOG FILES
+- Many systems no longer have floppy diskette drives. This makes it difficult
+to save the test results log
+files. Similarly, systems usually have a USB printer which only prints from
+Windows. This eliminates
+printing in DOS.
+One possible solution for both of these conditions, only on systems with the
+right SETUP options, is to
+attach a USB Storage Device to the system. The SETUP options must support
+booting to a USB Storage
+Device. Two examples if systems with USB support:
+-->>Dell Optiplex GX270 example
+when booting you see in the upper RH corner:
+F2 = Setup
+F12 = Boot Menu
+When you press F2 you can set up the following order:
+Hard Disk Drive Sequence
+ 1. USB device
+ 2. System BIOS boot devices
+Boot Sequence (BIOS devices)
+ 1. Diskette Drive
+ 2. IDE CD-ROM Device
+ 3. Hard-Disk Drive C:
+-->>Dell Inspiron 1150 example:
+when booting you see in the upper RH corner:
+F2 = Setup
+F12 = Boot Menu
+When you press F2 on Setup Page 2 you can set up the
+following order:
+***** Boot Order *****
+ Diskette Drive
+ USB Storage Device
+ CD/DVD/CD-RW Drive
+ Internal HDD
+With both of these system examples, the requirement is to put the USB device
+ahead of the CD which
+itself should be ahead of the Hard Disk Drive (HDD). Your choice of USB storage
+device opens a wide
+range of alternatives. The simplest and least expensive are the USB Flash
+Drives. USB external hard
+drives are another possibility. However in some cases the system BIOS may have
+compatibility problems
+with large hard drives and no problems with Flash devices.
+Put in the SeaTools bootable CD and plug in a USB storage device. Reboot. With
+the order set above,
+the system will attempt to boot from the USB device first but cannot since
+there is no operating system on
+it. After that it looks to the BIOS and sees the IDE CD- ROM Device where it
+boots into SeaTools. If the
+USB device was detected it will be mounted as a (non-booting, assuming FAT) C:
+where we can save the
+log files.
+After you run SeaTools, exit and copy *.log to C: and you have just saved the
+logs without using a floppy.
+If your RAM drive is shown as C: then the SETUP does not support USB storage in
+DOS. The file system
+on the USB device must be either FAT16 or FAT32. DOS does not recognize NTFS.
+IF YOU CALL
+- If you call to report problems please provide as much information as
+possible. If you can, please provide
+the following details:
+When does the problem occur?
+On the boot up of the diagnostic operating system?
+During the hard disk drive tests?
+After exiting SeaTools?
+- Can the problem be recreated? If so, please outline the steps necessary to
+recreate it.
+- What is your system configuration? List the details about your system as
+tested. Such as:
+- Make, model, processor and system memory
+- Hard disk drives (internal and external) connected to the
+system, including make, model, size, and type
+- Make and model of hard disk drive controllers
+- Make and model of the video adapter
+- Additional adapter cards, including sound and multimedia
+- Peripherals attached (mouse, tape backup, printer, etc).
+6. Known Limitations
+* SeaTools may not find or access hard disk drives when CMOS is set to "none"
+for those drives.
+* SeaTools for DOS cannot find a drive that is completely non- functional. No
+make, model or error codes
+are available. If the drive is under warranty, you can contact your system
+supplier.
+* SeaTools may not find a drive that is connected to an unsupported, usually
+very new, chipset.
+Check http://www.seagate.com often for new and updated versions of SeaTools for
+DOS software as well
+as updates to the "Frequently Asked Questions" (FAQ's) list. Seagate will
+continue to add new features,
+functions and capabilities to this software.
+7. System Requirements
+* IBM-compatible PC with a Pentium or greater processor
+* VGA 640 x 480 or greater graphics capability
+* 64 megabytes of RAM
+* Bootable CD support
+8. Seagate Technology Support Services
+Online Services
+Internet
+www.seagate.com for information about Seagate products and services. Worldwide
+support is available
+24 hours daily by e-mail for your questions.
+Technical Support:
+http://www.seagate.com/www/en-us/about/contact_us or email to
+DiscSupport@Seagate.com
+SEAGATE SERVICE CENTERS
+Presales Support
+Our Presales Support staff can help you determine which Seagate products are
+best suited for your
+specific application or computer system, as well as drive availability and
+compatibility.
+Technical Support
+If you need help installing your drive, consult your system's documentation or
+contact the dealer's support
+services department for assistance specific to your system. Seagate technical
+support is also available to
+assist you online at support.seagate.com or through one of our call centers.
+Have your system
+configuration information and your drive's "ST" model number available.
+CUSTOMER SERVICE OPERATIONS
+Warranty Service
+Seagate offers worldwide customer support for Seagate drives. Seagate
+distributors, OEMs and other
+direct customers should contact their Seagate service center representative for
+warranty-related issues.
+Resellers or end users of drive products should contact their place of purchase
+or one of the Seagate
+warranty service centers for assistance. Have your drive's "ST" model number
+and serial number
+available.
+Data Recovery Services
+Seagate offers data recovery services for all formats and all brands of storage
+media. Our Data Recovery
+Services labs are currently located in North America and Europe. To get a free
+quick quote or speak with
+a case management representative, call 1-800-475-0143. Additional information,
+including an online
+request form and data loss prevention resources, is available at http://
+services.seagate.com.
+____________________________________________________________________
+USA/Canada/Latin America Support Services
+Americas 1-800-SEAGATE  +1-405-324-4700  +1-405-324-3339
+_____________________________________________________________________
+Worldwide Support Services
+For the most current list of telephone numbers please see the Contact Us
+section on www.seagate.com.
+Contact Information Rev 8.1, 10-Jan-2006
+SeaTools for DOS is a product of Seagate, a leading provider of technology and
+products enabling
+people to store, access, and manage information. Seagate is committed to
+providing best-in-class
+products to help people get their information when, where and how they want it.
+The Company is recognized as the world's largest manufacturer of disk drives,
+magnetic disks and read-
+write heads. Founded in 1979, Seagate can be found around the globe and on the
+World Wide Web at
+www.seagate.com.
+9. Product Return Procedure
+Service by Seagate
+A. Seagate Disk Return Procedure
+B. Shipping and Handling Information - Packaging Instructions
+C. Seagate Approved Packaging
+D. Limited Warranty
+E. Service Warranty Terms
+A. Seagate Disk Drive Return Procedure
+Seagate offers comprehensive worldwide customer support for all Seagate disk
+drives both online and
+through our regional Seagate Customer Service Centers and Authorized Service
+Providers (see "Seagate
+Technology Support Services" section, above). Drive return procedures can vary
+by geographical location
+and are subject to current International Trade Regulations.
+1. Before you return a disk for warranty service, verify whether a replacement
+drive is necessary to solve
+the problem you are experiencing. If so, contact your place of purchase; if
+they have an exchange policy,
+it may be your most convenient solution.
+2. Read the appropriate Seagate Warranty Statement for new or replacement
+products (see "Service
+Warranty Terms" section, below).
+3. Know your Seagate product model number and serial number. See the label on
+the top of the drive.
+4. Verify the warranty status of the drive you wish to return. If the product
+is still under warranty, obtain an
+RMA (step 5). If the warranty is expired, contact a local service facility, a
+Seagate Service Center
+Representative, or an Authorized Service Provider. If Seagate records indicate
+that the warranty is
+expired and you believe this is incorrect, contact your place of purchase or a
+Seagate Service Center
+Representative.
+5. Obtain an RMA. To obtain an RMA online, use the Warranty Validation
+application at
+www.seagate.com/support. It will lead you into the RMA request application. To
+obtain an RMA by phone
+or fax, contact an Authorized Service Center (see "Seagate Technology Support
+Services" section above).
+6. Obtain a "ship to" address. Service Centers are located throughout the
+world. The ship to address of
+the facility nearest you will be included with the RMA.
+7. Package and return the drive. IMPROPER PACKAGING WILL VOID THE WARRANTY. Be
+sure to
+read the Shipping and Handling Information (below). Your original drive will
+NOT be returned to you, so
+be sure to backup any data you wish to keep and return only the bare drive. If
+you are unable to retrieve
+needed data, you may want to consider data recovery services.
+Once Seagate Technology receives your drive for service, Seagate will ship you
+a replacement drive. You
+may check the status of your replacement drive RMA shipment online or by
+contacting a Seagate Service
+Center Representative to obtain that information.
+B. Shipping and Handling Information - Packaging Instructions
+1. When you return a drive for replacement, all data and software will be lost.
+The replacement drive will
+be low-level formatted. If you need the data on the drive and do not have a
+backup copy, you may want to
+consider data recovery services before shipping the drive to Seagate for
+replacement.
+2. Remove all accessories or spare parts and return only the bare drive!
+Accessories include, but are not
+limited to, side rails, manuals, removable media, cables, mounting brackets,
+face plates, and controller
+cards. Accessories will not be returned.
+3. Enclose the drive in an anti-static container. If packaging more than one
+drive, use a separate bag for
+each drive.
+4. Secure the drive in Seagate approved packaging. Use 2-inch thick foam rubber
+in a corrugated box.
+Multiple drives in a single box should be packaged with foam rubber between
+each drive. Do NOT use
+foam packing pellets, bubble wrap, or newspaper. (See Seagate Approved
+Packaging section, below.)
+5. Write the RMA number on the outside of each box.
+6. A shipping address will be given to you along with the RMA number. Ship the
+drive to the address
+provided using the carrier of your choice. You should choose a carrier with the
+ability to trace the
+shipment. Seagate Technology will not be responsible for shipments for which
+the carrier cannot provide
+proof of delivery.
+C. Seagate Approved Packaging
+Shipping a drive in an unapproved container voids the warranty. Any product
+returned to Seagate must
+be properly packaged in the original box or a Seagate-approved container to
+prevent physical and
+electrical damage while in transit. FAILURE TO PROPERLY PACKAGE THE DRIVE WILL
+VOID THE
+WARRANTY.
+What is Seagate Approved Packaging?
+We recommend you ship your drive in its original box and packing materials,
+which you should always
+keep for storing and shipping purposes. If you do not have your original
+packaging materials, use 2-inch
+thick foam rubber in a corrugated box. Multiple drives in a single box should
+be packaged with foam
+rubber between each drive. Do NOT use foam packing pellets, bubble wrap, or
+newspaper.
+Where can I get Seagate Approved Packaging?
+Seagate does not separately sell packaging materials. While Seagate does not
+endorse any one third
+party vendor, companies that provide packaging materials can be found at:
+Western Industries - For additional information, see https://www.wicokc.com/
+orderform/seagate.html
+SiongBee - For additional information, see https://www.siongbee.com/sgorder.nsf
+Disclaimer: All packaging vendors mentioned in this message are independent of
+Seagate Technology
+LLC; Seagate makes no warranty, implied or otherwise, regarding the performance
+or reliability of these
+companies or their products. This information is provided, as is, solely for
+your information. To obtain
+product specifications and warranty information, please contact the respective
+vendor directly.
+D. Limited Drive Warranty ("Products")
+Beginning on the date of shipment to its direct customer and continuing for the
+published warranty period,
+Seagate represents that the Products are new or, if they contain remanufactured
+or used components,
+are the equivalent of new in performance and reliability and warrants that each
+Product failing to function
+properly under normal use, due to a defect in materials or workmanship or due
+to nonconformance to the
+published specifications, will be repaired or exchanged, at Seagate's option
+and expense. Customer
+should obtain a Return Material Authorization ("RMA") number from their point
+of purchase or from
+Seagate prior to returning the nonconforming Product freight prepaid. Seagate
+will pay for transporting
+the repaired or exchanged Product to Customer. Repaired or exchanged Product
+will be warranted for a
+period of ninety (90) days for Disc Products and six (6) months for Tape
+Products from the date of
+shipment by Seagate, or the remainder of the original warranty, whichever is
+the longer. This Limited
+Warranty extends to Seagate's direct customer only and is not assignable or
+transferable. Seagate makes
+no representation, warranty or guaranty, express or implied regarding the
+Products except its standard
+form of limited warranty ("Limited Warranty"). Seagate may in its sole
+discretion modify its Limited
+Warranty at any time and from time to time.
+DRIVE PRODUCT WARRANTY DISCLAIMER EXCEPT AS SET FORTH IN WRITING IN THE LIMITED
+WARRANTY, SEAGATE MAKES NO PERFORMANCE REPRESENTATIONS, WARRANTIES, OR
+GUARANTEES, EITHER EXPRESS OR IMPLIED, ORAL OR WRITTEN, WITH RESPECT TO ITS
+PRODUCTS, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTY (A) OF
+MERCHANTABILITY, (B) OF FITNESS FOR A PARTICULAR PURPOSE, OR (C) ARISING FROM
+COURSE OF PERFORMANCE, COURSE OF DEALING, OR USAGE OF TRADE.
+IN NO EVENT SHALL SEAGATE BE LIABLE FOR COSTS OF PROCUREMENT OF SUBSTITUTE
+GOODS BY ANYONE OR FOR LOSS OF DATA, NOR WILL IT BE LIABLE FOR INDIRECT,
+SPECIAL,
+INCIDENTAL, CONSEQUENTIAL, OR OTHER DAMAGES ARISING OUT OF THE PURCHASE, USE
+OR PERFORMANCE OF THE PRODUCT, AND WHETHER OR NOT IT HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES. THE FOREGOING ALLOCATION OF RISK IS REFLECTED IN
+THE PRICE OF THE PRODUCT.
+E. Repair Warranty Terms
+All Seagate repaired disc products are warranted for 90 days or the balance of
+your original warranty,
+whichever is greater. All Seagate repaired tape products are warranted for six
+months or the balance of
+your original warranty, whichever is greater. Customer shall be responsible for
+saving or backing up data
+contained in any Product returned to Seagate for in-warranty or out-of-warranty
+repairs or service.
+DISCLAIMER: SEAGATE SHALL HAVE NO RESPONSIBILITY FOR DATA AND SHALL HAVE NO
+LIABILITY ARISING OUT OF ANY DAMAGE TO OR LOSS OF DATA WHILE THE PRODUCT IS IN
+SEAGATE'S POSSESSION.
+THANK YOU
+10. Revision History
+Text
+v1.08 30-Jan-2007 Initial public release SeaTools
+ for DOS.
+v1.09 28-Feb-2007 Added Help option to main menu.
+v1.10 11-Jul-2007 Added support for Intel ICH8 SATA
+ controller chipset. New EULA.
+GUI
+v2.05 09-May-2007 Multi-language graphic version.
+ English, French, Italian, German,
+ Spanish, Portuguese, Japanese,
+ Chinese Simplified, Chinese Traditional.
+v2.07 11-Jul-2007 Added support for Intel ICH8 SATA
+ controller chipset. New EULA.
+v2.13b 16-Dec-2008 Added support for Intel ICH9 and ICH10
+ SATA controller chipsets. Added FDE
+ Crypto Erase for Seagate FDE disk
+ drives.
+v2.14 21-Jan-2009 Added support for keyboard scan codes
+v2.15 10-Sep-2009 Added firmware reminder check
+v2.16 28-Sep-2009 Refined Long Test sequence
+v2.17 01-Oct-2009 Added SeaTools Test Code to display
+ after a valid warranty test fails. This
+ code is used to help process the
+ warranty return.
+v2.18 05-Jan-2010 Added Korean language. Translations
+ for SeaTools Test Code verbiage.
+v2.19 05-Apr-2010 Help content now translated.
+v2.20 25-Apr-2010 Bug fix when calculating large
+ drive capacity.
+v2.21 04-Jun-2010 Adding Vietnamese language.
+v2.22 28-Jun-2010 Adding Russian and Thai languages.
+v2.23 31-Dec-2010 Added Long Test time out failure for
+ drives that take too long to complete
+ the Long Test.
+11. FreeDOS and the GNU Public License
+This software uses the FreeDOS kernel, an open source product distributed under
+the terms of the GNU
+Public License (GPL). You can obtain the source code to the FreeDOS kernel used
+for this product at
+http://www.seagate.com/support/seatools/freedos/kernel.zip You can obtain the
+most recent copy at the
+FreeDOS we site at http://www.freedos.org.
+12. USER LICENSE AGREEMENT
+END USER LICENSE AGREEMENT
+FOR SEAGATE SOFTWARE
+PLEASE READ THIS END USER LICENSE AGREEMENT (âEULAâ) CAREFULLY. BY CLICKING
+âI
+AGREEâ OR TAKING ANY STEP TO DOWNLOAD, SET-UP, INSTALL OR USE ALL OR ANY
+PORTION
+OF THIS PRODUCT (INCLUDING, BUT NOT LIMITED TO, THE SOFTWARE AND ASSOCIATED
+FILES
+(THE âSOFTWAREâ), HARDWARE (âHARDWAREâ), DISK(S), CD-ROMS, OR OTHER
+MEDIA)
+(COLLECTIVELY, THE âPRODUCTâ) YOU AND YOUR COMPANY ACCEPT ALL THE TERMS AND
+CONDITIONS OF THIS EULA. IF YOU ACQUIRE THIS PRODUCT FOR YOUR COMPANYâS USE,
+YOU REPRESENT THAT YOU ARE AN AUTHORIZED REPRESENTATIVE WHO HAS THE
+AUTHORITY TO LEGALLY BIND YOUR COMPANY TO THIS EULA. IF YOU DO NOT AGREE, DO
+NOT CLICK âI AGREEâ AND DO NOT DOWNLOAD, SET-UP, INSTALL OR USE THE
+SOFTWARE.
+1. Ownership
+. Seagate Technology LLC (âSeagateâ) and its suppliers own all right,
+title, and interest in
+and to the Software, including all intellectual property rights therein. The
+Software is licensed, not sold.
+The structure, organization, and code of the Software are the valuable trade
+secrets and confidential
+information of Seagate and its suppliers. The Software is protected by
+copyright and other intellectual
+property laws and treaties, including, without limitation, the copyright laws
+of the United States and other
+countries. The term âSoftware" does not refer to or include âThird-Party
+Softwareâ. âThird-Party Softwareâ
+means certain software licensed by Seagate from third parties that may be
+provided with the specific
+version of Software that you have licensed. The Third-Party Software is
+generally not governed by the
+terms set forth below but is subject to different terms and conditions imposed
+by the licensors of such
+Third-Party Software. The terms of your use of the Third-Party Software is
+subject to and governed by
+the respective license terms, except that this Section 1 and Sections 5 and 6
+of this Agreement also
+govern your use of the Third-Party Software. You may identify and view the
+relevant licenses and/or
+notices for such Third-Party Software for the Software you have received
+pursuant to this EULA at
+http://www.seagate.com/www/en-us/support/downloads/. You agree to comply with
+terms and conditions
+contained in all such Third-Party Software licenses with respect to the
+applicable Third-Party Software.
+Where applicable, the URLs for sites where you may for obtain source code for
+the Third Party Software
+can be found at http://www.seagate.com/www/en-us/support/downloads/.
+2. Product License
+. Subject to your compliance with the terms of this EULA, Seagate grants you a
+personal, non-exclusive, non-transferable, limited license to install and use
+one (1) copy of the Software
+on one (1) device residing on your premises, internally and only for the
+purposes described in the
+associated documentation. Use of some third party software included on the CD
+or other media provided
+with the Product may be subject to terms and conditions of a separate license
+agreement; this license
+agreement may be contained in a âRead Meâ file located on the CD or other
+media that accompanies that
+Product. The Software includes components that enable you to link to and use
+certain services provided
+by third parties (âThird Party Servicesâ). Your use of the Third Party
+Services is subject to your
+agreement with the applicable third party service provider. Except as expressly
+stated herein, this EULA
+does not grant you any intellectual property rights in the Product. Seagate and
+its suppliers reserve all
+rights not expressly granted to you. There are no implied rights.
+2.1 Software
+. You are also permitted to make a single copy of the Software strictly for
+backup and
+disaster recovery purposes. You may not alter or modify the Software or create
+a new installer for the
+Software. The Software is licensed and distributed by Seagate for use with its
+storage products only, and
+may not be used with non-Seagate storage product.
+3. Restrictions
+. You are not licensed to do any of the following:
+a.  Create derivative works based on the Product or any part or component
+thereof,
+including, but not limited to, the Software;
+b.  Reproduce the Product, in whole or in part;
+c.  Except as expressly authorized by Section 10 below, sell, assign, license,
+disclose, or
+otherwise transfer or make available the Product, in whole or in part, to any
+third party;
+d.  Alter, translate, decompile, or attempt to reverse engineer the Product or
+any part of
+component thereof, except and only to the extent that such activity is
+expressly permitted
+by applicable law notwithstanding this contractual prohibition;
+e.  Use the Product to provide services to third parties;
+f.  Take any actions that would cause the Software to become subject to any
+open source
+license agreement if it is not already subject to such an agreement; and
+g.  Remove or alter any proprietary notices or marks on the Product.
+4. Updates
+. If you receive an update or an upgrade to, or a new version of, any Software
+(âUpdateâ) you
+must possess a valid license to the previous version in order to use the
+Update. All Updates provided to
+you shall be subject to the terms and conditions of this EULA. If you receive
+an Update, you may
+continue to use the previous version(s) of the Software in your possession,
+custody or control. Seagate
+shall have no obligation support the previous versions of the Software upon
+availability of an Update.
+Seagate has no obligation to provide support, maintenance, Updates, or
+modifications under this EULA.
+5. NO WARRANTY
+. THE PRODUCT AND THE THIRD-PARTY SOFTWARE IS OFFERED ON AN âAS-
+ISâ BASIS AND NO WARRANTY, EITHER EXPRESS OR IMPLIED, IS GIVEN. SEAGATE AND
+ITS
+SUPPLIERS EXPRESSLY DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER STATUTORY,
+EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+SEAGATE DOES NOT PROVIDE THE THIRD PARTY SERVICES AND MAKES NO WARRANTIES
+WITH RESPECT TO THE THIRD PARTY SERVICES. YOUR USE OF THE THIRD PARTY SERVICES
+IS AT YOUR RISK.
+6. EXCLUSION OF INCIDENTAL, CONSEQUENTIAL, AND CERTAIN OTHER DAMAGES
+. TO THE
+MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL SEAGATE OR ITS
+LICENSORS OR SUPPLIERS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, PUNITIVE,
+INDIRECT,
+OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, BUT NOT LIMITED TO, DAMAGES
+FOR LOSS OF PROFITS OR CONFIDENTIAL OR OTHER INFORMATION, FOR BUSINESS
+INTERRUPTION, FOR PERSONAL INJURY, FOR LOSS OF PRIVACY, FOR FAILURE TO MEET ANY
+DUTY INCLUDING OF GOOD FAITH OR REASONABLE CARE, FOR NEGLIGENCE, AND FOR ANY
+OTHER PECUNIARY OR OTHER LOSS WHATSOEVER) ARISING OUT OF OR IN ANY WAY
+RELATED TO THE USE OF OR INABILITY TO USE THE PRODUCT OR ANY PART OR COMPONENT
+THEREOF OR RELATED SERVICE OR ANY THIRD PARTY SERVICES, OR OTHERWISE UNDER OR
+IN CONNECTION WITH ANY PROVISION OF THE EULA, EVEN IN THE EVENT OF THE FAULT,
+TORT (INCLUDING NEGLIGENCE), MISREPRESENTATION, STRICT LIABILITY, BREACH OF
+CONTRACT, OR BREACH OF WARRANTY OF SEAGATE OR ITS LICENSORS OR SUPPLIERS, AND
+EVEN IF SEAGATE OR ITS LICENSOR OR SUPPLIER HAS BEEN ADVISED OF THE POSSIBILITY
+OF SUCH DAMAGES AND NOTWITHSTANDING ANY FAILURE OF THE ESSENTIAL PURPOSE OF
+THIS AGREEMENT OR ANY REMEDY.
+7. LIMITATION OF LIABILITY
+. NOTWITHSTANDING ANY DAMAGES THAT YOU MIGHT INCUR FOR
+ANY REASON WHATSOEVER, THE ENTIRE LIABILITY OF SEAGATE UNDER ANY PROVISION OF
+THIS EULA AND YOUR EXCLUSIVE REMEDY HEREUNDER SHALL BE LIMITED TO, AND IN NO
+EVENT WILL SEAGATE'S TOTAL CUMULATIVE DAMAGES EXCEED, THE FEES PAID BY LICENSEE
+TO SEAGATE FOR THE PRODUCT. ADDITIONALLY, IN NO EVENT SHALL SEAGATE'S LICENSORS
+OR SUPPLIERS BE LIABLE FOR ANY DAMAGES OF ANY KIND.
+8. Indemnification
+. By accepting the EULA, you agree to indemnify and otherwise hold harmless
+Seagate, its officers, employee, agents, subsidiaries, affiliates, and other
+partners from any direct,
+indirect, incidental, special, consequential or exemplary damages arising out
+of, relating to, or resulting
+from your use of the Product or any other matter relating to the Product,
+including, without limitation, use
+of any of the Third Party Services.
+9. International Trade Compliance. The Software and any related technical data
+made available for
+download under this EULA is subject to the customs and export control laws and
+regulations of the United
+States (âU.S.â) and may also be subject to the customs and export laws and
+regulations of the country in
+which the download is contemplated. Further, under U.S. law, the Software and
+any related technical
+data made available for download under this EULA may not be sold, leased or
+otherwise transferred to
+restricted countries, or used by a restricted end-user (as determined on any
+one of the U.S. government
+restricted parties lists, found at http://www.bis.doc.gov/
+complianceandenforcement/liststocheck.htm
+) or an
+end-user engaged in activities related to weapons of mass destruction
+including, without limitation,
+activities related to designing, developing, producing or using nuclear
+weapons, materials, or facilities,
+missiles or supporting missile projects, or chemical or biological weapons. You
+acknowledge that you are
+not a citizen, national, or resident of, and are not under control of the
+government of Cuba, Iran, North
+Korea, Sudan or Syria; are not otherwise a restricted end-user as defined by
+U.S. export control laws;
+and are not engaged in proliferation activities. Further, you acknowledge that
+you will not download or
+otherwise export or re-export the Software or any related technical data
+directly or indirectly to the above-
+mentioned countries or to citizens, nationals, or residents of those countries,
+or to any other restricted
+end-user or for any restricted end-use.
+10. General
+. This EULA between Licensee and Seagate is governed by and construed in
+accordance
+with the laws of the State of California without regard to conflict of laws
+principles. The EULA constitutes
+the entire agreement between Seagate and you relating to the Product and
+governs your use of the
+Product, superseding any prior agreement between you and Seagate relating to
+the subject matter
+hereof. If any provision of this EULA is held by a court of competent
+jurisdiction to be contrary to law,
+such provision will be changed and interpreted so as to best accomplish the
+objectives of the original
+provision to the fullest extent allowed by law and the remaining provisions of
+the EULA will remain in force
+and effect. The Product and any related technical data are provided with
+restricted rights. Use,
+duplication, or disclosure by the U.S. Government is subject to the
+restrictions as set forth in
+subparagraph (c)(1)(iii) of DFARS 252.227-7013 (The Rights in Technical Data
+and Computer Product) or
+subparagraphs (c)(1) and (2) of 48 CFR 52.227-19 (Commercial Computer Product
+â Restricted Rights),
+as applicable. The manufacturer is Seagate. You may not transfer or assign this
+EULA or any rights
+under this EULA, except that you may make a one-time, permanent transfer of
+this EULA and the
+Software to another end user, provided that (i) you do not retain any copies of
+the Software, the
+Hardware, the media and printed materials, Upgrades (if any), and this EULA,
+and (ii) prior to the transfer,
+the end user receiving this EULA and the Software agrees to all the EULA terms.
+Any attempted
+assignment in violation of this Section is void.  Seagate, the Seagate logo,
+and other Seagate names and
+logos are the trademarks of Seagate.
+Rev. 2.1.2010
+(C) 2010 Seagate Technology LLC.
+-=EOF: README.TXT=-

@@ -1,0 +1,2972 @@
+
+
+
+    * 1_Introduction
+          o 1.1_Chapter_overview
+          o 1.2_Character_conventions
+          o 1.3_Features
+          o 1.4_Edition_overview
+    * 2_Fields_of_application
+          o 2.1_Deletion_of_data
+          o 2.2_Disposal_of_computers
+          o 2.3_Sale_of_computers
+          o 2.4_Passing_on_of_computers
+          o 2.5_Deleting_the_software_installation
+          o 2.6_Deleting_photos_and_videos
+          o 2.7_Removing_viruses
+          o 2.8_Proprietary_hard_disk_formats
+          o 2.9_Damaged_storage_media
+          o 2.10_Arbitrary_computer_systems
+    * 3_Supported_hardware
+          o 3.1_Overview
+                # 3.1.1_Hardware_requirements
+                # 3.1.2_Supported_media
+                # 3.1.3_Supported_controllers
+          o 3.2_Compatibility
+                # 3.2.1_Compatibility_test
+                # 3.2.2_Standards
+          o 3.3_IDE/ATA/SATA
+                # 3.3.1_IDE/ATA_controllers
+                # 3.3.2_SATA/SATA-II_controllers
+                # 3.3.3_Multiword_DMA_and_Ultra-DMA
+                # 3.3.4_Bus_master_IDE_controllers
+                # 3.3.5_Speed
+          o 3.4_SCSI
+                # 3.4.1_Utilization
+                # 3.4.2_Compatibility
+                # 3.4.3_Manufacturer_information
+                # 3.4.4_Driver_information
+          o 3.5_USB
+                # 3.5.1_Mass-Storage-Class
+                # 3.5.2_UHCI,_OHCI_and_EHCI
+                # 3.5.3_XHCI
+                # 3.5.4_Hubs
+          o 3.6_Firewire_(IEEE1394)
+    * 4_Installation
+          o 4.1_Introduction
+                # 4.1.1_Bootable_medium
+                # 4.1.2_Software_package
+          o 4.2_Installation_in_Windows
+                # 4.2.1_HDShredder_Setup
+                # 4.2.2_Boot-Setup_&_Emergency_Medium
+                      # 4.2.2.1_CD/DVD_writer_not_selectable
+                # 4.2.3_Bootable_Windows_XP_CD
+          o 4.3_Installation_with_other_operating_systems
+                # 4.3.1_Creating_a_bootable_floppy_disk
+                # 4.3.2_Creating_a_bootable_CD/DVD
+          o 4.4_Booting_from_USB_key
+    * 5_Program_instructions
+          o 5.1_Preliminary_steps
+          o 5.2_Starting_the_program
+                # 5.2.1_Self-booting_program
+                # 5.2.2_Windows_program
+                # 5.2.3_Command_line_program
+          o 5.3_Program_screen
+                # 5.3.1_Status_field
+                # 5.3.2_Operating_field
+          o 5.4_Operation
+                # 5.4.1_Graphical_control_elements
+                # 5.4.2_Operation_with_keyboard_and_mouse
+                      # 5.4.2.1_Keyboard_operation
+                            # 5.4.2.2_Mouse_operation
+          o 5.5_Help
+          o 5.6_Selecting_the_deletion_area
+          o 5.7_Selecting_the_medium
+                # 5.7.1_Selecting_a_drive
+                # 5.7.2_Selecting_a_partition
+                # 5.7.3_Deactivated_list_entries
+                # 5.7.4_Drive_information
+                # 5.7.5_Sector_viewer
+                # 5.7.6_SpeedTest
+                # 5.7.7_MultiDelete_mode
+          o 5.8_Selecting_the_deletion_method
+                # 5.8.1_Automatic
+                # 5.8.2_Standards
+                # 5.8.3_Custom
+                      # 5.8.3.1_Deletion_pattern
+                            # 5.8.3.2_Verification
+          o 5.9_Selecting_the_options
+                # 5.9.1_Locked_options
+                # 5.9.2_General_options
+                # 5.9.3_Options_for_the_medium
+          o 5.10_Deleting_data
+                # 5.10.1_Security_query
+                # 5.10.2_Deletion_animation
+                # 5.10.3_Status_indication
+                # 5.10.4_Percentage_indication
+                # 5.10.5_Progress_bar
+                # 5.10.6_Course_of_the_process
+                # 5.10.7_Interrupting_the_running_process
+          o 5.11_Termination_of_the_deletion_process
+                # 5.11.1_User_abort
+                # 5.11.2_Regular_termination
+                # 5.11.3_Final_report
+                # 5.11.4_Deletion_report
+          o 5.12_Closing_the_program
+                # 5.12.1_End_dialog
+                # 5.12.2_Good-bye_screen
+    * 6_Operating_principles
+          o 6.1_Deletion_area
+                # 6.1.1_Physical_deletion
+                # 6.1.2_Deleting_an_entire_drive
+                # 6.1.3_Deleting_a_single_partition
+                # 6.1.4_Automatic_troubleshooting
+                # 6.1.5_Intensive_reading/writing
+                # 6.1.6_Read_errors
+                # 6.1.7_Write_errors
+                # 6.1.8_Verification_errors
+          o 6.2_Deleting_a_sector_area
+                # 6.2.1_Usage
+                # 6.2.2_Functioning
+          o 6.3_Mass_deletion_(MultiDelete_mode)
+                # 6.3.1_Mode_of_operation
+                # 6.3.2_Speed
+                # 6.3.3_Different_media
+          o 6.4_Deletion_methods
+                # 6.4.1_Automatic
+                      # 6.4.1.1_Fast_â_1_run
+                            # 6.4.1.2_Medium_â_3_runs
+                            # 6.4.1.3_High_security_â_7_runs
+                # 6.4.2_Standards
+                      # 6.4.2.1_VSITR
+                            # 6.4.2.2_BSI-GSB
+                            # 6.4.2.3_ACSI_33
+                            # 6.4.2.4_AFSSI_5020
+                            # 6.4.2.5_AR380-19
+                            # 6.4.2.6_DoD5200.28M
+                            # 6.4.2.7_DoD5220.22M
+                            # 6.4.2.8_NCSC-TG-025
+                            # 6.4.2.9_HMG_IS5_(Baseline)
+                            # 6.4.2.10_HMG_IS5_(Enhanced)
+                            # 6.4.2.11_GOST_P50739-95
+                            # 6.4.2.12_RCMP_TSSIT_OPS-II
+                            # 6.4.2.13_Bruce_Schneierâs_Method
+                            # 6.4.2.14_Roy_Pfitznerâs_Method
+                            # 6.4.2.15_Peter_Gutmannâs_Method
+                # 6.4.3_Custom
+          o 6.5_Command_line_interface
+                # 6.5.1_Start_Menu
+                # 6.5.2_Program_call
+                # 6.5.3_Drive_identification
+                # 6.5.4_Deletion_methods
+                # 6.5.5_Optional_parameters
+                # 6.5.6_Return_values
+                # 6.5.7_Examples_of_use
+          o 6.6_Store_report
+    * 7_Troubleshooting
+          o 7.1_Load_errors
+                # 7.1.1_Error_#5002_and_âDisk_errorâ
+                # 7.1.2_Other_errors
+          o 7.2_Keyboard_and_mouse
+          o 7.3_General_problems
+                # 7.3.1_Slowed_down_system
+                # 7.3.2_Read,_write_and_verification_errors
+          o 7.4_IDE/ATA/SATA
+                # 7.4.1_Hard_disk_not_recognized
+                # 7.4.2_IDE_controller_not_found
+                # 7.4.3_Problems_with_DMA
+                # 7.4.4_BIOS_settings
+                      # 7.4.4.1_Switch_to_a_lower/higher_UltraDMA_mode
+                            # 7.4.4.2_Activate/deactivate_UltraDMA
+                            # 7.4.4.3_Deactivate_IO_caching
+                            # 7.4.4.4_Set_BIOS_defaults
+          o 7.5_SCSI
+                # 7.5.1_Restart
+                # 7.5.2_Deactivate_unused_controllers
+                # 7.5.3_Deactivate_unused_drives
+                # 7.5.4_Minimum_configuration_of_the_controller
+                # 7.5.5_Minimum_configuration_of_the_systems
+          o 7.6_USB
+                # 7.6.1_Storage_device_not_recognized
+                # 7.6.2_Other_device_problems
+                      # 7.6.3_Controller_not_found
+                # 7.6.4_Speed_loss
+                # 7.6.5_Other_controller_problems
+          o 7.7_Mapped_network_drives
+    * 8_Miscellaneous
+          o 8.1_Terms_of_license
+                # 8.1.1_License_model
+                # 8.1.2_Examples
+                # 8.1.3_Scope
+                # 8.1.4_Consultancy
+          o 8.2_Certificate_of_authenticity
+                # 8.2.1_Security_hologram
+                # 8.2.2_Valid_product_license
+          o 8.3_Disclaimer
+          o 8.4_Feedback
+          o 8.5_Support
+Copyright Â© 2002-2012 by Miray Software. All rights reserved.
+Miray Software AG
+Gaissacher Str. 18
+81371 Muenchen
+Germany
+Manual
+Secure Deletion of Mass Storage Media
+www.miray.de
+HDShredder
+HDShredder
+Userâs Manual
+HDShredder
+Table of Contents  3
+Table of Contents
+1 Introduction.................................................. 8
+1.1  Chapter overview ........................................... 8
+1.2  Character conventions....................................... 9
+1.3  Features.................................................... 9
+1.4  Edition overview ............................................ 9
+2  Fields of application ........................................... 12
+2.1  Deletion of data............................................. 12
+2.2  Disposal of computers ....................................... 13
+2.3  Sale of computers ........................................... 13
+2.4  Passing on of computers ..................................... 13
+2.5  Deleting the software installation.............................. 13
+2.6  Deleting photos and videos .................................. 13
+2.7  Removing viruses............................................ 13
+2.8  Proprietary hard disk formats ................................. 14
+2.9  Damaged storage media ..................................... 14
+2.10 Arbitrary computer systems .................................. 14
+3  Supported hardware .......................................... 15
+3.1  Overview .................................................. 15
+3.1.1  Hardware requirements............................... 15
+3.1.2  Supported media..................................... 15
+3.1.3  Supported controllers................................. 15
+3.2  Compatibility ............................................... 16
+3.2.1  Compatibility test .................................... 16
+3.2.2  Standards ........................................... 16
+3.3  IDE/ATA/SATA ............................................... 17
+3.3.1  IDE/ATA controllers ................................... 17
+3.3.2  SATA/SATA-II controllers . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . .  17
+3.3.3  Multiword DMA and Ultra-DMA........................ 18
+3.3.4  Bus master IDE controllers............................. 18
+3.3.5  Speed .............................................. 19
+3.4  SCSI ....................................................... 19
+3.4.1  Utilization ........................................... 19
+3.4.2  Compatibility ........................................ 19
+3.4.3  Manufacturer information ............................. 20
+3.4.4  Driver information.................................... 20
+3.5  USB........................................................ 20
+4  Table of Contents
+3.5.1  Mass-Storage-Class ................................... 21
+3.5.2  UHCI, OHCI and EHCI ................................ 21
+3.5.3  XHCI................................................ 21
+3.5.4  Hubs ............................................... 21
+3.6  Firewire (IEEE1394).......................................... 21
+4 Installation ................................................... 22
+4.1  Introduction ................................................ 22
+4.1.1  Bootable medium .................................... 22
+4.1.2  Software package .................................... 22
+4.2  Installation in Windows....................................... 22
+4.2.1  HDShredder Setup ................................... 23
+4.2.2  Boot-Setup & Emergency Medium ..................... 23
+4.2.2.1  CD/DVD writer not selectable................. 24
+4.2.3  Bootable Windows XP CD ............................. 24
+4.3  Installation with other operating systems ....................... 25
+4.3.1  Creating a bootable floppy disk ........................ 25
+4.3.2  Creating a bootable CD/DVD ......................... 25
+4.4  Booting from USB key........................................ 26
+5  Program instructions .......................................... 27
+5.1  Preliminary steps ............................................ 27
+5.2  Starting the program......................................... 27
+5.2.1  Self-booting program ................................. 27
+5.2.2  Windows program.................................... 28
+5.2.3  Command line program............................... 28
+5.3  Program screen ............................................. 28
+5.3.1  Status field .......................................... 29
+5.3.2  Operating field....................................... 29
+5.4  Operation .................................................. 29
+5.4.1  Graphical control elements............................ 29
+5.4.2  Operation with keyboard and mouse ................... 30
+5.4.2.1  Keyboard operation .......................... 30
+5.4.2.2  Mouse operation ............................ 31
+5.5  Help ....................................................... 31
+5.6  Selecting the deletion area ................................... 31
+5.7  Selecting the medium........................................ 32
+5.7.1  Selecting a drive ..................................... 32
+5.7.2  Selecting a partition .................................. 32
+5.7.3  Deactivated list entries................................ 33
+5.7.4  Drive information .................................... 33
+5.7.5  Sector viewer........................................ 33
+Table of Contents  5
+5.7.6  SpeedTest........................................... 34
+5.7.7  MultiDelete mode.................................... 34
+5.8  Selecting the deletion method ................................ 34
+5.8.1  Automatic........................................... 35
+5.8.2  Standards ........................................... 35
+5.8.3  Custom ............................................. 35
+5.8.3.1  Deletion pattern ............................. 36
+5.8.3.2  Verification.................................. 36
+5.9  Selecting the options ........................................ 36
+5.9.1  Locked options ...................................... 37
+5.9.2  General options...................................... 37
+5.9.3  Options for the medium .............................. 38
+5.10 Deleting data ............................................... 38
+5.10.1  Security query ....................................... 38
+5.10.2  Deletion animation ................................... 39
+5.10.3  Status indication ..................................... 39
+5.10.4  Percentage indication................................. 39
+5.10.5  Progress bar ......................................... 40
+5.10.6  Course of the process ................................ 40
+5.10.7  Interrupting the running process ....................... 40
+5.11 Termination of the deletion process ........................... 40
+5.11.1  User abort........................................... 40
+5.11.2  Regular termination .................................. 41
+5.11.3  Final report .......................................... 41
+5.11.4  Deletion report ...................................... 42
+5.12 Closing the program ......................................... 43
+5.12.1  End dialog ........................................... 43
+5.12.2  Good-bye screen .................................... 43
+6  Operating principles........................................... 44
+6.1  Deletion area ............................................... 44
+6.1.1  Physical deletion ..................................... 44
+6.1.2  Deleting an entire drive............................... 45
+6.1.3  Deleting a single partition ............................. 45
+6.1.4  Automatic troubleshooting ............................ 46
+6.1.5  Intensive reading/writing .............................. 46
+6.1.6  Read errors.......................................... 46
+6.1.7  Write errors ......................................... 46
+6.1.8  Verification errors .................................... 46
+6.2  Deleting a sector area ....................................... 47
+6.2.1  Usage .............................................. 47
+6.2.2  Functioning.......................................... 47
+6  Table of Contents
+6.3  Mass deletion (MultiDelete mode) ............................ 47
+6.3.1  Mode of operation ................................... 48
+6.3.2  Speed .............................................. 48
+6.3.3  Different media ...................................... 48
+6.4  Deletion methods ........................................... 48
+6.4.1  Automatic........................................... 48
+6.4.1.1  Fast â 1 run ................................. 48
+6.4.1.2  Medium â 3 runs............................. 49
+6.4.1.3  High security â 7 runs ........................ 49
+6.4.2  Standards ........................................... 49
+6.4.2.1  VSITR....................................... 49
+6.4.2.2  BSI-GSB ..................................... 49
+6.4.2.3  ACSI 33..................................... 49
+6.4.2.4  AFSSI 5020 .................................. 49
+6.4.2.5  AR380-19................................... 50
+6.4.2.6  DoD5200.28M .............................. 50
+6.4.2.7  DoD5220.22M .............................. 50
+6.4.2.8  NCSC-TG-025 ............................... 50
+6.4.2.9  HMG IS5 (Baseline) .......................... 50
+6.4.2.10 HMG IS5 (Enhanced) ......................... 50
+6.4.2.11 GOST P50739-95 ............................ 50
+6.4.2.12 RCMP TSSIT OPS-II ........................... 51
+6.4.2.13 Bruce Schneierâs Method ..................... 51
+6.4.2.14 Roy Pfitznerâs Method ........................ 51
+6.4.2.15 Peter Gutmannâs Method ..................... 51
+6.4.3  Custom ............................................. 51
+6.5  Command line interface ..................................... 51
+6.5.1  Start Menu .......................................... 52
+6.5.2  Program call . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . 52
+6.5.3  Drive identification ................................... 53
+6.5.4  Deletion methods .................................... 53
+6.5.5  Optional parameters.................................. 54
+6.5.6  Return values ........................................ 55
+6.5.7  Examples of use...................................... 55
+6.6  Store report ................................................ 56
+7 Troubleshooting .............................................. 57
+7.1  Load errors ................................................. 57
+7.1.1  Error #5002 and âDisk errorâ............................ 57
+7.1.2  Other errors ......................................... 57
+7.2  Keyboard and mouse ........................................ 57
+7.3  General problems ........................................... 58
+Table of Contents  7
+7.3.1  Slowed down system . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . 58
+7.3.2  Read, write and verification errors ...................... 58
+7.4  IDE/ATA/SATA ............................................... 59
+7.4.1  Hard disk not recognized.............................. 59
+7.4.2  IDE controller not found .............................. 59
+7.4.3  Problems with DMA .................................. 59
+7.4.4  BIOS settings......................................... 60
+7.4.4.1  Switch to a lower/higher UltraDMA mode....... 61
+7.4.4.2  Activate/deactivate UltraDMA................. 61
+7.4.4.3  Deactivate IO caching........................ 61
+7.4.4.4  Set BIOS defaults............................. 61
+7.5  SCSI ....................................................... 61
+7.5.1  Restart .............................................. 62
+7.5.2  Deactivate unused controllers ......................... 62
+7.5.3  Deactivate unused drives ............................. 62
+7.5.4  Minimum configuration of the controller ................ 63
+7.5.5  Minimum configuration of the systems.................. 63
+7.6  USB........................................................ 63
+7.6.1  Storage device not recognized ........................ 63
+7.6.2  Other device problems ............................... 64
+7.6.3  Controller not found.................................. 64
+7.6.4  Speed loss........................................... 64
+7.6.5  Other controller problems............................. 65
+7.7  Mapped network drives...................................... 65
+8 Miscellaneous ................................................ 66
+8.1  Terms of license............................................. 66
+8.1.1  License model ....................................... 66
+8.1.2  Examples............................................ 67
+8.1.3  Scope............................................... 67
+8.1.4  Consultancy ......................................... 67
+8.2  Certificate of authenticity .................................... 67
+8.2.1  Security hologram .................................... 68
+8.2.2  Valid product license ................................. 68
+8.3  Disclaimer .................................................. 68
+8.4  Feedback................................................... 69
+8.5  Support .................................................... 69
+8 Introduction
+1  Introduction
+Thank you very much for choosing HDShredder. It is our expressed goal to offer
+a product, that fully meets your requirements and expectations. In case of hav-
+ing suggestions or not being satisfied with the software, we kindly ask you
+send
+your suggestions and criticism to feedback@miray.de.
+1.1  Chapter overview
+1 Introduction: Offers general information about this manual and the program.
+Particularly, it contains an overview of the available editions and their
+abilities.
+2 Fields of application: By supporting physical deletion, HDShredder is
+suitable
+for many different areas of application. Here you find descriptions and hints
+for
+the most common areas of application of the program.
+3 Supported hardware: In this chapter, you find a list of supported controllers
+and media as well as information about which aspects to consider when using
+certain types of controllers or media.
+4 Installation: For using HDShredder, you can install it as a normal Windows
+pro-
+gram and/or create a bootable medium This chapter describes how this can be
+done within few minutes, using the installation package.
+5 Program instructions: This chapter contains the actual manual for operating
+HDShredder. It is a step-by-step description of how to operate the program for
+deleting media with HDShredder.
+6 Operating principles: Here you find useful descriptions and hints for gaining
+optimal performance when using HDShredder with different types of media as
+each media type can have its very own characteristics.
+7 Troubleshooting: In case you encounter any problems when using HDShredder,
+you find detailed descriptions and support here. By means of these information
+you will be able to solve or bypass occurring problems in most cases.
+8 Miscellaneous: In the last chapter you find miscellaneous information,
+particu-
+larly regarding our support and HDShredder licensing terms.
+Edition overview  9
+1.2  Character conventions
+In this manual, keys on the keyboard are printed with a gray background, for
+ex-
+ample îîEscîî for the escape key or îîReturnîî for the return
+key. Some keys are
+represented by a corresponding symbol, e.g.  î®  for the âupâ-key. Visual
+controls
+on the screen, particularly buttons are represented by squared brackets and
+semi-bold type, for example [next], [back].
+1.3  Features
+HDShredder allows you to delete entire hard disks or other storage media as
+well
+as individual partitions securely and irrevocably, according to international
+stan-
+dards, if desired. The data once deleted cannot be recovered with data recov-
+ery software either. HDShredder deletes hard disks regardless of their
+partition-
+ing scheme, file system(s), and operating system(s). With the deletion
+standards
+supported, HDShredder provides highest security as well as a high level of
+flexi-
+bility by offering free definition of your own deletion patterns. This makes
+HDShredder particularly suitable for the tasks mentioned in 42 Fields of
+applica-
+tion as well as for many other tasks.
+Note: The physical deletion process of HDShredder makes it suitable
+for many areas. This makes HDShredder a valuable tool, even for special
+and extraordinary scenarios.
+1.4  Edition overview
+There are different editions of HDShredder. They differ from each other by the
+amount of features they offer, particularly supported device types, performance
+and special options. The following table offers you a comparative overview of
+the editions and their features. Subsequent, there are short explanations
+refer-
+ring to some of the topics listed in the table.
+Note: Within the table the following abbrevations are used to identify
+the different editions: FE = Free | BE = Basic | SE = Standard |
+PE = Professional | EE = Enterprise
+FE BE SE PE EE
+Device support
+IDE/ATA/SATA hard disks
+1)
+â â â â â
+AHCI (SATA II)
+â â â â â
+USB (UHCI, OHCI, EHCI)
+â â â â â
+Hard disks > 2048 GB (2 TB)
+2)
+â â â â â
+10 Introduction
+FE BE SE PE EE
+USB 3.0 (XHCI)
+â â â â â
+Firewire / IEEE1394 (OHCI)
+â â â â â
+SCSI hard disks
+3)
+â â â â â
+CompactFlash via IDE
+4)
+â â â â â
+Deletion modes
+5)
+Quick & easy
+â â â â â
+Automatic
+â â â â â
+Standardized (see below)
+â â â â â
+User defined
+â â â â â
+Supported standards
+VSITR
+â â â â â
+BSI-GSB
+â â â â â
+ACSI 33
+â â â â â
+AFSSI 5020
+â â â â â
+AR380-19
+â â â â â
+DoD5200.28M
+â â â â â
+DoD5220.22M
+â â â â â
+NCSC-TG-025
+â â â â â
+HMG IS5 (Baseline)
+â â â â â
+HMG IS5 (Enhanced)
+â â â â â
+GOST P50739-95
+â â â â â
+RCMP TSSIT OPS-II
+â â â â â
+Bruce Schneier's method
+â â â â â
+Roy Pfitzner's method
+â â â â â
+Peter Gutmann's method
+â â â â â
+Special modes
+6)
+Single partition deletion
+â â â â â
+SmartDefectSkip
+â â â â â
+MultiDelete (4x, 8x, 16x)
+â â â â â
+Deletion speed
+7)
+Maximum speed in MB per sec.
+90+ 90+ 90+ 90+ 1000+
+License scope
+8)
+Private use
+â â â â â
+Professionals/corporations
+â â â â â
+Technician license
+â â â â â
+Edition overview  11
+1)
+  SATA hard disks: Have to be connected to a SATA controller supported by
+HDShredder
+and the controller has to be configured correspondingly (43.3.2 SATA/SATA-II
+control-
+lers).
+2)
+ Hard disks > 2048 GB: HDShredder supports hard disks above 2048 GB (2
+Terabytes)
+from the Professional Edition on.
+3)
+  SCSI hard disks: Have to be connected to one of the SCSI host adapters
+supported by
+HDShredder (43.4 SCSI).
+4)
+  CompactFlash via IDE: HDShredder supports CF media in TrueIDE mode.
+5)
+Deletion  modes: You find further information regarding the different modes in
+chapter46
+Operating principles.
+â¢ quick & easy: Simple quick deletion, no further knowledge required
+â¢ automatic: Choose deletion mode according to required security level, no
+special
+knowledge required.
+â¢ standardized: Deletion according to one of 15 international security
+standards.
+â¢
+user  deï¬ned: specify your own deletion patterns with up to 199 deletion
+cycles (4
+6.4.3
+Custom
+).
+6)
+Special modes: HDShredder knows special working modes to increase deletion
+speed.
+Further information about these modes is to be found in chapter45.9 Selecting
+the op-
+tions.
+7)
+Deletion speed: Due to technical differences, there is an upper limit for the
+actually
+achievable deletion speed:
+  >î100 MB/sec: Up to 133 MB/sec. using Ultra-DMA 6, up to 300 MB/sec. using
+SATA II.
+  >î1000 MB/sec: Mass-deletion to up to 16 drives at a time.
+8)
+  License  scope: See also chapter 48.1 Terms of license.
+12  Fields of application
+2  Fields of application
+HDShredder is specialized on deleting entire hard disks and other media or
+indi-
+vidual partitions easily and fast but also securely, i.e. finally. The data
+storage me-
+dia remain fully usable after the deletion. The deletion is irreversible on the
+phys-
+ical level. HDShredder thus provides special advantages when deleting damaged
+media (42.9 Damaged storage media). Furthermore, HDShredder works inde-
+pendently of partition scheme, data system, and operating system, if needed.
+You thus also have the possibility to delete complete operating system
+installa-
+tions in one go (42.5 Deleting the software installation) or to perform a
+secure
+deletion in case of unknown/proprietary file systems (42.8 Proprietary hard
+disk
+formats). All in all, the universal HDShredder deletion procedure covers a
+broad
+range of areas of application. Hereafter, you will find descriptions of the
+most
+common applications of HDShredder. The individual chapters offer an instruc-
+tion and further tips for execution.
+Hint: HDShredder also allows you to delete data from media (e.g. hard
+disks) which have not been used in a PC (42.10 Arbitrary computer
+systems).
+Note: Media which have been deleted with HDShredder are further on
+fully operational and usable. The deletion with HDShredder does not
+damage or destroy the media in contrast to mechanical or physical de-
+letion procedures.
+2.1  Deletion of data
+Generally, the deletion of data constitutes the main area of application of
+HDShredder. Select one of the higher standards for the secure deletion of data
+(45.8.2 Standards) or an individually defined deletion pattern (45.8.3 Custom).
+A deletion report, which can be created optionally after a deletion process,
+pro-
+vides information about the parameters and the result of the deletion. This re-
+port can also be used for customers and principals as a confirmation of the
+com-
+pleted deletion.
+Note: Media deleted by HDShredder are further fully usable after the
+deletion. The deletion does not damage the media themselves. Only a
+new formatting (and partitioning, if needed) is necessary to use the me-
+dia again. However, a reconstruction of data once deleted with
+HDShredder â also unintentionally â is not possible.
+Removing viruses  13
+2.2  Disposal of computers
+In case you give away computers for purposes of a final disposal, the deletion
+of
+the integrated hard disk(s) is recommended anyway. Otherwise, third persons
+are easily able to view your data. With HDShredder, a deletion is no problem
+because inoperative operating systems or defective media do not constitute a
+problem either and a deletion using HDShredder is still possible. This also
+applies,
+of course, for the disposal of individual or external storage devices.
+2.3  Sale of computers
+Before selling a used computer or used hard disks, you should make sure that
+per-
+sonal data and other sensitive data cannot be viewed or recovered by the buyer.
+HDShredder
+allows you to delete the entire drive (4
+6.1.2 Deleting an entire
+drive
+) or a single partition (4
+6.1.3 Deleting a single partition
+) fast and securely.
+2.4  Passing on of computers
+Also in case computers or data storage media are passed on within a company
+or an organization, it is desirable that no sensitive data are available on
+them any
+more. In contrast to mechanical or physical deletion procedure, HDShredder of-
+fers the advantage to further use the deleted media after the deletion.
+2.5  Deleting the software installation
+In some cases, it may be useful to not only delete the data but also the
+software
+and the operating system installed. If this involves commercial software, you
+want
+to continue to use, the installations then available could be considered as
+pirate
+copies.
+HDShredder
+allows you to make sure that no one can use your software
+licenses unauthorized when selling or passing on used computers or hard disks.
+2.6  Deleting photos and videos
+When passing on or disposing mobile storage media, especially flash storage
+cards for digital cameras and video recorders, it is often forgotten that the
+pic-
+tures thereon or other data could come into the wrong hands. HDShredder al-
+lows you to delete these media easily and securely.
+2.7  Removing viruses
+Although HDShredder is not an anti virus software: some viruses are so
+persistent
+that they hide in usually inaccessible areas of the hard disk (boot sector,
+MBR,
+unpartitioned areas). In this case, a complete deletion of the hard disk with
+14  Fields of application
+HDShredder and a subsequent new installation may not be the most elegant but
+certainly one of the most reliable solutions to finally delete damaging
+programs
+from your hard disks.
+2.8  Proprietary hard disk formats
+HDShredder deletes entire drives or individual partitions regardless of the
+file or
+operating system thereon. That is why HDShredder allows you to delete any
+drive or partition regardless of the software or file systems installed
+thereon. The
+deletion of proprietary or rare formats is also no problem.
+2.9  Damaged storage media
+Damaged storage media are often simply disposed without further measures af-
+ter the data recovery because they are âdefectiveâ. However, just as you
+third
+persons may be able to recover great parts of the data with the help of data
+re-
+covery software. That is why you should delete defective storage media with
+HDShredder as well â of course only after a possible data recovery.
+Note: HDShredder also runs on media with defective sectors. In this
+case, it simply overwrites all sectors which can still be written. The other
+defective sectors cannot be read any more anyway.
+2.10 Arbitrary computer systems
+HDShredder cannot only be used on PC systems. Many special systems, e.g. in
+industry and medicine, are principally PC compatible as well. In this case,
+HDShredder can be directly used on the concerned system. Thanks to its oper-
+ating system independence, it does not have to work with the operating system
+installed on the system. Therefore, you can use HDShredder on arbitrary, PC
+compatible systems to delete the data thereon easily and finally.
+Hint: HDShredder can also be useful for special systems which are not
+PC compatible. Most of such systems use internal IDE, SCSI, or SATA hard
+disks or flash storage media. You can then simply install them in a PC and
+delete them there, in case HDShredder does not run directly on the
+concerned special system.
+Overview 15
+3  Supported hardware
+This section contains detailed information about the hardware and hardware
+standards supported by HDShredder. Furthermore, there are special references
+to be found regarding the usage of certain device types.
+3.1  Overview
+Subsequent, you find a listing of the hardware requirements concerning the
+hardware used to run HDShredder as well as additionally supported devices.
+Note: The devices listed below represent the entire spectrum of hard-
+ware supported by HDShredder. Which of them can be used with a
+certain edition is listed in 41.4 Edition overview.
+3.1.1  Hardware requirements
+{
+PC 80586 or higher, 500 MHz, 128 MB RAM, VGA (optimal: VESA support)
+{
+Keyboard & mouse: PS/2 or USB
+{
+Bootable floppy or CD drive or bootable USB medium
+3.1.2  Supported media
+{
+IDE/ATA hard disks, CompactFlash via IDE
+1)
+{
+SATA hard disks (internal & external)
+{
+SCSI hard disks (internal & external)
+{
+USB hard disks (internal & external)
+{
+Firewire hard disks (internal & external)
+{
+USB keys
+2)
+, CompactFlash I
+3)
+, CompactFlash II
+3)
+, MicroDrive
+3)
+, SD/MMC
+3)
+{
+xD-Picture Card
+3)
+, Memory Stick
+3)
+, Memory Stick PRO
+3)
+, Memory Stick DUO
+3)
+1)
+ CompactFlash media with TrueIDE support
+2)
+ Must support the USB-Mass-Storage-Class protocol
+3)
+ Via an appropriate USB card reader
+3.1.3  Supported controllers
+{
+PCI-IDE controllers and Bus master IDE controllers
+16  Supported hardware
+{
+PCI-SCSI host adapters (43.4.2 Compatibility)
+{
+SATA controllers with IDE interface (43.3.2 SATA/SATA-II controllers)
+{
+SATA-II controllers with AHCI interface (43.3.2 SATA/SATA-II controllers)
+{
+USB UHCI & OHCI controllers (USB 1.1)
+{
+USB EHCI controllers (USB 2.0)
+{
+USB XHCI controllers (USB 3.0)
+{
+IEEE1394 OHCI controllers (Firewire)
+3.2  Compatibility
+HDShredder has been developed for the hardware listed in 43.1 Overview and
+tested on a huge number of devices. It also works with many other devices.
+Please use the HDShredder Free Edition to easily check out in advance and for
+free whether the device in question is supported (43.2.1 Compatibility test).
+3.2.1  Compatibility test
+You can use the Free Edition of HDShredder to easily check if your hard disks
+and
+other media are supported properly, even if a higher edition is required to use
+them with HDShredder. For this purpose, simply start HDShredder Free Edition
+on the respective PC, chose drive deletion and move on to the drive selection
+screen (45.6 Selecting the deletion area). All drives displayed there as well
+as
+the associated controllers have been recognized by HDShredder and are sup-
+ported by one of the available editions. Which edition will be necessary to
+utilize
+a certain device type can be seen from the info box at the right side of the
+list
+box when you select the regarding drive (45.7.4 Drive information).
+Note: Please ensure that you connect the needed USB devices before
+starting the program to ensure that they are recognized correctly
+(45.1 Preliminary steps).
+3.2.2  Standards
+To be able to support as many devices as possible, HDShredder implements the
+effective standards for the appropriate device types. Device support in
+HDShredder primarily refers to the standards applicable to the appropriate de-
+vice type. In addition, we perform extensive tests with each device type. Those
+tests also reveal that there is a number of devices, which themselves implement
+their respective standard only insufficiently or even inaccurately.
+Furthermore, it
+is possible that some problems occur in certain hardware configurations,
+usually
+IDE/ATA/SATA 17
+in certain combinations of controller and device. If possible, HDShredder tries
+to
+support even such devices and to bypass the any hardware deficiencies. How-
+ever, these kinds of problems can not always be bypassed. Even extensive tests
+cannot completely prevent problems with your special hardware configuration.
+In most cases this can be solved by setting the options appropriately (45.9 Se-
+lecting the options and 47 Troubleshooting). If this does not work, our support
+team (48.5 Support) will be there to assist you with solving the problem.
+3.3  IDE/ATA/SATA
+Generally, HDShredder supports IDE/ATA/SATA hard disks. They have to be con-
+nected to one of the IDE/ATA/SATA controllers supported by HDShredder
+(43.3.1 IDE/ATA controllers and 43.3.2 SATA/SATA-II controllers).
+3.3.1  IDE/ATA controllers
+HDShredder supports standard IDE controller (ISA) and PCI IDE controller. These
+may be (internal) onboard controllers as well as (external) PCI/ISA adapter
+cards.
+In case of ISA/Standard IDE controllers, the first two channels are scanned for
+hard disks. HDShredder recognizes available PCI IDE controllers automatically
+and scans them for connected hard disks.
+Note: If there are one or more PCI IDE controllers available in the sys-
+tem, ISA controllers that are possibly present, too, will not be taken into
+account and drives connected to them will not be listed.
+HDShredder supporting PCI IDE controllers refers to a standardized program-
+ming interface, which is supported by most IDE controllers. Use the 43.2.1
+Compatibility test to check if your PCI controller complies with PCI IDE
+standard.
+3.3.2  SATA/SATA-II controllers
+Precondition for the support of SATA drives is an SATA controller with IDE
+inter-
+face or an SATA II controller with AHCI interface. All popular chipsets from
+Intel
+with ICH-5/-6/-7 incorporate such an IDE-compatible SATA controller. Neverthe-
+less, it may be possible in case of onboard SATA controllers to activate a
+compat-
+ibility mode in BIOS setup, which would allow HDShredder to access the SATA
+controller. As for SATA II controllers, many models already implement the AHCI
+interface supported by HDShredder.
+Hint:
+With
+HDShredder
+Free Edition you can easily check out if your SATA
+or SATA-II controller is supported (43.2.1 Compatibility test). Connect at
+least one SATA drive and start
+HDShredder
+. If the SATA drive is recognized,
+HDShredder
+also supports the associated SATA/SATA-II controller.
+18  Supported hardware
+Note: It might be necessary to adjust the SATA settings in BIOS. As mode
+of operation, IDE, ATA, compatible or AHCI should be chosen, but in no
+case RAID or SATA. Additionally it may be necessary to set the control-
+ler configuration to combined, especially for allowing simultaneous use
+of IDE and SATA hard disks. In this case there are only ports 0 and 2 or
+1 and 3 available for SATA. Please connect the SATA hard disks corre-
+spondingly in this case.
+3.3.3  Multiword DMA and Ultra-DMA
+HDShredder automatically recognizes and uses bus master IDE controllers,
+which allow data rates up to 133îMB/sec resp. 7.8îGB/min. Hereby, Multiword
+DMA (up to 16.7îMB/sec) as well as Ultra-DMA (UDMA) are supported. This can
+increase achievable data transmission rates by a multiple higher of the rates
+that
+can be achieved without DMA (in PIO mode). HDShredder recognizes automat-
+ically whether controller and hard disk support DMA and then automatically se-
+lects the fastest usable mode (Multiword DMA or Ultra-DMA 33/66/100/133).
+Note: Please take into account that both, hard disk and IDE controller
+have to support a certain DMA mode. If the actual speed does not
+match the technical data of a hard disk, the reason may be that the IDE
+controller only supports lower modes. Furthermore, the achievable val-
+ues also depend on the physical abilities of the hard disk, i.e. a hard disk
+with UDMA-6 (theoretically 133îMB/sec.) currently achieves an actual
+transfer rate of about 90îMB/sec.
+3.3.4  Bus master IDE controllers
+Precondition for using DMA mode is that the attached PCI IDE controller also
+supports the Bus master IDE standard. This is the case for most of the
+established
+internal and external IDE controllers. Whether your PCI IDE controller supports
+Bus master IDE can be determined by means of the program PCISniffer, if neces-
+sary, which can be downloaded for free at http://www.miray.de/download/sat.
+pcisniffer.html. The field âClasscodeâ in PCISniffer has to contain the
+value 01018x
+(xî=îarbitrary) for the respective PCI IDE controller.
+Note: For using Bus master IDE, the settings and initializations made in
+and by the PCâs system BIOS play a major role. In case of problems with
+utilizing DMA, it is likely that certain BIOS settings have to be accommo-
+dated correspondingly (47.4.3 Problems with DMA).
+SCSI 19
+3.3.5  Speed
+The speed DMA can achieve always depends on the physical abilities of a hard
+disk. The rough classification below shows the approximate speed to be expect-
+ed from a certain drive type:
+Type Age Speed
+Older drives About 5-10 years About 5-30 MB/sec
+Newer drives About 2-5 years About 30-60 MB/sec.
+Top models About 0-2 years About 60-120 MB/sec and more
+SSDs About 0-2 years About 90-200 MB/sec and more
+3.4  SCSI
+If your edition of HDShredder supports SCSI hard disks, the following chapters
+provide important information on utilizing and compatibility of SCSI devices.
+Note: Since HDShredder embeds original driver code of the hardware
+manufacturers, there no influence on actual compatibility. The follow-
+ing information is based on specifications of the manufacturer.
+3.4.1  Utilization
+You can use HDShredder with SCSI hard disk in the same way as with any other
+media.  HDShredder automatically recognizes supported SCSI controllers and
+connected SCSI hard disks at program start and displays them, along with other
+recognized media, in the respective selection lists.
+3.4.2  Compatibility
+Generally, HDShredder supports SCSI hard disk drives. As a precondition, they
+have to be connected to a SCSI controller HDShredder supports. Currently,
+HDShredder supports Narrow-, Wide-, Ultra- and Ultra-Wide-SCSI controllers
+from Adaptec.
+Hint:
+You can determine whether your SCSI controller is supported with
+any edition of
+HDShredder
+(43.2.1 Compatibility test).
+If HDShredder
+recognizes the SCSI drive, it will also support the SCSI controller
+.
+20  Supported hardware
+3.4.3  Manufacturer information
+The drivers integrated in HDShredder support the following SCSI adapters:
+AHA-2930U
+AHA-2944UW
+ASC-29160N
+AHA-2940 Ultra
+ASC-19160
+ASC-39160
+AHA-2940UW
+ASC-29160
+AHA-2940AU
+ASC-29160LP
+3.4.4  Driver information
+HDShredder supports even more controllers, either as onboard chipset (AIC) or
+as addon card (AHA, ASC). They are determinable by their respective vendor
+and device IDs which are listed in the following table.
+Vendor Model Device Vendor Model Device
+9004h AHA-2930U 3860h â AHA-4944UW 8678h
+â AHA-2930CVAR 3868h â AIC-7887 8778h
+â â 3869h â AIC-7888 8878h
+â AHA-4944(U)W 3B78h â AHA-4944(U)W EC78h
+â AIC-755x 5x75h 9005h AHA-2940/50U2W 0010h
+â AIC-785x 5x78h â AIC-789x 001xh
+â AIC-7560 6075h â â 002xh
+â AIC-786x 6x78h â â 003xh
+â AIC-7870 7078h â AHA-3940/50U2x 0050h
+â AHA-2940(W) 7178h â AHA-3950 U2x 0051h
+â AHA-3940(W) 7278h â AIC-7896/7 U2 005Fh
+â AHA-2944 7478h â AIC-789x 006xh
+â AHA-3944(W) 7578h â â 007xh
+â AHA-4944(U)W 7678h â AIC-7892(A|B)U160 008xh
+â AIC-7877 7778h â AIC-789x 009xh
+â AIC-7860 7860h â â 00Axh
+â AIC-7895 7895h â â 00Bxh
+â AIC-7880 8078h â AIC-7899(A) U160 00Cxh
+â AHA-2940U(W) 8178h â AIC-789x 00Dxh
+â AHA-3940U(W)(D) 8278h â â 00Exh
+â AHA-2944UW 8478h â â 00Fxh
+â AHA-3944U(WD)
+8578h â AHA-2930U2 0180h
+The IDs of your controller can be determined by PCISniffer. It can be download-
+ed for free at http://www.miray.de/download/sat.pcisniffer.html. For the SCSI
+controller in question, the values displayed by PCISniffer for the fields
+Vendor ID
+and Device ID have to match the values specified above for your SCSI
+controller.
+3.5  USB
+If your edition of HDShredder also supports USB storage media, the following
+chapters contain information regarding utilization and compatibility of USB
+stor-
+age media and controllers.
+Firewire (IEEE1394)  21
+Note: Please take care to connect USB devices already before starting
+HDShredder (45.1 Preliminary steps) and if possible directly to the PC
+resp. to the USB controller (43.5.4 Hubs).
+3.5.1  Mass-Storage-Class
+USB storage media that is intended to be used with HDShredder has to support
+the USB-Mass-Storage-Class protocol. This is an official standard, which is
+sup-
+ported by almost all current USB sticks, USB card readers, USB hard disks etc.
+If
+you are not sure if a certain USB storage medium is supported by HDShredder,
+you can check this out easily and for free in advance by means of the Free Edi-
+tion (43.2.1 Compatibility test).
+3.5.2  UHCI, OHCI and EHCI
+In case of USB devices, it is crucial that HDShredder supports the USB
+controller
+used. HDShredder is capable of all four common USB standards, UHCI and OHCI
+for USB 1.0/1.1, EHCI for USB 2.0 as well as XHCI for USB 3.0. In the area of
+stan-
+dard PCs, all USB controllers, onboard controllers as well as adapter cards,
+offer
+one of these four interface standards. In case you are not sure though, you can
+use HDShredder Free Edition to check (43.2.1 Compatibility test).
+3.5.3  XHCI
+HDShredder also supports the new XHCI standard. Therefore it is able to use
+fast,
+state-of-the-art USB 3.0 SuperSpeed technology mass storage media.
+3.5.4  Hubs
+USB devices are sometimes connected via a USB hub. To achieve the highest
+possible sped, we recommend to connect USB disks directly to the PCâs USB
+port.
+3.6  Firewire (IEEE1394)
+If your edition of HDShredder supports Firewire, you can connect arbitrary
+Firewire drives or card readers. Connected devices must support the Serial-Bus-
+Protocol (SBP) in order to be recognized and operated correctly by HDShredder.
+Note: Please take care to connect Firewire devices already before start-
+ing HDShredder (45.1 Preliminary steps) and if possible directly to the
+PC or to the Firewire controller.
+22 Installation
+4  Installation
+4.1  Introduction
+HDShredder can be started without an installation directly in Windows or with-
+out the presence of an operating system as a self-booting application from CD,
+floppy disk or USB key (44.1.1 Bootable medium). Additionally, there is a setup
+program for installing HDShredder in Windows (44.2.1 HDShredder Setup).
+4.1.1  Bootable medium
+In case you have HDShredder already available on a bootable medium, you can
+start and use the program immediately on any PC and without any preceding
+installation, as described in chapter 45.2 Starting the program.
+Note: It is possible that, although you have HDShredder on a physical
+medium, it may not be in form of a bootable medium but rather as an
+installation package. Create a bootable medium at first, according to
+the following description (44.1.2 Software package).
+4.1.2  Software package
+If you have not received HDShredder on a bootable medium, you can create
+one by yourself. The software package contains the required files. The
+following
+chapters describe how to create a bootable medium. It can be used to start
+HDShredder without any installation (45.2 Starting the program).
+4.2  Installation in Windows
+The HDShredder package contains a
+setup program (setup.exe), allowing
+you to install HDShredder directly on
+Windows into a program folder. This
+will â by choice of the user â also cre-
+ate an Start menu folder as well as links
+on your desktop and in the Quickstart
+bar (44.2.1 HDShredder Setup).
+The  HDShredder software package
+also contains an installation program for
+ï¬g.î1: HDShredder setup start screen
+Installation in Windows  23
+creating a bootable floppy disk or CD/DVD with only few mouse clicks (44.2.2
+Boot-Setup & Emergency Medium). To use the boot setup program, please run
+setup.exe first. Then start [All Programs] â¸ [HDShredder]  â¸ [Create
+bootable
+medium] in the Windows Start menu.
+Note: Alternatively, in case you have a software package in the ZIP file
+format, you may extract all files to an empty folder. Then execute the
+file setup.exe from there.
+4.2.1  HDShredder Setup
+Start setup.exe (4ï¬g.î1) and select the desired options on the first
+screen. Then
+follow the instructions displayed to install HDShredder on your Windows PC. Af-
+ter setup has finished, you are asked in the final screen to choose whether to
+start HDShredder directly.
+Note: If you received
+HDShredder
+on a physical medium, you may ad-
+ditionally use setup.exe to install
+HDShredder
+on Windows. A software
+package in the ZIP file format has to be un-zipped first. In case you have
+downloaded the setup.exe file (selfextracting), please start it directly.
+4.2.2  Boot-Setup & Emergency Medium
+When starting the Boot-Setup program
+the main window appears (4ï¬g.î2).
+{
+If you want to create a bootable
+floppy, choose the drive at Floppy
+drive and click on [Create ï¬oppy].
+{
+To create a bootable CD/DVD,
+choose the drive at CD/DVD writer
+and click on [Create CD/DVD].
+{
+To create a bootable USB key,
+choose the drive at USB medium
+and click on [Make bootable].
+Follow the instructions and wait until
+the installation program reports suc-
+cessful creation of the bootable medi-
+um. Then click on [Exit]. Afterwards,
+please proceed with chapter 45 Pro-
+gram instructions.
+ï¬g.î2:
+HDShredder
+boot setup
+24 Installation
+Note: When creating a CD/DVD, please always use a new, empty
+writeable CD/DVD. Otherwise there may be problems when starting
+HDShredder.
+4.2.2.1  CD/DVD writer not selectable
+In few cases, no drive is offered for selection at CD/DVD writer although a CD/
+DVD writer is available on the system. Usually, this results from already
+installed
+software for the CD/DVD writer (e.g. drivers for direct access to the CD/DVD
+writer with Windows Explorer). It reserves the drive in a way that the
+installation
+program cannot access it. If possible, deactivate or uninstall the CD/DVD
+writer
+software. Or create a bootable CD/DVD from that ISO image, which is also con-
+tained in the software package (44.3.2 Creating a bootable CD/DVD).
+4.2.3  Bootable Windows XP CD
+When using HDShredder with storage devices or controllers, which require spe-
+cial Windows drivers, it has to be used directly on Windows. If there is no
+Win-
+dows installation available, you can create a bootable Windows XP CD which
+includes the drivers needed. It just requires PE Builder and a Windows XP
+instal-
+lation CD.
+Please download PE Builder from the
+Internet at http://www.nu2.nu/pebuild-
+er/. The downloaded package allows
+you to create a specially configured
+Windows XP system, which can be
+started right off a CD. A plug-in is used
+to integrate HDShredder into the PE
+system. A corresponding plug-in is to
+be found at http://www.miray.de/pub-
+lic/support/HDShredder-BartPE-Plugin.
+en.zip. Please install PE Builder on your
+system and unpack the plug-in to the
+folder  pebuilder3110a\plugin. This lo-
+cation then should contain the new folder HDShredder. Now copy hdshredder.
+exe from the installation package to pebuilder3110a\plugin\HDShredder\ï¬les.
+In case the mass storage devices and controller on your target system will re-
+quire special drivers, please copy the driver files to
+pebuilder3110a\drivers\SC-
+SIAdapter.
+Then start pebuilder.exe from the folder pebuilder3110a. After few seconds, a
+ï¬g.î3: PE Builder conï¬guration dialog
+Installation with other operating systems  25
+dialog window appears (4ï¬g.î3). Please enter the path to the Windows XP
+instal-
+lation files in the input field on top. They are to be found on your Windows XP
+installation CD. Hence, this field usually contains the drive letter of your
+CD/DVD
+drive â except you have copied the installation files to another location.
+You can
+now choose a name and a location for the boot image by clicking on Create ISO
+image in the box Media output. If another CD/DVD writer is available, you can
+immediately create a CD by clicking on Burn to CD/DVD. Otherwise, please cre-
+ate an ISO image first.
+After clicking on Start PE Builder creates the CD. Depending on your system,
+this
+may take a few minutes. If you did not select Burn to CD/DVD in the previous
+step, it is necessary to write the newly created ISO image to CD with your re-
+cording software. Please note that the file has to be written to CD directly as
+an
+image. Normal writing will not be sufficient in this case. Instead, please
+start your
+recording software and choose Create from image file (or similar description,
+depending on the recording software used).
+Start your PC from the CD created. HDShredder is to be found at Go â¸
+Programs.
+4.3  Installation with other operating systems
+4.3.1  Creating a bootable ï¬oppy disk
+You can also create a bootable HDShredder floppy disk without the installation
+program with any operating system. For this purpose, the HDShredder software
+package contains a floppy disk image in the file hdshredder.img. You can create
+a bootable 3.5â/1.44MB floppy disk from this image with any appropriate disk
+imaging program. After having created a bootable floppy disk, you can start
+HDShredder on any PC as described in chapter 45.2 Starting the program.
+Hint: Under UNIX and Linux you may use the tool dd, which is available
+on these systems, with the following syntax:
+dd if=hdshredder.img of=/dev/fd0.
+4.3.2  Creating a bootable CD/DVD
+The HDShredder software package contains an ISO image (hdshredder.iso). It
+can be used to create a bootable HDShredder-CD in any operating system and
+with any software supporting creation of CDs/DVDs from ISO images. Further
+information can be found in the manual of your CD/DVD authoring software..
+{
+Extract the file hdshredder.iso from the HDShredder software package.
+{
+Start your CD writing software and choose Create CD from image file (or sim-
+ilar caption, according to the respective CD writing software)
+26 Installation
+{
+Specify the file hdshredder.iso as image file.
+{
+Insert a blank CD into the drive and write the CD.
+Hint: The easiest way of creating a bootable HDShredder CD under
+Linux is using the software tool cdrecord with the following syntax:
+cdrecord hdshredder.iso.
+After having accomplished these steps you have created a bootable HDShredder
+CD. From this CD you can start HDShredder directly on any PC with a bootable
+CD/DVD drive as described in 45.2 Starting the program.
+Note: CD/DVD writing software may refuse writing an ISO image to a
+DVD. The HDShredder installation program writes DVDs without any
+problem. Booting from a DVD created this way also works smoothly.
+4.4  Booting from USB key
+To start HDShredder from a USB key, the PC has to be able to boot from USB
+media. Usually the easiest way is to enter the BIOS-Boot-Selector (BBS) and se-
+lect the USB key to start from. The PC then boots directly from the USB key in-
+stead of the installed operating system. Depending on the regarding BIOS of the
+PC, the USB key is displayed in the BBS menu under its name (e.g. Miray USB),
+as
+USB medium, USB-HDD, Removable Device, or a similar caption.
+If the USB key is not listed in the BBS menu at all, it is required to activate
+support
+for USB boot media in the BIOS setup first. This setting is to be found under
+dif-
+ferent captions and menu items, depending on the regarding BIOS. In most cases
+they are to be found under captions like USB, Boot and Legacy. In BIOS setup
+you can also preset booting from USB firmly, usually under the menu item Boot.
+Hint: You can enter the BBS menu directly when starting the PC with a
+certain key on the keyboard, depending on the BIOS. In most cases the
+startup screen shows which key to press. For the BBS menu it is îîF8îî
+or îîF12îî in most cases, rarely îîF11îî. BIOS setup usually is
+called with
+the îîF2îî or îîDelîî key.
+Starting the program  27
+5  Program instructions
+The following chapters give a detailed description on how to operate
+HDShredder, from the start to the end.
+Note: Depending on the edition you use, there may be differences in the
+features described in this and the following chapters. Please check 41.4
+Edition overview for the features your edition supports..
+5.1  Preliminary steps
+If you want to use USB devices for the following deletion process and your
+edition
+of
+HDShredder
+supports USB, connect these devices before starting
+HDShredder
+and leave them connected until the deletion process is finished. Otherwise it
+is
+not guaranteed that
+HDShredder
+recognizes them correctly. Do not use a USB
+hub to connect USB storage devices, always connect the USB storage devices
+directly to the USB controller or the PC case.
+Note: HDShredder
+can be started directly as a Windows application
+(45.2.2 Windows program)
+or as a self-booting application
+(45.2.1 Self-
+booting program).
+To start the self-booting
+HDShredder
+,
+you need a
+bootable HDShredder CD or floppy disk. You can create it as described
+in chapter
+44.2.2 Boot-Setup & Emergency Medium.
+5.2  Starting the program
+5.2.1  Self-booting program
+Insert the bootable HDShredder CD, floppy disk into the corresponding drive or
+plug the bootable USB key to your PC. Switch on the computer or reboot it.
+Make sure that the BIOS boots from the respective drive or USB key (44.4 Boot-
+ing from USB key). HDShredder will then start automatically from the bootable
+medium and the program screen appears.
+Note: In case your PC does not boot from the HDShredder boot me-
+dium, press îîF8îî, îîF11îî or îîF12îî (BIOS dependent)
+immediately after
+turning on the PC to enter the boot menu and select the HDShredder
+boot device. Or press îîF2îî, îîF10îî or îîDelîî (BIOS
+dependent) to enter
+BIOS setup and set the required boot device order there.
+28  Program instructions
+5.2.2  Windows program
+Start HDShredder from the Windows start menu at [Programme] â¸ [HDShred-
+der]  â¸  [Start HDShredder] or by starting the executable file hdshredder.exe
+from the genuine HDShredder medium or directly from your software package.
+5.2.3  Command line program
+You may include HDShredder in automated workflows like shell scripts or time-
+triggered tasks. For this kind of usage, there is a command line version of
+HDShredder (hdshredder-cl.exe), to be found in the program folder of
+HDShredder. It is especially suitable for the following fields of application:
+{
+Calling it from shell scripts or batch files.
+{
+Creating a permanent link on the Desktop or in the Start menu.
+{
+Creating scheduled tasks by calling
+HDShredder
+through the Task Scheduler.
+This allows to integrate HDShredder seamless into existing scripts or batch
+pro-
+cesses. You can also create Desktop links for frequently used deletion
+configura-
+tions to call them easy manually or automatically on demand. Usage of hdshred-
+der-cl.exe is described in detail in 46.5 Command line interface.
+5.3  Program screen
+The HDShredder program screen (4ï¬g.î4) contains two fields in a lighter
+blue.
+They are the âactiveâ area of the program; where all information is shown
+and all
+operation steps are executed.
+ï¬g.î4: Program screen
+Status ï¬eld
+Operating ï¬eld
+Title of dialog
+page
+Selection graphic
+Quit
+Help
+Operation 29
+5.3.1  Status ï¬eld
+The upper field is the status field (4ï¬g.î4). It shows the parameters
+selected for
+the deletion process (Deletion area, Drive, Deletion method and Options). Here
+you see at any point of the program which parameters you have already select-
+ed. Furthermore, the right side of the status field also shows license
+information.
+5.3.2  Operating ï¬eld
+The lower field is the operating field (4ï¬g.î4). In the upper left of the
+operating
+field is the title of the currently shown dialog page together with a
+correspond-
+ing symbol. In the upper right are two general operating elements: with the
+help
+button  [?] you can call up the interactive help at any point of the program
+(45.5 Help). With the quit button [X] you can quit the program at any time
+(45.12 Closing the program). At the bottom of the operating field, you find the
+buttons [Next] and [Back], for navigating to the next or previous dialog page.
+5.4  Operation
+To delete a medium, you are led through five consecutive dialog pages where
+you can select the individual parameters for the deletion and start and control
+the deletion process. These five dialog pages are shown in the operating field.
+5.4.1  Graphical control elements
+To control the program, HDShredder offers different graphical control elements
+(4ï¬g.î5 and ï¬g.î6). The names, used within this manual to designate the
+differ-
+ent elements, are listed and illustrated by examples in the following
+illustrations.
+Check box
+List box
+Button
+Info box
+Button (focused)
+ï¬g.î5: Graphical control elements (1)
+30  Program instructions
+5.4.2  Operation with keyboard and mouse
+HDShredder is operated by keyboard and mouse. It is also possible to operate
+the program exclusively by keyboard or exclusively by mouse.
+5.4.2.1  Keyboard operation
+Keyboard operation always refers to the currently focused graphical element.
+This element is highlighted by color, brightness, or an additional frame. With
+the
+tabulator key you can switch the focus in turn to the other operating elements.
+The following control keys have a function when operating the keyboard:
+Key Control element Function
+îîTabîî (All) Switch to the next element
+Arrow keys List field Select list element
+î®   î¬  ...
+Selection graphic Highlight element
+îîSpaceîî Button Press button
+Selection graphic Select highlighted element
+Link Show link target
+îîReturnîî Button Press button (in dialog windows only)
+Link Show link target
+îîEscîî Window
+Close window (only windows with â in the
+title bar)
+(Operating field) Quit HDShredder
+Dialog window
+Percentage
+Button (inactive)
+Close dialog
+Progress bar
+ï¬g.î6: Graphical control elements (2)
+Selecting the deletion area  31
+5.4.2.2  Mouse operation
+Operating HDShredder with the help of a mouse is done according to the point-
+and-click principle. The right mouse key has no special function. HDShredder
+does not use drag-and-drop.
+5.5  Help
+You can open a context-related help window at any point of the program by
+press-
+ing îîF1îî or the [?] symbol in the upper right corner of the operating
+field (4ï¬g.î4).
+The help gives you useful hints on the current program screen. The underlined
+text
+links in the help window enable you to jump to other help topics at any time.
+Note: The program help is designed to give you useful hints when using
+the program. Please use this userâs manual when encountering prob-
+lems or requiring more information on a topic.
+5.6  Selecting the deletion area
+On the first dialog page (4ï¬g.î7), you
+can select the desired deletion area.
+You can choose between the options
+of deleting an entire drive and an indi-
+vidual partition. The following table
+provides you a short overview over
+the available options. A detailed de-
+scription of the usage of deletion ar-
+eas and their effect can be found in
+chapter 46 Operating principles.
+Entire drive
+Deletes all data on the selected drive.
+(46.1.2 Deleting an entire drive)
+Single partition
+Deletes only the data on the selected partition.
+(46.1.3 Deleting a single partition).
+After having selected the deletion area, move to the next step by pressing
+[Next]
+in the lower right corner of the operating field (45.7 Selecting the medium)
+.
+When selecting the deletion area, HDShredder starts recognizing connected de-
+ï¬g.î7: Selecting the deletion area
+32  Program instructions
+vices and drives. If the recognition is not finished yet, a note will be
+displayed
+before the next dialog page will be shown. This can take up to one minute or
+more. The time needed also depends on the number of drives connected. If it
+takes more than five minutes, you can assume that there is a technical problem.
+In this case you find further information in chapter 47 Troubleshooting.
+5.7  Selecting the medium
+In the two following steps, you select the medium for the deletion process. The
+left half of the operating field shows a selection list. On the right side is
+an info
+box containing details on the currently selected element. According to the se-
+lected deletion area, you can select either a drive or a partition. The
+following
+two sub-chapters give you more detailed information. After having selected the
+medium, you come to 45.9 Selecting the options.
+5.7.1  Selecting a drive
+When selecting a drive (4ï¬g.î8) you
+can see the devices recognized by
+HDShredder in the selection list. The
+info box on the right side shows more
+details on the selected element
+(45.7.4 Drive information).
+Select the
+desired drive and confirm with [Next]
+to proceed to the next step.
+5.7.2  Selecting a partition
+When selecting a partition (4ï¬g.î 9),
+the partitions found are displayed in-
+dented under the respective drive,
+shown in the selection list. The frame
+on the right side of the selection list
+shows details for the drive where the
+currently selected partition is located
+on. Select the desired partition and
+confirm with [Next] to proceed to the
+next step.
+ï¬g.î8: Selecting a drive
+ï¬g.î9: Selecting a partition
+Selecting the medium  33
+5.7.3  Deactivated list entries
+There are two cases in which entries in the selection list for source or target
+are
+deactivated and therefore cannot be selected:
+{
+In the partition selection dialog, the hard disk list entries are always
+deactivat-
+ed because a partition but not a hard disk is to be selected.
+{
+If HDShredder recognizes drives which are not supported by the edition used
+the partitions are also deactivated. For further information on the different
+editions, please go to 41.4 Edition overview or http://www.hdshredder.com.
+Hint: Activate All drives selectable
+below the details to see the details
+of drives which are recognized by HDShredder but not supported by
+your edition
+(41.4 Edition overview).
+5.7.4  Drive information
+On the right side of the selection list for drive or partition, you find a
+frame contain-
+ing details on the currently selected drive. When selecting a partition, the
+data of
+the corresponding drive is shown here. The following information is available
+:
+Field Description
+Controller Type (IDE/SCSI) and number (0-15) of the controller
+Channel/De-
+vice
+Channel used by the drive (primary/secondary) and
+Connection of the drive (master/slave or 0-15)
+LUN Logical number of the drive (0-255)
+Name Name of the device (as specified by internal drive data)
+Serial number Device serial number (as specified by internal drive data)
+Manufacturer Name of the manufacturer (as specified by internal drive data)
+Firmware Version of the firmware (as specified by internal drive data)
+Supported Drive type supported by the edition used
+Note: Supported will show Yes if the edition you use supports the se-
+lected drive. Otherwise HDShredder indicates here from which edition
+on that drive is supported.
+5.7.5  Sector viewer
+Under the Details window, there is a small symbol with a magnifier. A click on
+this
+symbol opens a window where you can view the content of the currently se-
+lected medium in form of individual bytes. This particularly enables you to
+make
+a comparison between the data stored before and after the deletion process.
+34  Program instructions
+5.7.6  SpeedTest
+Use the [SpeedTest] button in the lower right of the operating field to start a
+speed test for the currently selected medium. Since this is a pure read test,
+all
+data will remain unchanged. The test shows the maximum speed that can be
+achieved for linear reading on the currently selected medium
+Note:
+If the option
+MultiDelete
+(45.7.7 MultiDelete mode) is selected,
+the speed measurement is being performed for all selected media at the
+same time. Hence, it determines the maximum possible concurrent total
+data throughput of these media. This is especially relevant for potential
+use of the Enterprise Edition, but also represents a performance test of
+the entire system. The speed that can be achieved strongly depends on
+how the tested media are connected to the system (46.3.2 Speed).
+5.7.7  MultiDelete mode
+When selecting the medium to be deleted, you can use the checkbox
+MultiDelete to activate MultiDelete mode (46.3 Mass deletion (MultiDelete
+mode)). In this mode it is possible to select up to 16 drives or partitions for
+dele-
+tion at the same time. For doing so, click on all desired list entries. The
+selected
+entries then will be marked with a dark blue background. To remove a marked
+list entry from the selection, it simply has to be clicked again. You can then
+use
+the SpeedTest (45.7.6 SpeedTest) to measure the data throughput of the se-
+lected drives or partitions in parallel operation. Deleting multiple drives in
+parallel
+is only possible with the Enterprise Edition. It allows to delete up to 4, 8 or
+16
+targets at a time, depending on the stage used (Enterprise Edition 4x,
+Enterprise
+Edition 8x or Enterprise Edition 16x).
+Note: The MultiDelete option can be activated in all editions of
+HDShredder, even in the Free Edition. This can be used to check in ad-
+vance which speed can be achieved on a certain system by using the
+Enterprise Edition. Please keep in mind that the achievable speed in this
+case strongly depends on the interfaces used (most suitable: IDE, SATA,
+and SCSI) and the drive combinations (only use master drives with IDE).
+5.8  Selecting the deletion method
+The dialog page âDeletion methodâ provides different deletion methods to be
+used for different areas of application. These procedures are grouped into
+three
+categories. The category Automatic allows you to perform a simple and secure
+deletion fast and easily without needing any further detailed technical knowl-
+edge except of the criteria of time and security. The category Standards is de-
+Selecting the deletion method  35
+signed for users required or wanting to fulfill certain deletion standards for
+them-
+selves or for their client. In the category Custom, you can define all details
+of the
+deletion method by yourself. Further information concerning the functions of
+the different deletion methods can be found in 46.4 Deletion methods.
+5.8.1  Automatic
+Select the desired option:
+{
+Fast: One run within the shortest time possible gives you the security that no
+one can view or recover your data with the help of normal means.
+{
+Medium: The best possible combination of security and time.
+{
+High security: Deletes data using an internationally recognized method which
+is also considered to be secure against the data recovery in the laboratory.
+By clicking [Next] at the right bottom of the dialog box, you confirm your
+selec-
+tion and come to the next step.
+Note: If you want the highest security possible but you are not sure
+whether the available time is sufficient, you can simply use the deletion
+method High security. If running out of time, you can abort the process
+at any time. This will not affect the deletion progress attained up to that
+point of time negatively and you may achieve a higher level of security.
+Example: You achieve a higher security aborting a High security (7 runs)
+process after 4 runs than only using method Medium (3 runs), but let-
+ting it run till the end.
+5.8.2  Standards
+Simply select the desired standard from the list displayed. By clicking [Next]
+at
+the lower right bottom of the dialog box, you confirm your selection and come
+to the next step.
+5.8.3  Custom
+This category offers you a mask where you can define your specific deletion
+method fast and easily. A specific deletion method is based on three parameters
+and a repetition counter.
+36  Program instructions
+5.8.3.1  Deletion pattern
+Enable or disable the parameters indi-
+vidually (4ï¬g.î10), if necessary, using
+the selection box at the respectively
+left side of the parameter. Depending
+on their activation, they will be taken
+into account within the deletion pro-
+cess. As default, only the upper pa-
+rameter  Deletion pattern is enabled.
+Define a deletion pattern as follows:
+{
+Deletion pattern: Here, you set the
+pattern to be used for overwriting
+the sectors. Please consider the fol-
+lowing note.
+{
+Alternating pattern: If this parameter is enabled, the pattern indicated here
+is
+always written on the medium in a further run immediately after the pattern
+specified under Deletion pattern.
+{
+Iteration(s): The value set here indicates how often the cycle consisting of
+deletion pattern and alternating pattern is to be repeated.
+{
+Finalize with random values: After having executed all repetitions, a final run
+with random numbers as a pattern can be carried out.
+Note: A deletion pattern is entered as a hexadecimal 32-bit value. You
+can also enter a 16- or 8- bit value. It will then be automatically con-
+verted into a 32-bit value by repeating the entered value 2 or 4 times.
+Example: The input mask converts 5Fh into 5F5F5F5Fh. On the right of
+the input field, the entered value is displayed as a binary pattern.
+5.8.3.2  Veriï¬cation
+You can select the option Verify for the different deletion patterns and the
+final
+run. If this option is enabled, the respective deletion run is followed by a
+verifica-
+tion run to check whether the previously written patterns can be read from the
+medium, i.e. it is verified whether the deletion pattern has actually been
+written
+on the medium.
+5.9  Selecting the options
+On the dialog page Options, you can set the options with which you want the
+following deletion process to be executed. Principally, HDShredder automati-
+ï¬g.î10: User deï¬ned deletion patterns
+Selecting the options  37
+cally sets the optimal options for the selected drives and the type of
+deletion.
+Only modify the options to troubleshoot problems (47 Troubleshooting) or
+when you are sure that this improves the performance of HDShredder.
+Note: Improper modification of options may lead to a deterioration of
+the deletion performance.
+After choosing the required options, click [Next]. You then come to the next
+dialog page where you can start the deletion process (45.10 Deleting data).
+5.9.1  Locked options
+The options show different availability and selectability. Locked options
+cannot
+be modified, but the displayed setting is valid.4ï¬g.î11 shows the different
+states.
+5.9.2  General options
+The column General, contains options that refer to all modes.
+Option Meaning
+SmartDefectSkip Special deletion algorithm. Ensures fast deletion even in
+case of defective sectors.
+CachedMemory Use fast intermediate memory.
+SharedMemory Use fast data transfers.
+Animation Switch off deletion animation for a slight speed increase.
+active
+inactive &
+locked
+ï¬g.î11: Selecting the options
+inactive
+38  Program instructions
+5.9.3  Options for the medium
+In the column Medium, you find setting possibilities, which relate especially
+to
+the drives selected for the deletion process.
+Option Meaning
+IRQ In IRQ mode, the medium will be optimally synchronized.
+This ensures maximum deletion performance.
+DMA Highest deletion performance and shortest deletion time.
+Read cache Use fast read buffer.
+Write cache Use fast write buffer.
+Multi-sector PIO Increases speed in PIO mode by about 10%.
+Recovery via PIO Optimal handling of defective sectors.
+Cooling phase To fix data errors or interruptions during the USB data
+transfer (47.6.2 Other device problems).
+Sector area
+Defined deletion area (46.2 Deleting a sector area).
+5.10 Deleting data
+The dialog page Delete data
+(4ï¬g.î 12) lets you start the deletion
+process. Check in the status field
+whether the settings for deletion area,
+medium, deletion method, and the se-
+lected options are correct. If needed,
+go back with [Back] in the lower left
+corner and adjust the settings. Click
+[Start] to start the deletion process.
+5.10.1 Security query
+Before the actual start of the deletion
+process, a security query (4Abb.î13),
+appears where the medium to be de-
+leted as well as corresponding security
+notes are displayed. Click [Start dele-
+tion] to start the deletion process and
+[Cancel] to return without starting the
+deletion process.
+ï¬g.î12: Dialog page âDelete dataâ
+Abb.î13: Security query
+Deleting data  39
+Warning: All data in the target area will be irretrievably deleted by start-
+ing the deletion process.
+5.10.2 Deletion animation
+In the center of the operating field, you see the deletion animation (if you
+have
+not deactivated it when selecting the options) after the start of the deletion
+pro-
+cess. The deletion animation shows that the deletion process is running. Espe-
+cially in case the other indications only change marginally or do not change at
+all
+for a time (e.g. in case of read or write errors), the deletion animation shows
+that
+HDShredder is still running.
+5.10.3 Status indication
+On the left and right side of the operating field, you see the status
+indicators.
+They contain information on the current status of the deletion process.
+Status Meaning
+Sectors processed Absolute number of sectors already deleted.
+Run Number of deletion runs started at this point.
+Read errors Number of the read errors occurred. May decrease if
+errors can be fixed. When starting the optional verifica-
+tion run, this value is set back to zero.
+Write errors Number of the write errors occurred. May decrease if
+errors can be fixed. When starting the optional verifica-
+tion run, this value is set back to zero.
+Running time Time passed since the start of the deletion process.
+Time remaining Estimated (!) time remaining for the entire deletion pro-
+cess (incl. optional verification run) based on the deletion
+speed attained up to here. Note: Duration can strongly
+increase in case of occurring read or write errors.
+Data rate Average data rate, which has been attained up to this
+point of time. The indicated value refers to the amount
+of deleted sectors.
+Veriï¬cation errors This indicator is only used if the Verifying option is on.
+5.10.4 Percentage indication
+The percentage indicator (4ï¬g.î6) is located below the deletion animation,
+show-
+ing the progress of the current run (45.10.6 Course of the process) in percent.
+40  Program instructions
+5.10.5 Progress bar
+The progress bar (4ï¬g.î6) below the percentage indication visualizes the
+prog-
+ress of the current run. Which run (45.10.6 Course of the process) is currently
+processed is shown on the left above the progress bar.
+5.10.6 Course of the process
+The process consists of several runs, depending on the 46.4 Deletion methods
+selected. First, a normal deletion run with an optional verification run. Each
+dele-
+tion run can be followed by a complementary run with inverted deletion pattern
+as well as an optional verification run, too. This sequence can be repeated up
+to
+99 times. Depending on the deletion method, a final run with random numbers
+as well as an optional verification run can be performed. The Custom mode thus
+allows up to 398 runs. Additionally, a number of troubleshooting runs can
+follow
+with the option SmartDefectSkip (45.9.2 General options).
+Note: This instruction uses the term deletion process to describe the
+complete procedure with all corresponding runs (deletion, verification,
+troubleshooting).
+5.10.7 Interrupting the running process
+You can use [Stop] at any time to in-
+terrupt the process (4ï¬g.î 14 and
+Abb.î15). You may then continue the
+process ([Resume deleting] or [Con-
+tinue verifying]) or abort it completely
+([Abort deleting] or [Abort verifying],
+45.11.1 User abort). As long as you
+select neither option, the current process remains interrupted.
+5.11 Termination of the deletion process
+5.11.1 User abort
+If you interrupt a running deletion pro-
+cess or verification run by clicking
+[Stop] (45.10.7 Interrupting the run-
+ning process), you can definitively
+abort the process in the dialog win-
+dow which then appears (4ï¬g.î 14
+ï¬g.î14: Abort dialog deletion process
+Abb.î15: Abort dialog veriï¬cation run
+Termination of the deletion process  41
+and Abb.î15) by clicking [Abort deleting] or [Abort verifying]. You then
+obtain a
+final report (45.11.3 Final report) upon the prematurely terminated process.
+Note: Activating the option SmartDefectSkip ensures that also in case
+of a premature abortion of the deletion process the highest security
+level possible at this point is achieved.
+Example: If a deletion process with seven runs is aborted after the third
+run, the security level of a deletion process with three runs is already
+achieved at that point of time.
+5.11.2 Regular termination
+After finishing all runs (45.10.6 Course of the process) without a premature
+abort, the deletion process is regularly ended. You then obtain a final report
+upon the complete deletion process in a dialog window (45.11.3 Final report)
+and a complete deletion report (45.11.4 Deletion report), if desired.
+5.11.3 Final report
+After termination (4ï¬g.î16) or the abort (4ï¬g.î17) of a deletion
+process, you
+obtain a final report in a dialog window with the following information:
+{
+The medium has been deleted completely: In case the deletion process has
+been finished without an abort (even if sector errors occurred).
+{
+The deletion process has been aborted: In case the deletion process has
+been aborted before its regular termination.
+Furthermore, the final report contains the following information:
+ï¬g.î16: Final report after a successful
+deletion and veriï¬cation run
+ï¬g.î17: Final report after the
+abort of the deletion run
+42  Program instructions
+Field Meaning
+Medium Deleted drive or deleted partition
+Method Applied deletion method
+Passes Number of runs initiated
+Sectors deleted Total number of deleted sectors
+Write errors Total number of write errors occurred during the dele-
+tion process. Write errors, which occur during a verifica-
+tion run, are exclusively counted as verification errors.
+Veriï¬cation errors Total number of errors occurred during a verification run.
+This includes read errors as well as non-identical data
+during comparison. This field is not shown, if no verifica-
+tion run was started.
+Runtime Time required for the whole process, i.e. for all deletion
+and verification runs (if executed).
+With [Store report] you can create a deletion report of the preceding deletion
+process (45.11.4 Deletion report). You can also start another deletion process
+by clicking [Delete another medium] or end the program by clicking [Quit HD-
+Shredder] (45.12.2 Good-bye screen).
+5.11.4 Deletion report
+You can generate a deletion report
+from the dialog window containing
+the final report (45.11.3 Final report).
+The deletion report contains a com-
+plete and comprehensive description
+of the previous deletion process and
+can bes stored (4Abb.î18) as proof of
+the completed deletion for the client,
+for instance.
+Click on [Create] to store
+the deletion report to the selected me-
+dium. The report will be written in the
+file
+SHREDxxx.LOG
+(xxx stands for a
+consecutive three-digit number). If you
+store several deletion reports on the
+same medium, each report has its own
+number. This makes is possible to
+uniquely identify the different reports. A message is displayed to indicate
+whether
+the storing progress. If you click on
+[Cancel]
+, the deletion report will not be stored.
+Abb.î18: Store deletion report dialog
+Closing the program  43
+5.12 Closing the program
+5.12.1 End dialog
+You can end HDShredder at any time-
+by clicking the end symbol [X] in the
+upper right corner of the operating
+field (4ï¬g.î 4) or by pressing î î Escî î .
+The end dialog appears (4ï¬g.î 19)
+where you can quit HDShredder by
+clicking [Yes] or return to the program
+by clicking [No].
+5.12.2 Good-bye screen
+After the termination of HDShredder,
+either via the end dialog (45.12.1 End
+dialog) or via the dialog window with
+the final report (45.11.3 Final report),
+a good-bye screen appears (4ï¬g.î20).
+You can then shut down the computer
+or reboot it.
+Note: If you donât want to start HDShredder when starting the com-
+puter the next time, remove the HDShredder boot medium from the
+boot drive.
+ï¬g.î19: End dialog
+ï¬g.î20: Good-bye screen
+44  Operating principles
+6  Operating principles
+HDShredder can handle both, entire drives and individual partitions.
+Important: In case of doubt, you should always delete the entire me-
+dium. Only if you are entirely sure that only a part, e.g. an individual
+partition, is to be deleted, you should limit the area of deletion by se-
+lecting the corresponding deletion area.
+Hint: If you want to limit the area of deletion for reasons of time (e.g.
+complex deletion method), but you are not entirely sure whether the
+remaining areas are free of sensitive data, perform a simple deletion
+(46.4.1.1 Fast â 1 run) of the entire medium at first. Afterwards, delete
+the limited area with the desired and more complex deletion method.
+6.1  Deletion area
+Defining a deletion area with HDShredder allows you to determine exactly
+which part of the medium is to be deleted. This has also influence on the time
+required for deletion. It depends on the amount of the sectors to be deleted
+and
+the number of runs (according to the deletion method used, see 46.4 Deletion
+methods). Despite using partitions, the deletion area can be defined even more
+precisely, see 46.2 Deleting a sector area.
+6.1.1  Physical deletion
+In contrast to the normal deletion of files with the delete command or the
+trash
+or by formatting the medium, HDShredder does not only delete the file refer-
+ences from the file directory (or the administration table) but also completely
+overwrites the contents of files and directories. This also applies for files
+which
+have already been deleted in the conventional manner. However, any medium
+or its sensitive areas should generally be overwritten once at least. This
+prevents
+the data thereon from being recovered using conventional data recovery soft-
+ware.
+Warning: After the physical deletion, the entire deleted data can only
+be recovered with great technical expenditure â if possible at all â de-
+pending on the deletion method used (see46.4 Deletion methods).
+This also applies, of course, for an unintentional deletion. Before starting
+the deletion process, please make sure you only delete the desired me-
+dium. A recovery of the data â also in case of an unintentional dele-
+Deletion area  45
+tion â is generally impossible.
+6.1.2  Deleting an entire drive
+This deletion mode physically deletes an entire drive. Each sector
+of the drive is overwritten once at least or even several times
+with a certain deletion pattern, both according to the deletion
+method selected (see 46.4 Deletion methods). After the suc-
+cessful completion of the deletion process, all data and files pre-
+viously stored on the drive are ultimately deleted, as well their
+names as their contents.
+Note: The physical deletion of entire drives overwrites
+all sectors on the drive. This destroys actually all data on the drive, in-
+cluding data which are not stored in files (e.g. hidden operating system
+data, boot sector viruses, etc.). HDShredder also allows you to securely
+delete proprietary file systems (e.g. of industrial or medical systems).
+Deleting an entire drive is particularly useful for the following areas of
+application
+:
+{
+Secure deletion of drives with unknown data, e.g. as a service provider.
+{
+Deletion of data outside the file system (e.g. hidden system data, viruses,
+etc.)
+{
+Secure deletion of proprietary file systems and hard disk formats (e.g. of
+indus-
+trial or medical systems).
+6.1.3  Deleting a single partition
+This deletion mode works quite similar to the previously de-
+scribed mode (46.1.2 Deleting an entire drive). However, in this
+case, only the contents of a single partition is physically deleted
+and not the entire drive. The deletion is done by overwriting the
+partition once or several times with a certain deletion pattern,
+both depending on the deletion method selected (see 46.4 De-
+letion methods).
+This deletion area is particularly useful for the following areas of
+application:
+{
+Secure deletion of single partitions containing sensitive data.
+{
+Selective deletion of partitions for further use of the remaining partitions.
+{
+Reducing time required for the deletion by limiting the area to be deleted.
+{
+Using different deletion methods for different partitions.
+ï¬g.î21: Delet-
+ing an entire
+drive
+ï¬g.î22: Delet-
+ing a single
+partition
+46  Operating principles
+6.1.4  Automatic troubleshooting
+HDShredder tries to troubleshoot occurring sector errors the best possible. If
+this
+is not possible, the errors will be counted in a corresponding error statistic.
+6.1.5  Intensive reading/writing
+In case of read or write errors,
+HDShredder
+uses different strategies in order to still
+be able to read or write the data, if possible. The time used for defective
+areas
+depends to a large extent on the respective medium. According to the medium
+and its state, several seconds up to minutes can be needed for repeated at-
+tempts. Therefore, it is recommended to always activate the option
+SmartDefectSkip (45.9.2 General options) it postpones handling of defective
+sectors until deletion of all intact areas has been finished. The process can
+be
+aborted if it takes too long, without exposing the data in the intact areas.
+6.1.6  Read errors
+During the deletion process, read errors can only occur in a verification run.
+HDShredder then tries to read the defective areas immediately after termination
+of the run (option SmartDefectSkip,  45.9.2 General options) within a single
+troubleshooting run (45.10.6 Course of the process), using special access
+strat-
+egies. During the troubleshooting run, the number of the indicated errors can
+reduce according to the areas on the medium, which could be finally accessed.
+Note: Read errors occurring during verification are counted as verifica-
+tion errors (45.10.3 Status indication).
+6.1.7  Write errors
+Write errors can only occur during a deletion run. HDShredder then tries to
+write
+the defective areas immediately after termination of the deletion run (option
+SmartDefectSkip, 45.9.2 General options) within a proper troubleshooting run
+(45.10.6 Course of the process), using special access strategies. During the
+er-
+ror recovery run, the number of the indicated write errors can decrease de-
+pending on the recoverable areas on the medium.
+6.1.8  Veriï¬cation errors
+If the selected deletion method contains verification runs, HDShredder executes
+verification runs (45.10.6 Course of the process) a in addition to the deletion
+process. A verification error is counted if the data read does not match the
+previ-
+Mass deletion (MultiDelete mode)  47
+ously written pattern. Furthermore, read errors, which occur during the
+verifica-
+tion run, are also counted as verification errors. Therefore, the number of
+verifi-
+cation errors gives you absolute information on the amount of sectors where
+secure deletion could not be confirmed.
+6.2  Deleting a sector area
+In case of an area deletion, the medium is not used as a whole. Only a partial
+area of the selected medium (drive or partition) is used for the deletion.
+6.2.1  Usage
+The dialog page Options provides the possibility to specify an exactly
+definable
+sector area (45.9.3 Options for the medium). To specify a sector area, activate
+the check box Sector area and enter the starting (from) and the ending (to)
+sec-
+tor of the area to define. These sectors are interpreted as the first and the
+last
+sector of the are, i.e. they are included with the area.
+Note: Counting starts with â0â (= 1st sector of the medium), so all further
+sector numbers have to be decreased by 1 (e.g. fromî=î0, toî=î99999
+defines the first 100000 sectors on the medium as an area).
+Warning: Only use an area deletion if you are completely aware of its
+functioning. A sector area, which has not been defined properly, may
+lead to undeleted data remaining on the medium.
+6.2.2  Functioning
+The sector area is always subordinated to the selected medium (drive or parti-
+tion) and is interpreted relatively to the starting position of the medium.
+Instead
+of using the whole medium for the subsequent deletion process, only the de-
+fined sector area will be used. Compared to a normal deletion, the only differ-
+ence is that instead of deleting the whole drive or partition only the defined
+partial area is being deleted.
+Example: Sector area fromî=î0, toî=î31. For drives this defines the
+(ab-
+solute) first 32 sectors. The absolute position of the first 32 sectors of a
+partition depends on its (absolute) start on the drive.
+6.3  Mass deletion (MultiDelete mode)
+In case of a mass deletion, multiple target media are being deleted at the same
+time. As a result there is a huge benefit regarding time and performance, since
+multiple media can be deleted at the same time.
+48  Operating principles
+6.3.1  Mode of operation
+A mass deletion generally works the same way as a single deletion. A soon as
+the
+option MultiDelete has been selected on the medium selection dialog (45.7
+Selecting the medium), two or more media can be selected in the list. The re-
+maining steps are just the same as when deleting a single medium.
+Note: When performing a mass deletion, the result on each medium is
+identical with the result of a single deletion â and equally secure.
+6.3.2  Speed
+Mass deletion yields an enormous advantage in speed compared to single dele-
+tions. In case of optimal connected media (46.3.3 Different media) , peed in-
+creases straight proportional with the number of media. For example, a fourfold
+deletion yields about four times the data throughput of a single deletion.
+6.3.3  Different media
+MultiDelete can be used with an arbitrary combination of drive types. Differ-
+ences in performance of different media types may have an impact on the total
+performance. It is recommended to use IDE drives configured as master only.
+6.4  Deletion methods
+HDShredder offers different deletion methods, applicable for different areas of
+use. They are grouped into three categories.
+6.4.1  Automatic
+This category is designed for a simple and secure deletion. It allows you to
+start
+the deletion procedure fast and easily without further detailed technical
+knowl-
+edge simply according to the criteria of time and security. The category there-
+fore provides three deletion methods.
+6.4.1.1  Fast â 1 run
+This deletion method offers the highest possible deletion speed with one run
+only. This method already prevents the data from being easily readout or recov-
+ered with conventional data recovery software
+Deletion methods  49
+6.4.1.2  Medium â 3 runs
+For technical reasons, the security against recovering the data in a laboratory
+in-
+creases with the number of deletion passes performed. This deletion method
+combines high security with a reasonable duration of the deletion process.
+6.4.1.3  High security â 7 runs
+This deletion method provides internationally approved security against recov-
+ering deleted data â even in a special data recovery laboratory. That is why
+its 7
+runs require a certain period of time to perform the deletion.
+6.4.2  Standards
+This category allows you to perform the deletion according to an international
+standard. This category is particularly designed for users having to or wanting
+to
+fulfil a certain deletion standard for themselves or for their clients. Select
+the de-
+sired standard and the deletion will be performed compliant to that standard.
+6.4.2.1  VSITR
+Country: Germany
+Origin:
+Bundesministerium des Innern â German department of the interior
+Passes: 1
+6.4.2.2  BSI-GSB
+Country: Germany
+Origin:  Bundesamt fÃ¼r Sicherheit in der Informationstechnik
+Passes: 3
+6.4.2.3  ACSI 33
+Country: Australia
+Origin:  Communications-Electronic Security Instruction
+Passes: 16
+6.4.2.4  AFSSI 5020
+Country: USA
+Origin:  Air Force System Security Instruction
+Passes: 4
+50  Operating principles
+6.4.2.5  AR380-19
+Country: USA
+Origin:  Army Regulation â Information Systems Security
+Passes: 3
+6.4.2.6  DoD5200.28M
+Country: USA
+Origin:  Department of Defense â ADP Security Manual
+Passes: 3
+6.4.2.7  DoD5220.22M
+Country: USA
+Origin:  Department of Defense â National Industrial Security Program
+ Operating Manual (NISPOM)
+Passes: 4
+6.4.2.8  NCSC-TG-025
+Country: USA
+Origin:  National Computer Security Center â Technical Guideline
+Passes: 3
+6.4.2.9  HMG IS5 (Baseline)
+Country:  Great Britain
+Origin:  British Government
+Passes: 2
+6.4.2.10 HMG IS5 (Enhanced)
+Country:  Great Britain
+Origin:  British Government
+Passes: 4
+6.4.2.11 GOST P50739-95
+Country: Russia
+Origin:  Federal Agency on Technical Regulating and Metrology
+Passes: 2
+Command line interface  51
+6.4.2.12 RCMP TSSIT OPS-II
+Country: Canada
+Origin:  Royal Canadia Mounted Police
+Passes: 7
+6.4.2.13 Bruce Schneierâs Method
+Country: USA
+Origin:  Security expert
+Passes: 7
+6.4.2.14 Roy Pï¬tznerâs Method
+Country: Germany
+Origin:  Conference of Data Security Officials
+Passes: 33
+6.4.2.15 Peter Gutmannâs Method
+Country:  New Zealand
+Origin:  University of Auckland
+Passes: 35
+6.4.3  Custom
+This category allows you to define the deletion method in all details (45.8.3
+Custom). Only few steps are necessary to define your own deletion method in
+order to customize the deletion to your individual requirements.
+6.5  Command line interface
+To integrate HDShredder into automated processes or to enable it for time-trig-
+gered calls, there is the additional file hdshredder-cl.bat for calling
+HDShredder
+from the Windows command line. This program is destined for being called by
+batch and shell scripts or program links. It handles user input and output
+exclu-
+sively via the command line and calling parameters.
+This allows to use the command line version for areas of application, for which
+the graphical version is not suitable, like the following examples:
+{
+Time-triggered calling: Scheduled calls of HDShredder by the Windows Task
+Manager to start frequent or periodic deletion processes automatically.
+52  Operating principles
+{
+Script integration: Calling HDShredder from scripts for integrating it into
+auto-
+mated processes.
+{
+Programmed processes: For recurring deletion processes, you can create links
+in the Start Menu, the Quick Launch bar, or on the Desktop to allow these pro-
+grammed processes to be called quickly and easily at any time.
+Hint: When calling hdshredder-cl -help or without any parameters, a list
+of supported parameters in combination with a short description of
+their usage will be displayed.
+The following chapters list and explain the supported parameters. The order of
+individual parameters when calling hdshredder-cl is arbitrary.
+6.5.1  Start Menu
+To facilitate use of the command line version, it has its own Start Menu entry.
+At
+the HDShredder entry, you find the sub-folder CLI. It contains two subitems:
+{
+HDShredder CLI: Opens a privileged Windows Shell in the program folder, so
+you can directly start the command line version from here.
+{
+Scripting templates: Opens a folder with templates for batch scripts in the
+Windows Explorer. You may customize them according to your needs.
+Important: Along the scripting templates, there is an hdshredder-cl.bat
+file. Use it instead of hdshredder.exe cl, especially in complex scripts, to
+ensure you obtain the correct result values (46.5.6 Return values).
+6.5.2  Program call
+The command line version of HDShredder expects the following calling syntax:
+{
+Deleting an entire drive
+hdshredder-cl -mode:d -drv:[drvid] -method:[methodname]
+{
+Deleting a single partition
+hdshredder-cl -mode:p -vol:[drvletter] -method:[methodname]
+Note: When using Enterprise Edition with more than one deletion tar-
+get, the calling syntax is extended as follows: the parameter combina-
+tions -drv:[drvid] (drive) or -vol:[drvletter] (partition/volume) have to
+be specified iteratively, one for each deletion target.
+Providing the parameters described above is mandatory. If one of the parame-
+ters is missing or has an invalid value, the call will be canceled with an
+error
+Command line interface  53
+6.5.3  Drive identiï¬cation
+To allow more areas of use for physical drives (-drv:[drvid]), there are
+different
+ways to specify a drive:
+{
+Drive by Windows ID: Physical drives are usually specified by their respective
+ID, assigned by Windows at run-time. This ID is to be found in the Disk Man-
+agement of Windows (diskmgmt.msc).
+{
+Drive by port: You can also specify the port that is used to connect the drive
+(not for USB and Firewire). If you specify the 2nd SATA port for the source,
+the
+drive connected to it will be used, regardless of the Windows ID assigned to
+it.
+{
+Drive by name / serial number: Alternatively, a drive can be selected by its
+type name and /or serial number, regardless of the Windows ID assigned to it
+or over which port it is connected. But it has to be unique in the context of
+the
+deletion to be performed (and the Edition used).
+Hint: You can use hdshredder-cl -list to display a list of the available
+physical drives and their respective indications: Windows ID, port num-
+ber, and name/serial number.
+In case there are several media available under the identification provided,
+HDShredder Enterprise Edition will take this specification as unambiguous if
+the
+number of drives is smaller than or equal to the maximal allowed number.
+Example: If you specify a drive name as medium, which matches five
+drives in the system, HDShredder Enterprise Edition 8x will use all five
+drives as deletion targets, while the Enterprise Edition 4x will refuse de-
+leting due to the ambiguity.
+Note: If HDShredder cannot make an unambiguous selection for the
+port or identification specified, HDShredder will abort the process with
+an error.
+6.5.4  Deletion methods
+Parameter -method:[methodname] is used to select the deletion method used.
+The command line version (CLI) offers the same methods as the graphical ver-
+sion (45.8 Selecting the deletion method). The command line version accepts
+the following values for [methodname].
+Automatic deletion methods
+{
+fast  quick deletion (46.4.1.1 Fast â 1 run)
+{
+medium  medium security (46.4.1.2 Medium â 3 runs)
+54  Operating principles
+{
+highsec  high security deletion (46.4.1.3 High security â 7 runs)
+Standard compliant methods
+{
+vsitr see 46.4.2.1 VSITR
+{
+bsi see 46.4.2.2 BSI-GSB
+{
+acsi see 46.4.2.3 ACSI 33
+{
+afssi see 46.4.2.4 AFSSI 5020
+{
+ar380 see 46.4.2.5 AR380-19
+{
+dod28 see 46.4.2.6 DoD5200.28M
+{
+dod22 see 46.4.2.7 DoD5220.22M
+{
+ncsc see 46.4.2.8 NCSC-TG-025
+{
+hmgis5b see 46.4.2.9 HMG IS5 (Baseline)
+{
+hmgis5e see 46.4.2.10 HMG IS5 (Enhanced)
+{
+gost see 46.4.2.11 GOST P50739-95
+{
+rcmp see 46.4.2.12 RCMP TSSIT OPS-II
+{
+schneier see 46.4.2.13 Bruce Schneierâs Method
+{
+pï¬tzner see 46.4.2.14 Roy Pï¬tznerâs Method
+{
+gutmann see 46.4.2.15 Peter Gutmannâs Method
+Customized deletion methods
+{
+usr  usage see46.5.5 Optional parameters (1-398 runs)
+6.5.5  Optional parameters
+There is a number of further, optional parameters, allowing you to enable or
+dis-
+able certain features of HDShredder for the deletion process. They are provided
+in the from
+-[option]:[on|off] or -[option]:[<choice1>|<choice2>|...]
+The following table lists the available options. The values printed in capital
+letters
+(ON or OFF) represents the default value for the respective parameter. This
+val-
+ue will be used if you do not explicitly provide this parameter. The individual
+op-
+tions correspond to the options of the graphical HDShredder program.
+Command line interface  55
+Option Meaning
+-usrpattern:<pattern> User defined deletion pattern (with -method:usr),
+format equal to 46.4.3 Custom.
+-usraltpattern:<pattern> User defined alternating pattern (with -method:usr),
+format equal to 46.4.3 Custom.
+-usriterations:<value> Number of itarations of deletion pattern and alter-
+nating pattern (with -method:usr).
+-usrï¬nalize Final run with random numbers (with -method:usr).
+-usrverify:[all|pat|alt|ï¬n] Perform a verification run for deletion pattern
+(pat),
+alternating pattern (pat), final run (fin), or all deletion
+runs (all).
+-list Lists all drives and partitions recognized as well as
+their internal numbering.
+6.5.6  Return values
+The command line version (CLI) of HDShredder returns result values in the envi-
+ronment variable ERRORLEVEL. This allows to evaluate and to react to the dele-
+tion result automatically, for example by using batch files. The return values
+are
+defined as follows:
+Option Meaning
+0 Deletion finished successfully with no errors or the
+program was called using parameters -help or -list.
+1 Errors in call (missing/duplicate/invalid parameters).
+2 Invalid license or license expired.
+3 N/A
+4 Could not access medium properly, for example de-
+vice not found or exclusive access not allowed.
+5 N/A
+6
+User abort (îîCtrlîî+îîCîî).
+7 Deletion finished with verification errors.
+8 Deletion finished with read/write errors (overrides 7).
+9 Some other error occurred. A specific error code, is
+displayed with the console output of HDShredder.
+6.5.7  Examples of use
+The following examples represent a selection of frequently used scenarios, but
+they do not cover all possible variations or areas of use.
+56  Operating principles
+{
+Quick deletion, disk 1 (for example hard disk)
+hdshredder-cl -mode:d -drv:1 -method:fast
+{
+High security deletion, volume D: (for example data volume)
+hdshredder-cl -mode:p -vol:D -method:highsec
+{
+DoD standard compliant deletion, disk 1
+hdshredder-cl -mode:d -drv:1 -method:dod22t
+{
+User deï¬ned deletion, disk 1
+hdshredder-cl -mode:d -drv:1 -method:usr -usrpattern:AA559966
+Hint: Call hdshredder-cl -list to find out, which drive numbers are as-
+signed to which physical drives. You will be displayed a list of the avail-
+able physical drives in the system.
+Note: These and further examples are to be found in the CLI subfolder
+of the program path after installing HDShredder, or via [Start]
+â¸ [Pro-
+grams]
+â¸ [HDShredder...] â¸ [CLI] â¸ [Sample scripts].
+6.6  Store report
+After the process has been finished, you can generate and store a detailed re-
+port in a text file to document and analyze deletion processes. The report con-
+tains the following Information:
+{
+Program and license
+{
+Device data (CPU, memory, etc.)
+{
+Deletion mode
+{
+Deletion method
+{
+Deleted medium/media including device details
+{
+Option settings
+{
+Duration and result including errors
+Keyboard and mouse  57
+7  Troubleshooting
+This paragraph describes possible problems when using HDShredder and offers
+proposals for solution. If there should be no proposal for solution for a
+problem,
+you can gladly contact our 48.5 Support.
+7.1  Load errors
+During the start of the program, before HDShredder is loaded itself, a message
+and a progress bar will appear on the boot screen. In case of an error, one of
+the
+following error codes will be indicated here.
+7.1.1  Error #5002 and âDisk errorâ
+This error will be displayed if the boot medium is not readable when booting
+the
+program. The error is reported by the BIOS of the computer and points to a de-
+fective data carrier or a problem with the used boot drive. In many cases, in
+par-
+ticular when booting from a floppy disk, an incompatibility between drive and
+data carrier is the cause. Principally this problem can be fixed. Please try
+the fol-
+lowing steps, at best in the indicated order:
+{
+Try again to boot the program, perhaps with/without cold start.
+{
+Create once again a bootable disk (44 Installation).
+{
+Floppy disk:
+Format the Floppy disk (no quick format) before creating a new one.
+{
+Floppy disk: Use another floppy disk.
+{
+Use (if possible) another boot drive.
+Note: If you didnât receive HDShredder as an installation package but
+on a bootable disk and if a disk shows this problems also after multiple
+trials on different devices, please contact our Support (48.5 Support)
+and indicate your license number.
+7.1.2  Other errors
+If other errors in the form of # (number) should occur when loading the
+program,
+please contact our 48.5 Support.
+7.2  Keyboard and mouse
+HDShredder supports keyboards and mice with PS/2 standard or USB connector
+58 Troubleshooting
+(43 Supported hardware). This also includes many wireless mice, given they are
+connected as a true USB device. Input devices connected with Bluetooth are
+currently not supported. In this case, please connect a separate USB device. If
+keyboard or mouse (or both) do not function with HDShredder, this is usually
+due to a wrong legacy emulation setting in BIOS setup. On most computers, you
+can fix this problem by changing (activating or deactivating, depending on the
+current setting) the emulation for PS/2 devices in BIOS setup. Please consult
+your
+computer manual on how to change this setting since it may be named differ-
+ently according to the respective BIOS. In most of the cases, you can find it
+un-
+der the name USB Legacy Support or USB Keyboard Support (often under
+Integrated Peripherals or Advanced Options).
+Note: In some of the cases, problems with PS/2 keyboards or mice oc-
+cur with active emulation for PS/2 devices. If you donât use any USB de-
+vices, please switch off PS/2 emulation in the BIOS setup.
+7.3  General problems
+7.3.1  Slowed down system
+If you think the speed of the total system or the deletion speed â also with
+IDE
+and SCSI devices â is too slow, a USB controller can be the cause, even if it
+is not
+used (47.6.4 Speed loss).
+7.3.2  Read, write and veriï¬cation errors
+If HDShredder reports errors, these are usually defective areas on the
+respective
+medium. However, general problems with the hardware can possibly also cause
+(putative) read and write errors. This is mostly noticeable by a very high
+number
+of displayed errors. First of all, try to fix the problem via the help
+instructions for
+the respective hardware types (IDE, SCSI, USB) because the causes are usually
+found there. If the problems cannot be fixed this way either, deactivate step
+by
+step the following options, at best in the indicated order:
+{
+CachedMemory
+{
+Read cache and write cache
+{
+DMA
+{
+SharedMemory
+If the problem does not occur any more after having deactivated a certain op-
+tion, the previously deactivated options can be reactivated as a test.
+IDE/ATA/SATA 59
+7.4  IDE/ATA/SATA
+7.4.1  Hard disk not recognized
+If HDShredder does not recognize a hard disk, there can be several reasons.
+Per-
+haps the controller, which the disk is connected to, has not been found (47.4.2
+IDE controller not found). A further possible reason can be a non-standardly
+connected hard disk. This is for example the case if a hard disk is configured
+as
+slave and if a CD/DVD drive or no drive at all is connected at the same IDE
+chan-
+nel as master. Normally, HDShredder can handle that, too.
+Note: If an SATA hard disk is not recognized, this can also be due to the
+used SATA controller (43.3.2 SATA/SATA-II controllers
+).
+7.4.2  IDE controller not found
+There are the following three reasons why HDShredder has not automatically
+recognized an IDE controller:
+{
+The IDE controller/channel is deactivated, e.g. on an onboard IDE controller.
+Activate the IDE controller/channel via the BIOS setup.
+{
+Standard IDE controllers (ISA) are not taken into account if PCI IDE
+controllers
+are available. Connect the respective hard disk to a PCI IDE controller in this
+case or deactivate the PCI IDE controller or controllers.
+{
+The used controller does not correspond to the PCI IDE standard. Although
+most controllers support this standardized programming interface, there are
+some controllers which have only a proprietary programming interface. More
+detailed information can be found in43.3.1 IDE/ATA controllers. Connect the
+corresponding drives to another controller (PCI IDE controller).
+7.4.3  Problems with DMA
+The following principal problems can occur with (Ultra) DMA:
+{
+The achieved speed is too slow despite DMA. Please consider that the achiev-
+able speed (43.3.5 Speed) depends on many factors and that this is not ab-
+solutely due to a problem with DMA.
+{
+DMA mode is not available. When selecting the options (45.9.3 Options for
+the medium), the option DMA is deactivated and locked in this case.
+{
+Read, write or verification errors occur when using DMA.
+60 Troubleshooting
+In all cases, the problems can be due to the same reasons. When having prob-
+lems with DMA, you can principally use PIO mode at any time. Deactivate the
+option DMA of the concerned drive when selecting the options (45.9.3 Op-
+tions for the medium). Since PIO mode is usually much slower than DMA, we
+recommend to try first of all the following hints and help instructions to
+possibly
+be able to use the DMA mode. Please consider the notes in the subchapter
+47.4.4 BIOS settings.
+{
+Check if the concerned drive really supports DMA. Some older drives and es-
+pecially older CompactFlash media do not support DMA.
+{
+Make sure that from Ultra DMA Mode 3 on an 80-wire data cable is used to
+connect the drive(s).
+{
+If two drives are connected via the same cable, the DMA mode of the slower
+drive is also used for the faster drive. Remove the slower drive temporarily,
+if
+possible, or connect the drives via separate channels or cables.
+{
+Try both connections of the data cable (center connection and connection at
+the end) in case of a single connected drive to eliminate possible problems
+with damping (center connection) and reflection (connection at the end).
+{
+Switch the used UltraDMA mode to a lower value in the BIOS setup (47.4.4.1
+Switch to a lower/higher UltraDMA mode) or deactivate UltraDMA (47.4.4.2
+Activate/deactivate UltraDMA). Multiword DMA mode will be (automatically)
+still available, which offers about a twice to four times higher speed than PIO
+mode.
+{
+On the other hand, you can also try to activate UltraDMA or to switch to a
+higher UltraDMA mode if the corresponding default settings in your BIOS set-
+up are too low.
+Note: Our tests revealed that some chipsets and hard disks do not col-
+laborate optimally. This can lead to UltraDMA mode (putatively cor-
+rectly) recognized and set in the BIOS is too high.
+7.4.4  BIOS settings
+In case of problems when using DMA, please refer to the following notes:
+The following notes refer to settings which you should possibly make in the
+BIOS
+setup of your computer if problems occur during the use of DMA. Since the set-
+tings in the BIOS setup are manufacturer- and model-specific, these notes can
+only be given in a general form. Refer to your BIOS manual on how exactly to
+make these settings and which settings are available at all. You usually find
+the
+DMA settings under Integrated Peripherals or Chipset Setup in the BIOS setup.
+SCSI 61
+Note: Please perform automatic hard disk recognition in BIOS after each
+modification of the DMA and hard disk settings so that the modifica-
+tions for the corresponding drives become effective. Make sure to save
+the modifications via Save and Exit when leaving BIOS setup.
+7.4.4.1  Switch to a lower/higher UltraDMA mode
+In many BIOS setups the (highest) used UltraDMA mode can be selected manu-
+ally. If you have problems with DMA, try to switch the used mode step by step
+to a lower level at the corresponding IDE channel. Only if this does not solve
+the
+problem, deactivate UltraDMA completely. The controller then mostly (auto-
+matically) uses multi-word DMA, which is at least faster than PIO. You can
+switch
+the UltraDMA mode step by step to a higher level, if you think you have not se-
+lected the best possible UltraDMA mode.
+7.4.4.2  Activate/deactivate UltraDMA
+Some BIOS setups do not offer a free selection of the UltraDMA mode but only
+an automatic recognition or deactivation. If this is the case with your BIOS or
+if
+you have already switched to the lowest UltraDMA mode and problems keep
+occurring, deactivate UltraDMA. Usually, multi-word DMA is (automatically)
+available then, which is often faster than PIO. Only if this doesnât function
+either,
+you should completely switch off the DMA mode in HDShredder (45.9.3 Op-
+tions for the medium). If UltraDMA is deactivated in your BIOS setup, you can
+activate it as a test, of course, in order to attain a higher speed, if
+possible.
+7.4.4.3  Deactivate IO caching
+If there are problems in the PIO mode as well, you should deactivate IO caches
+and buffers. In particular the setting Dataport Postwrite, if available, should
+be
+switched to Disable if there are problems.
+7.4.4.4  Set BIOS defaults
+If HDShredder should not work as desired despite all the above mentioned in-
+structions, you can try to set standard values via the option Load BIOS/Setup
+Defaults. This setting tries to avoid possible hardware conflicts.
+7.5  SCSI
+When using SCSI devices, please make sure that they are correctly configured
+and connected to the SCSI controller. In particular SCSI controllers with SCSI
+BIOS
+62 Troubleshooting
+must show a hard disk during the system start, so that HDShredder can then ad-
+dress this hard disk. Furthermore, HDShredder must support the controller you
+use. You find a list of the supported SCSI controllers in chapter 43.4.2
+Compat-
+ibility.
+Note: Even if an SCSI controller shows the desired drives during the sys-
+tem start, this is no guarantee that they are correctly configured or con-
+nected. In principle, the BIOS of the SCSI controller works on a lower
+level than the SCSI drivers used by HDShredder and can possibly recog-
+nize hard disk drives which are not recognized by HDShredder itself.
+HDShredder has been tested on a range of SCSI controllers. Sporadically en-
+countered problems are bypassed by the software as far as possible. The follow-
+ing subchapters contain useful hints on how to solve further random or sporadic
+problems. These hints should be applied in the described order to minimize the
+effort, if possible. The following problems occurred during the tests and could
+be
+bypassed with the hints from the following subchapters:
+{
+HDShredder
+stops during device recognition (45.6 Selecting the deletion area).
+{
+No SCSI hard disks are recognized.
+{
+Not all SCSI hard disks are recognized.
+7.5.1  Restart
+If HDShredder stops during the startup or does not show the desired SCSI
+drives,
+try to restart with a warm boot (reset button). Only if this does not fix the
+prob-
+lem, you should try a cold start (switch off the PC and switch it on again
+after 30
+seconds). Both forms of restart may solve signal problems of SCSI controllers.
+7.5.2  Deactivate unused controllers
+If a restart does not lead to the desired result, you should, if your system
+dispos-
+es of several SCSI controllers, deactivate unused controllers. This is also
+recom-
+mended if a controller is principally used, but the hard disks connected to it
+are
+not needed for using HDShredder.
+7.5.3  Deactivate unused drives
+In some cases, SCSI hard disks, which are connected to the same controller, can
+interfere with each other or even with the controller itself. Deactivate
+individual
+hard disks as a test or connect them step by step after one another to find out
+which hard disk possibly causes an interference. Make sure that the last SCSI
+de-
+vice is always terminated also during the tests.
+USB 63
+7.5.4  Minimum conï¬guration of the controller
+The configuration of the SCSI controller over its BIOS setup or the BIOS setup
+of
+the PC, in case of onboard controllers, can also solve the problem. Set the
+lowest
+resp. the securest values for the SCSI bus (e.g. transmission in the narrow
+mode
+of a wide controller).
+7.5.5  Minimum conï¬guration of the systems
+Try to connect the SCSI hard disks used in the system in a different way, espe-
+cially if you use several SCSI controllers. Proceed as follows, if possible:
+deacti-
+vate all SCSI controllers except one. This controller should have one SCSI
+chan-
+nel only, if possible, and be part of the controllers listed in43.4.3
+Manufacturer
+information. Connect then the needed drive or drives only. Apart from defective
+drives, this strategy mostly allowed us to find a functioning configuration
+during
+our tests to execute the planned job.
+7.6  USB
+Despite the vast support of USB controllers and storage devices (43.5 USB),
+there are some cases where these controllers and devices do not function as
+expected. The following subchapters provide you with hints and solutions.
+7.6.1  Storage device not recognized
+Mostly, there are four possible reasons why a USB storage device supported by
+HDShredder (43.1 Overview) is not recognized:
+{
+The USB storage device has been connected too late or exchanged after-
+wards. USB storage devices should be connected to the computer before
+starting HDShredder (45.1 Preliminary steps).
+{
+The USB storage device is not directly connected to the USB controller but via
+a hub (e.g. at the monitor). Always connect the USB devices, you wish to use
+with HDShredder, directly to the USB controller or to the computer.
+{
+The used device is no standard-conform USB mass storage device and does
+there-fore not belong to the supported devices (43.5.1 Mass-Storage-Class).
+{
+The USB storage device is defective or works faultily. You should then test its
+functionality by using it with another PC or another operating system.
+Note: If no USB storage device is recognized and if the above men-
+tioned possibilities are excluded, the corresponding USB controller has
+probably not been recognized (47.6.3 Controller not found).
+64 Troubleshooting
+7.6.2  Other device problems
+Some devices, especially USB sticks, can show malfunctions in case of tempera-
+ture rise or continuous operation, i.e. in case of continuous reading or
+writing big
+amounts of data. With HDShredder, these problems manifest in read or write er-
+rors on the respective USB storage device, which do not always occur at the
+same location but after a certain operating time. Sometimes these hardware
+problems also lead to very long breaks during the deletion process, which can
+be
+up to several minutes. When selecting the options (45.9.2 General options),
+deactivate the option SharedMemory in this case. Only if the problem persists,
+activate additionally the option Cooling break (45.9.2 General options) for the
+concerned device. The deletion process then takes a bit longer, but in most of
+the cases the data transfer functions better.
+Note: The described problems are mostly due to deficient hardware
+and also occur under other operating systems. We recommend you to
+have the concerned device replaced by your vendor.
+7.6.3  Controller not found
+HDShredder should recognize all current USB controllers which offer one of the
+USB standard interfaces (43.5.2 UHCI, OHCI and EHCI). If HDShredder recog-
+nizes USB devices on one PC but not on another PC or on another controller, the
+USB controller can have one of the following problem:
+{
+The USB controller does not meet to the UHCI, OHCI or EHCI standard. In this
+case, use another compatible (43.5.2 UHCI, OHCI and EHCI) USB controller.
+{
+The USB controller is deactivated, e.g. in case of an onboard USB controller.
+Activate the USB controller via the BIOS setup.
+{
+The USB controller does not function correctly or is defective. Use another
+USB controller or another PC for the deletion process.
+7.6.4  Speed loss
+USB controllers can have a negative effect on the speed of the whole system.
+This particularly affects the deletion speed of all device types (also IDE and
+SCSI), even if no USB storage device is connected. Remove or deactivate the
+corresponding USB controller if it is not needed during the use of HDShredder.
+Otherwise, there are no negative effects apart from the speed loss.
+Note: In our tests, this problem showed up with one USB controller (VIA
+VT6212) and could be reproduced with different computers and oper-
+ating systems. The speed loss on the PCI bus was at about 40% (!).
+Mapped network drives  65
+7.6.5  Other controller problems
+Another problem is an incompatibility with certain USB storage devices caused
+by the USB controller. Especially older USB devices do not function flawlessly
+in
+such USB controllers. Use another USB controller, if possible.
+Note: In our tests, this problem showed up with only one USB controller
+(Acer ALi M5273) and was also reproducible on other computers and
+operating systems.
+7.7  Mapped network drives
+When using mapped drives in Windows, HDShredder may not find the mapped
+drives in some cases, since HDShredder is running in administrator mode. To use
+the established mapped drives, a small change to the Windows Registry is re-
+quired. Usually,44.2.1 HDShredder Setup) will handle this automatically. But
+you
+can also make the change manually, as described below:
+{
+Open the registry editor (regedit.exe)
+{
+Move to the following registry key in the tree structure
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\
+Policies\System
+{
+Create the DWORD value EnableLinkedConnections
+{
+Set its value data to 1 and restart your computer.
+Note: To undo the changes, simply delete the registry value.
+66 Miscellaneous
+8  Miscellaneous
+8.1  Terms of license
+HDShredder is designed to offer you the highest possible technical flexibility,
+and
+also the HDShredder license conditions are designed not to limit your
+flexibility
+when using HDShredder. Since you usually donât know at the beginning on how
+many computers and how often you will use the software, we offer you a very
+simple and cost-effective license model, which restricts you the least
+possible.
+8.1.1  License model
+The following table shows you the minimum number of licenses necessary for
+the respective area of use.
+Edition
+Private users
+Companies/Institutions Professionals
+Free Sufficient Insufficient Insufficient
+Basic 1 license Insufficient Insufficient
+Standard 1 license 1 license per location
+1)
+Insufficient
+1 license per 5 PCs
+2)
+Professional 1 license 1 license per location
+1)
+1 license per dedicated PC
+4)
+1 license per 25 PCs
+2)
+1 license per techni-
+cian
+3)
+Enterprise 1 license 1 license per location
+1)
+1 license per dedicated PC
+4)
+1 license per 100 PCs
+2)
+1 license per techni-
+cian
+3)
+1)
+ License is taken into account for the respective other indicated criteria.
+2)
+ Existing PC work stations, regardless of actual use of HDShredder.
+3)
+  Technicians are all employees who use HDShredder simultaneously or for field
+service.
+4)
+  PC which is exclusively used for HDShredder, for example as a deletion
+server.
+In practice, the use of HDShredder can involve a different number of PCs ac-
+cording to the area of use. Either the program is permanently used on one
+single
+computer, which the media to be deleted is connected to when needed (dedi-
+cated PC). Or HDShredder is always used directly on the respective computers,
+Certificate of authenticity  67
+which the media to be deleted is already connected to; mostly with only one
+usage per computer. To find a fair regulation for all use cases, you can choose
+between a license per dedicated PC and a license for a lump number of work
+station PCs where HDShredder will be used on. Furthermore, you need addi-
+tional licenses if you use HDShredder (potentially) in parallel on several PCs,
+e.g.
+if several service employees use HDShredder independently from each other.
+That is why you need at least one license per branch office because this also
+represents a (potential) parallel use.
+8.1.2  Examples
+The following examples refer to frequently occurring license situations:
+{
+A company with 50 PC work stations needs two licenses of the Professional
+Edition, whereof each covers 25 PC work stations.
+{
+A company with 100 PC work stations needs four licenses of the Professional
+Edition, one for 25 PCs each.
+{
+A service provider with two PCs that serve as HDShredder deletion stations
+needs two licenses of the Professional Edition, one for each deletion station.
+{
+A service provider with two field service employees who use HDShredder
+needs two licenses of the Professional Edition, one for each independently
+working technician.
+8.1.3  Scope
+A license is unlimited concerning the number of usages and the period of valid-
+ity. It can be used as often as desired and without a time limit. However, the
+li-
+cense is limited with regard to the (also potentially) parallel use on several
+com-
+puters and the size of the company or the institution concerning the number of
+existing PC work stations.
+8.1.4  Consultancy
+If you have questions concerning the license situation in your specific case,
+please contact us at products@miray.de. We will be pleased to advise you on
+volume licenses or more complex cases and offers you attractive discounts
+make you an individual offer.
+8.2  Certiï¬cate of authenticity
+The following notes exclusively refer to the boxed versions of HDShredder and
+not to the versions available as download or via email.
+68 Miscellaneous
+8.2.1  Security hologram
+For the protection against bootleg copies, our software is equipped with a
+secu-
+rity hologram, among others. Each of the original data carriers you received
+bears a security hologram. Please keep the data carriers with the security
+holo-
+gram in any case because this is your license proof.
+8.2.2  Valid product license
+The condition to have a valid product license is that the number printed on the
+security hologram corresponds to the number shown within the program. If this
+should not be the case for your software package, please email us at products@
+miray.de. Please indicate the number displayed by the program, the number on
+the security hologram and where you acquired the software package. If there is
+no security hologram on the data carriers or if the security hologram is
+damaged,
+please contact us as well and indicate the above mentioned data. We will try to
+find a simple solution so that you obtain a valid license.
+Note: Make sure that each data carrier you received bears its own se-
+curity hologram with its own registration number and that this number
+has to correspond to the number of the program which has been start-
+ed from this data carrier. That means if you start the program from a
+floppy disk, the displayed number has to correspond to the number of
+the security hologram on the floppy disk and not to the number of the
+security hologram on the CD.
+8.3  Disclaimer
+Parts of this product are based on works licensed under the GNU General Public
+License (GPL). The appropriate license is to be found at http://www.gnu.org/co-
+pyleft/gpl.html. On request to support@miray.de we will send you a copy of the
+source code.
+Although HDShredder was programmed with the largest possible caution and
+was tested on a large scale of different systems, we hope you understand that
+we cannot assume any liability for the proper functionality of the program and
+that we are not liable for damages resulting from its usage, subject to gross
+neg-
+ligence and intention.
+Support 69
+8.4  Feedback
+We are highly interested in your feedback. If you encounter any program errors
+or if you have any improvement ideas, we will always try to fix the errors and
+implement or integrate your ideas. If you only want to tell us your opinions on
+this software, we are looking forward to receive such information from you.
+Internet
+ http://www.miray.de/
+Email  feedback@miray.de
+Fax  +49 (0)89 72013-647
+Postal address  Miray Software AG
+ Gaissacher Str. 18
+ 81371 Munich
+Germany
+8.5  Support
+If you encounter any problems with one of our products, our support team is
+gladly at your disposal. Please send us your inquiry through our homepage at
+http://www.miray.de/support/ or email us at support@miray.de. Please note that
+inquiries sent directly per email and not over our homepage take a bit longer
+to
+be answered due to the system.
