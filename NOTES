@@ -9,18 +9,17 @@ Goat Boot System Generator
 - bootable usb stick creator
 - own automatic pc test (logs, settings, ...)
 - own minidistribution based on tinycore with lynx
-
-- zjisteni dostupnosti nastroju pro gbs
-- výber polozek k instalaci
-- cilový system (medium)
+- detection availability of tools for gbs
+- choosing objects to installation
+- choosing target medium
 
 - flow:
-	- download objects
-	- making menu
-	- generate folder with goat-boot
-	- making iso image
+        - download objects
+        - making menu
+        - generate folder with goat-boot
+        - making iso image
         - making bootable usb stick
-	- may burn image using growisofs
+        - may burn image using growisofs
 
 ********
 
@@ -48,11 +47,11 @@ package:
 			- manual in txt (readable from syslinux)
 			
 			- package.cfg:	- version
-							- dependencies
-							- name
-							- information (description)
-							- menu entry in tree of gb
-							- agreements if necessary
+					- dependencies
+					- name
+					- information (description)
+					- menu entry in tree of gb
+					- agreements if necessary
 			- bootable image
 			
 - in mirror:	- list of packages
