@@ -1,0 +1,91 @@
+Goat Boot System Generátor
+
+- stahování všeho pøes wget
+- výbìr utilit pro testování pc
+- výbìr cílových formátù (minicd, cd, dvd, minidvd, usb)
+- výbìr linuxových distribucí a instalátorù
+- generátor syslinuxu
+- generátor iso obrazu
+- vytváøeè bootable usb
+- vlastní automatický test (logy, nastavení, ...)
+- vlastní minidistribuce založená na tinycore s lynx2
+
+- zjištìní dostupnosti nástrojù pro gbs
+- výbìr položek k instalaci
+- cílový systém (médium)
+
+- prùbìh:
+	- stahování položek
+	- vytváøení menu
+	- generování složky s GB
+	- vytvoøení iso/usb disku
+	- možnost vypálit pomocí growisofs
+
+********
+
+package:
+help - config - image
+dependencies
+
+main packages:
+syslinuxu
+system
+readme, license, help
+scripts for linux
+
+- versions of packages
+- dependencies of packages
+- packed with 7z
+- optionally image can be comprimed with gzip during installation
+
+********
+
+package:
+- comprimed with lzma2
+- contains:	- syslinux.cfg
+			- license
+			- manual in txt (readable from syslinux)
+			
+			- package.cfg:	- version
+							- dependencies
+							- name
+							- information (description)
+							- menu entry in tree of gb
+							- agreements if necessary
+			- bootable image
+			
+- in mirror:	- list of packages
+				- versions
+				- names
+				- descriptions
+				- mirror version
+				- mirrors list
+
+- apt-goat
+		- install
+		- remove
+		- upgrade
+		- update
+		- build (package)
+		- upload package
+		
+- goat-mirror
+		- make mirror
+		- update mirror
+		- upgrade mirror
+		- get list of mirrors
+		
+- goat-iso
+		- make iso
+
+- goat-usb
+
+- goat-burn
+
+- goat-menu
+
+- goat-installer (install gbs) (based on ncurses)
+
+- goat-boot-system (edit gbs) (based on ncurses)
+
+- goat-man
