@@ -1,25 +1,25 @@
 Goat Boot System Generátor
 
-- stahování všeho pøes wget
-- výbìr utilit pro testování pc
-- výbìr cílových formátù (minicd, cd, dvd, minidvd, usb)
-- výbìr linuxových distribucí a instalátorù
+- stahování vseho pres wget
+- výber utilit pro testování pc
+- výber cílových formátu (minicd, cd, dvd, minidvd, usb)
+- výber linuxových distribucí a instalátoru
 - generátor syslinuxu
 - generátor iso obrazu
-- vytváøeè bootable usb
+- vytvárec bootable usb
 - vlastní automatický test (logy, nastavení, ...)
-- vlastní minidistribuce založená na tinycore s lynx2
+- vlastní minidistribuce zalozená na tinycore s lynx2
 
-- zjištìní dostupnosti nástrojù pro gbs
-- výbìr položek k instalaci
+- zjistení dostupnosti nástroju pro gbs
+- výber polozek k instalaci
 - cílový systém (médium)
 
-- prùbìh:
-	- stahování položek
-	- vytváøení menu
-	- generování složky s GB
-	- vytvoøení iso/usb disku
-	- možnost vypálit pomocí growisofs
+- prubeh:
+	- stahování polozek
+	- vytvárení menu
+	- generování slozky s GB
+	- vytvorení iso/usb disku
+	- moznost vypálit pomocí growisofs
 
 ********
 
