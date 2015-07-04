@@ -1,0 +1,96 @@
+vim
+git
+gcc
+gdb
+gpp
+fakeroot (+)
+kbuild
+ncurses-dev
+mingw (+)
+mingw-w64
+lynx
+links2
+display
+firmware (+)
+*utils (+)
+growisofs
+chroot (?)
+make
+automake
+dh-mak (atd)
+python
+perl
+java
+linux-compiling
+gpm
+syslinux
+isolinux
+pxelinux
+rsync
+rsbackup
+p7zip
+mbr
+fdisk
+parted
+parted-doc
+traceroute
+nmap
+apache
+mysql
+phpmyadmin
+sysctl (what is it?)
+ssh
+sshfs
+fuse
+android-tools
+alsa
+alsautils
+alsamixer
+mplayer
+mpg123
+apt-build
+avr-libc
+avrdude
+avrdude-doc
+avrp
+gdb-avr
+simulavr
+colorgcc
+colormake
+colordiff
+diff
+cutils
+foundry
+global
+postfix
+sasl
+linux-user-chroot
+mklibs
+pbuilder
+pbuilder-uml
+shc
+shrinksafre
+slimit
+stress
+
+
+**************************
+
+
+nastaveni prostredi
+bash
+vimrc
+locales
+kbd
+console
+mtab
+sudo
+sudoers
+user
+
+nastaveni zrcadla (lokalne)
+update
+upgrade
+
+vyber selections
+instalace selections
